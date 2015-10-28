@@ -666,6 +666,11 @@ SCL</text>
 <pinref part="P+6" gate="G$1" pin="3.3V"/>
 <pinref part="JP1" gate="A" pin="1"/>
 </segment>
+<segment>
+<wire x1="78.74" y1="38.1" x2="81.28" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="SJ1" gate="G$1" pin="2"/>
+<pinref part="IC1" gate="IC$1" pin="SDO"/>
+</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -687,13 +692,6 @@ SCL</text>
 <junction x="99.06" y="48.26"/>
 <pinref part="JP1" gate="A" pin="4"/>
 <pinref part="IC1" gate="IC$1" pin="SCK"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="IC1" gate="IC$1" pin="SDO"/>
-<pinref part="SJ1" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="38.1" x2="81.28" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
