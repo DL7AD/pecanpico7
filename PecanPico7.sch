@@ -4630,8 +4630,6 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="P+22" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
 <part name="C51" library="PecanPico6" deviceset="CAP-0402" device="" value="100pF"/>
 <part name="U2" library="Microchip-PAC17" deviceset="PAC1720-1-AIA-TR" device=""/>
-<part name="C52" library="PecanFemto3" deviceset="CAP-0805" device="" value="10uF"/>
-<part name="GND69" library="PecanPico6" deviceset="GND" device=""/>
 <part name="R20" library="PecanPico6" deviceset="RES-0402" device="" value="0.22R"/>
 <part name="R21" library="PecanPico6" deviceset="RES-0402" device="" value="0.22R"/>
 <part name="P+23" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
@@ -4877,8 +4875,6 @@ SDA</text>
 <instance part="P+22" gate="G$1" x="-236.22" y="449.58"/>
 <instance part="C51" gate="G$1" x="243.84" y="208.28" rot="R90"/>
 <instance part="U2" gate="A" x="-73.66" y="467.36"/>
-<instance part="C52" gate="G$1" x="-104.14" y="391.16"/>
-<instance part="GND69" gate="1" x="-104.14" y="373.38"/>
 <instance part="R20" gate="G$1" x="-149.86" y="406.4"/>
 <instance part="R21" gate="G$1" x="27.94" y="406.4"/>
 <instance part="P+23" gate="G$1" x="-93.98" y="487.68"/>
@@ -5525,11 +5521,6 @@ SDA</text>
 <pinref part="C50" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="386.08" x2="17.78" y2="375.92" width="0.1524" layer="91"/>
 <pinref part="GND68" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C52" gate="G$1" pin="1"/>
-<wire x1="-104.14" y1="386.08" x2="-104.14" y2="375.92" width="0.1524" layer="91"/>
-<pinref part="GND69" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="GND"/>
@@ -7155,16 +7146,12 @@ SDA</text>
 <wire x1="-71.12" y1="406.4" x2="-68.58" y2="406.4" width="0.1524" layer="91"/>
 <wire x1="-71.12" y1="406.4" x2="-71.12" y2="401.32" width="0.1524" layer="91"/>
 <junction x="-71.12" y="406.4"/>
-<wire x1="-104.14" y1="406.4" x2="-71.12" y2="406.4" width="0.1524" layer="91"/>
-<pinref part="C52" gate="G$1" pin="2"/>
-<wire x1="-104.14" y1="393.7" x2="-104.14" y2="406.4" width="0.1524" layer="91"/>
-<junction x="-104.14" y="406.4"/>
+<wire x1="-127" y1="406.4" x2="-71.12" y2="406.4" width="0.1524" layer="91"/>
 <pinref part="C47" gate="G$1" pin="2"/>
 <wire x1="-139.7" y1="393.7" x2="-139.7" y2="406.4" width="0.1524" layer="91"/>
 <wire x1="-127" y1="406.4" x2="-139.7" y2="406.4" width="0.1524" layer="91"/>
 <wire x1="-127" y1="406.4" x2="-127" y2="403.86" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="-127" y1="406.4" x2="-104.14" y2="406.4" width="0.1524" layer="91"/>
 <junction x="-127" y="406.4"/>
 <pinref part="R20" gate="G$1" pin="2"/>
 <wire x1="-144.78" y1="406.4" x2="-139.7" y2="406.4" width="0.1524" layer="91"/>
