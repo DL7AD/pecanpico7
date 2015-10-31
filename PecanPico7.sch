@@ -713,8 +713,8 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <smd name="16_SDA2" x="-4.55" y="-2.25" dx="1.8" dy="0.8" layer="1"/>
 <smd name="17_SCL2" x="-4.55" y="-3.35" dx="1.8" dy="0.8" layer="1"/>
 <smd name="18_RESERVED" x="-4.55" y="-4.4" dx="1.8" dy="0.7" layer="1"/>
-<text x="3.2" y="-3.9" size="0.6096" layer="21" rot="R90">ublox</text>
-<text x="0.35" y="-1.4" size="0.6096" layer="21" rot="R90">MAX-6</text>
+<text x="3.05" y="-4.175" size="0.6096" layer="21" rot="R90">µ blox</text>
+<text x="0.35" y="-1.4" size="0.6096" layer="21" rot="R90">MAX-7/8</text>
 </package>
 <package name="SOT23-3">
 <wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
@@ -4574,7 +4574,6 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="IC6" library="stm32f42x" deviceset="IS42S16400J" device="" value="IS42S16400J-7B2LI"/>
 <part name="JP4" library="pinhead" deviceset="PINHD-2X9" device=""/>
 <part name="P+19" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
-<part name="C40" library="PecanPico6" deviceset="CAP-0402" device="" value="100nF"/>
 <part name="GND50" library="PecanPico6" deviceset="GND" device=""/>
 <part name="P+20" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
 <part name="GND51" library="PecanPico6" deviceset="GND" device=""/>
@@ -4823,7 +4822,6 @@ SDA</text>
 <instance part="IC6" gate="IC$1" x="320.04" y="137.16"/>
 <instance part="JP4" gate="A" x="185.42" y="299.72"/>
 <instance part="P+19" gate="G$1" x="175.26" y="322.58"/>
-<instance part="C40" gate="G$1" x="185.42" y="320.04" rot="R90"/>
 <instance part="GND50" gate="1" x="205.74" y="320.04" rot="R90"/>
 <instance part="P+20" gate="G$1" x="381" y="137.16"/>
 <instance part="GND51" gate="1" x="342.9" y="88.9"/>
@@ -5392,14 +5390,11 @@ SDA</text>
 <pinref part="JP1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="C40" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="320.04" x2="198.12" y2="320.04" width="0.1524" layer="91"/>
 <pinref part="GND50" gate="1" pin="GND"/>
 <pinref part="JP4" gate="A" pin="2"/>
 <wire x1="198.12" y1="320.04" x2="203.2" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="309.88" x2="190.5" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="309.88" x2="198.12" y2="320.04" width="0.1524" layer="91"/>
-<junction x="198.12" y="320.04"/>
 </segment>
 <segment>
 <pinref part="IC6" gate="IC$1" pin="GNDQ4"/>
@@ -5972,14 +5967,10 @@ SDA</text>
 <pinref part="JP1" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="175.26" y1="309.88" x2="175.26" y2="320.04" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="320.04" x2="182.88" y2="320.04" width="0.1524" layer="91"/>
-<pinref part="C40" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="309.88" x2="175.26" y2="322.58" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="A" pin="1"/>
 <wire x1="175.26" y1="309.88" x2="182.88" y2="309.88" width="0.1524" layer="91"/>
 <pinref part="P+19" gate="G$1" pin="VCC"/>
-<wire x1="175.26" y1="320.04" x2="175.26" y2="322.58" width="0.1524" layer="91"/>
-<junction x="175.26" y="320.04"/>
 </segment>
 <segment>
 <pinref part="IC6" gate="IC$1" pin="VDD3"/>
