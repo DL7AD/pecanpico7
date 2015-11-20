@@ -4804,7 +4804,6 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <part name="GND81" library="PecanPico6" deviceset="GND" device=""/>
 <part name="R23" library="PecanPico6" deviceset="RES-0402" device="" value="10k"/>
 <part name="GND50" library="PecanPico6" deviceset="GND" device=""/>
-<part name="R24" library="PecanPico6" deviceset="RES-0402" device="" value="10k"/>
 <part name="P+22" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
 <part name="GND82" library="PecanPico6" deviceset="GND" device=""/>
 <part name="R25" library="PecanPico6" deviceset="RES-0402" device="" value="10k"/>
@@ -5141,8 +5140,7 @@ DATA0</text>
 <instance part="GND81" gate="1" x="246.38" y="281.94"/>
 <instance part="R23" gate="G$1" x="243.84" y="322.58"/>
 <instance part="GND50" gate="1" x="236.22" y="317.5"/>
-<instance part="R24" gate="G$1" x="243.84" y="345.44" rot="R90"/>
-<instance part="P+22" gate="G$1" x="243.84" y="353.06"/>
+<instance part="P+22" gate="G$1" x="236.22" y="327.66" rot="R90"/>
 <instance part="GND82" gate="1" x="203.2" y="297.18"/>
 <instance part="R25" gate="G$1" x="203.2" y="309.88" rot="R270"/>
 <instance part="P+19" gate="G$1" x="193.04" y="-10.16"/>
@@ -6374,9 +6372,9 @@ DATA0</text>
 <junction x="223.52" y="312.42"/>
 </segment>
 <segment>
-<pinref part="R24" gate="G$1" pin="2"/>
 <pinref part="P+22" gate="G$1" pin="VCC"/>
-<wire x1="243.84" y1="353.06" x2="243.84" y2="350.52" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-6" pin="S"/>
+<wire x1="264.16" y1="327.66" x2="236.22" y2="327.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$3" pin="VBAT"/>
@@ -7312,22 +7310,6 @@ DATA0</text>
 <wire x1="248.92" y1="322.58" x2="264.16" y2="322.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="CAM_RESET" class="0">
-<segment>
-<pinref part="X1" gate="-6" pin="S"/>
-<wire x1="264.16" y1="327.66" x2="243.84" y2="327.66" width="0.1524" layer="91"/>
-<label x="238.76" y="327.66" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="243.84" y1="327.66" x2="238.76" y2="327.66" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="327.66" x2="243.84" y2="340.36" width="0.1524" layer="91"/>
-<junction x="243.84" y="327.66"/>
-<pinref part="R24" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="PA15"/>
-<wire x1="152.4" y1="205.74" x2="124.46" y2="205.74" width="0.1524" layer="91"/>
-<label x="124.46" y="205.74" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="L4" gate="G$1" pin="2"/>
@@ -7384,6 +7366,11 @@ DATA0</text>
 <pinref part="IC6" gate="G$1" pin="EN"/>
 <wire x1="421.64" y1="449.58" x2="406.4" y2="449.58" width="0.1524" layer="91"/>
 <label x="406.4" y="449.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="PA15"/>
+<wire x1="152.4" y1="205.74" x2="101.6" y2="205.74" width="0.1524" layer="91"/>
+<label x="101.6" y="205.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$44" class="0">
