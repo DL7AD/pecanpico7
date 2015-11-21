@@ -5106,7 +5106,7 @@ DATA0</text>
 <instance part="GND91" gate="1" x="551.18" y="403.86"/>
 <instance part="GND92" gate="1" x="561.34" y="403.86"/>
 <instance part="P+32" gate="G$1" x="566.42" y="419.1" rot="R270"/>
-<instance part="P+31" gate="G$1" x="238.76" y="236.22" rot="R270"/>
+<instance part="P+31" gate="G$1" x="254" y="236.22" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -6385,7 +6385,7 @@ DATA0</text>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="PC3"/>
-<wire x1="187.96" y1="236.22" x2="238.76" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="236.22" x2="254" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="P+31" gate="G$1" pin="VCC"/>
 </segment>
 </net>
@@ -7063,6 +7063,11 @@ DATA0</text>
 <pinref part="L13" gate="G$1" pin="1"/>
 <wire x1="-215.9" y1="419.1" x2="-215.9" y2="421.64" width="0.1524" layer="91"/>
 <junction x="-215.9" y="421.64"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="PC4"/>
+<wire x1="187.96" y1="233.68" x2="238.76" y2="233.68" width="0.1524" layer="91"/>
+<label x="238.76" y="233.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$38" class="0">
