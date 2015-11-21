@@ -6602,14 +6602,14 @@ DATA0</text>
 <label x="101.6" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="45.72" y1="236.22" x2="58.42" y2="236.22" width="0.1524" layer="91"/>
-<label x="45.72" y="236.22" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="JP1" gate="G$1" pin="3"/>
-</segment>
-<segment>
 <pinref part="U2" gate="A" pin="SMDATA"/>
 <wire x1="-55.88" y1="474.98" x2="-53.34" y2="474.98" width="0.1524" layer="91"/>
 <label x="-53.34" y="474.98" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="58.42" y1="233.68" x2="45.72" y2="233.68" width="0.1524" layer="91"/>
+<label x="45.72" y="233.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="JP1" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="I2C_SCL" class="0">
@@ -6633,14 +6633,14 @@ DATA0</text>
 <label x="101.6" y="175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="58.42" y1="233.68" x2="45.72" y2="233.68" width="0.1524" layer="91"/>
-<label x="45.72" y="233.68" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="JP1" gate="G$1" pin="4"/>
-</segment>
-<segment>
 <pinref part="U2" gate="A" pin="SMCLK"/>
 <wire x1="-55.88" y1="469.9" x2="-53.34" y2="469.9" width="0.1524" layer="91"/>
 <label x="-53.34" y="469.9" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="45.72" y1="236.22" x2="58.42" y2="236.22" width="0.1524" layer="91"/>
+<label x="45.72" y="236.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="JP1" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="GPS_RESET" class="0">
@@ -6653,6 +6653,11 @@ DATA0</text>
 <wire x1="203.2" y1="411.48" x2="203.2" y2="414.02" width="0.1524" layer="91"/>
 <junction x="203.2" y="411.48"/>
 <label x="203.2" y="414.02" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$2" pin="PE15"/>
+<wire x1="152.4" y1="106.68" x2="101.6" y2="106.68" width="0.1524" layer="91"/>
+<label x="101.6" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -6682,6 +6687,11 @@ DATA0</text>
 <junction x="233.68" y="408.94"/>
 <label x="236.22" y="408.94" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC5" gate="G$2" pin="PE10"/>
+<wire x1="152.4" y1="119.38" x2="101.6" y2="119.38" width="0.1524" layer="91"/>
+<label x="101.6" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="TIMEPULSE" class="0">
 <segment>
@@ -6693,6 +6703,11 @@ DATA0</text>
 <junction x="203.2" y="378.46"/>
 <wire x1="203.2" y1="383.54" x2="208.28" y2="383.54" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$2" pin="PE12"/>
+<wire x1="101.6" y1="114.3" x2="152.4" y2="114.3" width="0.1524" layer="91"/>
+<label x="101.6" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -7452,6 +7467,13 @@ DATA0</text>
 <pinref part="IC4" gate="G$1" pin="2_TXD1"/>
 <wire x1="200.66" y1="368.3" x2="205.74" y2="368.3" width="0.1524" layer="91"/>
 <label x="205.74" y="368.3" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="IC5" gate="G$2" pin="PE7"/>
+<wire x1="152.4" y1="127" x2="101.6" y2="127" width="0.1524" layer="91"/>
+<label x="101.6" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
