@@ -8107,20 +8107,6 @@ DATA0</text>
 <label x="281.94" y="167.64" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
-<net name="N$45" class="0">
-<segment>
-<pinref part="JP3" gate="G$1" pin="10"/>
-<wire x1="30.48" y1="190.5" x2="17.78" y2="190.5" width="0.1524" layer="91"/>
-<label x="17.78" y="190.5" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$46" class="0">
-<segment>
-<pinref part="JP3" gate="G$1" pin="11"/>
-<wire x1="30.48" y1="187.96" x2="17.78" y2="187.96" width="0.1524" layer="91"/>
-<label x="17.78" y="187.96" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="UART_TXD" class="0">
 <segment>
 <pinref part="IC5" gate="G$1" pin="PA0"/>
@@ -8184,6 +8170,11 @@ DATA0</text>
 <wire x1="187.96" y1="210.82" x2="238.76" y2="210.82" width="0.1524" layer="91"/>
 <label x="238.76" y="210.82" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="11"/>
+<wire x1="30.48" y1="187.96" x2="17.78" y2="187.96" width="0.1524" layer="91"/>
+<label x="17.78" y="187.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="LED1" class="0">
 <segment>
@@ -8195,6 +8186,11 @@ DATA0</text>
 <pinref part="IC5" gate="G$1" pin="PC15"/>
 <wire x1="187.96" y1="205.74" x2="238.76" y2="205.74" width="0.1524" layer="91"/>
 <label x="238.76" y="205.74" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="10"/>
+<wire x1="30.48" y1="190.5" x2="17.78" y2="190.5" width="0.1524" layer="91"/>
+<label x="17.78" y="190.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LED3" class="0">
