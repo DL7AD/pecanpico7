@@ -1636,10 +1636,10 @@ by exp-lbrs.ulp</description>
 <package name="SMA-EDGE">
 <description>&lt;b&gt;SMA Antenna Connector&lt;/b&gt;&lt;p&gt;
 This is a footprint for an edge mount RF antenna. Works pretty well with SMA type connectors but may also work with other edge mount RF connectors. Keep in mind, these edge mount connectors assume you are using a 0.062" PCB thickness.</description>
-<smd name="GND@0" x="0" y="0" dx="1.524" dy="4.064" layer="1" cream="no"/>
-<smd name="GND@1" x="5.08" y="0" dx="1.524" dy="4.064" layer="1" cream="no"/>
-<smd name="GND@2" x="0" y="0" dx="1.524" dy="4.064" layer="16"/>
-<smd name="GND@3" x="5.08" y="0" dx="1.524" dy="4.064" layer="16"/>
+<smd name="GND@0" x="0" y="0" dx="1.524" dy="4.064" layer="1" thermals="no" cream="no"/>
+<smd name="GND@1" x="5.08" y="0" dx="1.524" dy="4.064" layer="1" thermals="no" cream="no"/>
+<smd name="GND@2" x="0" y="0" dx="1.524" dy="4.064" layer="16" thermals="no" cream="no"/>
+<smd name="GND@3" x="5.08" y="0" dx="1.524" dy="4.064" layer="16" thermals="no" cream="no"/>
 <smd name="SIG" x="2.54" y="0" dx="1.524" dy="4.064" layer="1" cream="no"/>
 </package>
 </packages>
@@ -2065,8 +2065,8 @@ by exp-lbrs.ulp</description>
 <wire x1="-17" y1="-2" x2="-1" y2="14" width="0.127" layer="21"/>
 <wire x1="-17" y1="2" x2="-5" y2="14" width="0.127" layer="21"/>
 <wire x1="-17" y1="6" x2="-9" y2="14" width="0.127" layer="21"/>
-<smd name="+" x="10.5" y="23" dx="5" dy="7" layer="1"/>
-<smd name="-" x="-10.5" y="23" dx="5" dy="7" layer="1"/>
+<smd name="+" x="10.5" y="23" dx="5" dy="7" layer="1" thermals="no" cream="no"/>
+<smd name="-" x="-10.5" y="23" dx="5" dy="7" layer="1" thermals="no" cream="no"/>
 <wire x1="-17" y1="14" x2="-13" y2="14" width="0.127" layer="21"/>
 <wire x1="-13" y1="14" x2="17" y2="14" width="0.127" layer="21"/>
 <wire x1="-17" y1="10" x2="-13" y2="14" width="0.127" layer="21"/>
@@ -4790,12 +4790,13 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <smd name="23" x="-0.75" y="1.864" dx="0.528" dy="0.26" layer="1" rot="R270"/>
 <smd name="24" x="-1.25" y="1.864" dx="0.528" dy="0.26" layer="1" rot="R270"/>
 <smd name="25" x="0" y="0" dx="2.7" dy="2.7" layer="1"/>
-<pad name="P$26" x="-0.635" y="0.635" drill="0.5" stop="no" thermals="no"/>
-<pad name="P$27" x="0.635" y="0.635" drill="0.5" stop="no" thermals="no"/>
-<pad name="P$28" x="0.635" y="-0.635" drill="0.5" stop="no" thermals="no"/>
-<pad name="P$29" x="-0.635" y="-0.635" drill="0.5" stop="no" thermals="no"/>
+<pad name="P$26" x="-0.735" y="0.735" drill="0.3" stop="no" thermals="no"/>
+<pad name="P$27" x="0.735" y="0.735" drill="0.3" stop="no" thermals="no"/>
+<pad name="P$28" x="0.735" y="-0.735" drill="0.3" stop="no" thermals="no"/>
+<pad name="P$29" x="-0.735" y="-0.735" drill="0.3" stop="no" thermals="no"/>
 <text x="-2" y="2.3" size="0.4064" layer="51">&gt;NAME</text>
 <text x="-1.9" y="-2.7" size="0.4064" layer="51">&gt;VALUE</text>
+<pad name="GND" x="0" y="0" drill="0.3" stop="no" thermals="no"/>
 </package>
 </packages>
 <symbols>
@@ -4841,7 +4842,7 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <devices>
 <device name="" package="QFN-24">
 <connects>
-<connect gate="G$1" pin="GND" pad="25 P$26 P$27 P$28 P$29"/>
+<connect gate="G$1" pin="GND" pad="25 GND P$26 P$27 P$28 P$29"/>
 <connect gate="G$1" pin="NC1" pad="4"/>
 <connect gate="G$1" pin="NC2" pad="7"/>
 <connect gate="G$1" pin="NC3" pad="8"/>
@@ -7498,9 +7499,9 @@ DATA0</text>
 <label x="203.2" y="414.02" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$2" pin="PE15"/>
-<wire x1="152.4" y1="106.68" x2="101.6" y2="106.68" width="0.1524" layer="91"/>
-<label x="101.6" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="101.6" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC5" gate="G$2" pin="PE12"/>
+<wire x1="152.4" y1="114.3" x2="101.6" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -7531,9 +7532,9 @@ DATA0</text>
 <label x="236.22" y="408.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$2" pin="PE10"/>
-<wire x1="152.4" y1="119.38" x2="101.6" y2="119.38" width="0.1524" layer="91"/>
-<label x="101.6" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="101.6" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC5" gate="G$2" pin="PE7"/>
+<wire x1="152.4" y1="127" x2="101.6" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TIMEPULSE" class="0">
@@ -7548,9 +7549,9 @@ DATA0</text>
 <pinref part="R11" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$2" pin="PE12"/>
-<wire x1="101.6" y1="114.3" x2="152.4" y2="114.3" width="0.1524" layer="91"/>
-<label x="101.6" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="101.6" y1="119.38" x2="152.4" y2="119.38" width="0.1524" layer="91"/>
+<label x="101.6" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC5" gate="G$2" pin="PE10"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -8617,6 +8618,11 @@ DATA0</text>
 <pinref part="IC15" gate="G$1" pin="INT"/>
 <wire x1="-20.32" y1="297.18" x2="-17.78" y2="297.18" width="0.1524" layer="91"/>
 <label x="-17.78" y="297.18" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$2" pin="PE15"/>
+<wire x1="152.4" y1="106.68" x2="101.6" y2="106.68" width="0.1524" layer="91"/>
+<label x="101.6" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$52" class="0">
