@@ -5802,8 +5802,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="190.5" y1="254" x2="190.5" y2="259.08" width="0.1524" layer="152"/>
 <wire x1="190.5" y1="259.08" x2="213.36" y2="259.08" width="0.1524" layer="152"/>
 <wire x1="213.36" y1="259.08" x2="213.36" y2="254" width="0.1524" layer="152"/>
-<text x="132.08" y="255.27" size="2.54" layer="152">SDRAM</text>
-<text x="195.58" y="255.27" size="2.54" layer="152">SDRAM</text>
+<text x="132.08" y="255.27" size="2.54" layer="152">COM</text>
+<text x="195.58" y="255.27" size="2.54" layer="152">COM</text>
 <text x="106.68" y="176.53" size="2.0066" layer="152">SCL
 SDA</text>
 <wire x1="127" y1="254" x2="104.14" y2="254" width="0.1524" layer="152"/>
@@ -7064,8 +7064,8 @@ DATA0</text>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="PB13"/>
-<wire x1="152.4" y1="167.64" x2="101.6" y2="167.64" width="0.1524" layer="91"/>
-<label x="101.6" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="152.4" y1="167.64" x2="147.32" y2="167.64" width="0.1524" layer="91"/>
+<label x="147.32" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SPI_MISO" class="0">
@@ -7081,8 +7081,8 @@ DATA0</text>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="PB14"/>
-<wire x1="101.6" y1="165.1" x2="152.4" y2="165.1" width="0.1524" layer="91"/>
-<label x="101.6" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="147.32" y1="165.1" x2="152.4" y2="165.1" width="0.1524" layer="91"/>
+<label x="147.32" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SPI_MOSI" class="0">
@@ -7098,8 +7098,8 @@ DATA0</text>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="PB15"/>
-<wire x1="152.4" y1="162.56" x2="101.6" y2="162.56" width="0.1524" layer="91"/>
-<label x="101.6" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="152.4" y1="162.56" x2="147.32" y2="162.56" width="0.1524" layer="91"/>
+<label x="147.32" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RADIO1_CS" class="0">
@@ -7109,9 +7109,9 @@ DATA0</text>
 <label x="337.82" y="388.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="101.6" y="215.9" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="147.32" y="215.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="IC5" gate="G$1" pin="PA11"/>
-<wire x1="152.4" y1="215.9" x2="101.6" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="215.9" x2="147.32" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RADIO1_GPIO1" class="0">
@@ -7793,8 +7793,8 @@ DATA0</text>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="PB0"/>
-<wire x1="152.4" y1="200.66" x2="101.6" y2="200.66" width="0.1524" layer="91"/>
-<label x="101.6" y="200.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="152.4" y1="200.66" x2="147.32" y2="200.66" width="0.1524" layer="91"/>
+<label x="147.32" y="200.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RADIO2_SDN" class="0">
@@ -7855,8 +7855,8 @@ DATA0</text>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="PB11"/>
-<wire x1="101.6" y1="172.72" x2="152.4" y2="172.72" width="0.1524" layer="91"/>
-<label x="101.6" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="147.32" y1="172.72" x2="152.4" y2="172.72" width="0.1524" layer="91"/>
+<label x="147.32" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC16" gate="A" pin="SMDATA"/>
@@ -7891,8 +7891,8 @@ DATA0</text>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="PB10"/>
-<wire x1="152.4" y1="175.26" x2="101.6" y2="175.26" width="0.1524" layer="91"/>
-<label x="101.6" y="175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="152.4" y1="175.26" x2="147.32" y2="175.26" width="0.1524" layer="91"/>
+<label x="147.32" y="175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC16" gate="A" pin="SMCLK"/>
@@ -8216,8 +8216,8 @@ DATA0</text>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="PA14"/>
-<wire x1="101.6" y1="208.28" x2="152.4" y2="208.28" width="0.1524" layer="91"/>
-<label x="101.6" y="208.28" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="147.32" y1="208.28" x2="152.4" y2="208.28" width="0.1524" layer="91"/>
+<label x="147.32" y="208.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
@@ -8228,8 +8228,8 @@ DATA0</text>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="PA13"/>
-<wire x1="152.4" y1="210.82" x2="101.6" y2="210.82" width="0.1524" layer="91"/>
-<label x="101.6" y="210.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="152.4" y1="210.82" x2="147.32" y2="210.82" width="0.1524" layer="91"/>
+<label x="147.32" y="210.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SWO" class="0">
@@ -8240,15 +8240,8 @@ DATA0</text>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="PB3"/>
-<wire x1="152.4" y1="193.04" x2="101.6" y2="193.04" width="0.1524" layer="91"/>
-<label x="101.6" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="BOOT1" class="0">
-<segment>
-<pinref part="IC5" gate="G$1" pin="PB2"/>
-<wire x1="152.4" y1="195.58" x2="101.6" y2="195.58" width="0.1524" layer="91"/>
-<label x="101.6" y="195.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="152.4" y1="193.04" x2="147.32" y2="193.04" width="0.1524" layer="91"/>
+<label x="147.32" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CAM_D9" class="0">
@@ -8710,9 +8703,9 @@ DATA0</text>
 </net>
 <net name="UART_TO_GPS" class="0">
 <segment>
-<label x="101.6" y="238.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="147.32" y="238.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="IC5" gate="G$1" pin="PA2"/>
-<wire x1="152.4" y1="238.76" x2="101.6" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="238.76" x2="147.32" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="3_RXD1"/>
@@ -8722,9 +8715,9 @@ DATA0</text>
 </net>
 <net name="UART_FROM_GPS" class="0">
 <segment>
-<label x="101.6" y="236.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="147.32" y="236.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="IC5" gate="G$1" pin="PA3"/>
-<wire x1="152.4" y1="236.22" x2="101.6" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="236.22" x2="147.32" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="2_TXD1"/>
@@ -8791,8 +8784,8 @@ DATA0</text>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$2" pin="PE0"/>
-<wire x1="152.4" y1="144.78" x2="101.6" y2="144.78" width="0.1524" layer="91"/>
-<label x="101.6" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="152.4" y1="144.78" x2="124.46" y2="144.78" width="0.1524" layer="91"/>
+<label x="124.46" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -8831,8 +8824,8 @@ DATA0</text>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="PA15"/>
-<wire x1="152.4" y1="205.74" x2="101.6" y2="205.74" width="0.1524" layer="91"/>
-<label x="101.6" y="205.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="152.4" y1="205.74" x2="147.32" y2="205.74" width="0.1524" layer="91"/>
+<label x="147.32" y="205.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SD_MOSI" class="0">
@@ -8842,9 +8835,9 @@ DATA0</text>
 <label x="312.42" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="238.76" y="213.36" size="1.27" layer="95" xref="yes"/>
+<label x="193.04" y="213.36" size="1.27" layer="95" xref="yes"/>
 <pinref part="IC5" gate="G$1" pin="PC12"/>
-<wire x1="238.76" y1="213.36" x2="187.96" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="213.36" x2="187.96" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SD_SCK" class="0">
@@ -8855,8 +8848,8 @@ DATA0</text>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="PC10"/>
-<wire x1="187.96" y1="218.44" x2="238.76" y2="218.44" width="0.1524" layer="91"/>
-<label x="238.76" y="218.44" size="1.27" layer="95" xref="yes"/>
+<wire x1="187.96" y1="218.44" x2="193.04" y2="218.44" width="0.1524" layer="91"/>
+<label x="193.04" y="218.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SD_MISO" class="0">
@@ -8867,15 +8860,15 @@ DATA0</text>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="PC11"/>
-<wire x1="187.96" y1="215.9" x2="238.76" y2="215.9" width="0.1524" layer="91"/>
-<label x="238.76" y="215.9" size="1.27" layer="95" xref="yes"/>
+<wire x1="187.96" y1="215.9" x2="193.04" y2="215.9" width="0.1524" layer="91"/>
+<label x="193.04" y="215.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="UART_TXD" class="0">
 <segment>
 <pinref part="IC5" gate="G$1" pin="PA0"/>
-<wire x1="152.4" y1="243.84" x2="101.6" y2="243.84" width="0.1524" layer="91"/>
-<label x="101.6" y="243.84" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="152.4" y1="243.84" x2="147.32" y2="243.84" width="0.1524" layer="91"/>
+<label x="147.32" y="243.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="G$1" pin="7"/>
@@ -8886,8 +8879,8 @@ DATA0</text>
 <net name="UART_RXD" class="0">
 <segment>
 <pinref part="IC5" gate="G$1" pin="PA1"/>
-<wire x1="101.6" y1="241.3" x2="152.4" y2="241.3" width="0.1524" layer="91"/>
-<label x="101.6" y="241.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="147.32" y1="241.3" x2="152.4" y2="241.3" width="0.1524" layer="91"/>
+<label x="147.32" y="241.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="G$1" pin="8"/>
@@ -9034,8 +9027,8 @@ DATA0</text>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$2" pin="PE15"/>
-<wire x1="152.4" y1="106.68" x2="101.6" y2="106.68" width="0.1524" layer="91"/>
-<label x="101.6" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="152.4" y1="106.68" x2="147.32" y2="106.68" width="0.1524" layer="91"/>
+<label x="147.32" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$52" class="0">
