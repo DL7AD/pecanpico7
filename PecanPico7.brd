@@ -2162,7 +2162,7 @@ design rules under a new name.</description>
 <via x="30" y="35.5" extent="1-16" drill="0.3"/>
 <via x="6.3" y="29.7" extent="1-16" drill="0.3"/>
 <via x="33.1" y="40.9" extent="1-16" drill="0.3"/>
-<via x="33.1" y="45.4" extent="1-16" drill="0.3"/>
+<via x="33.1" y="45.45" extent="1-16" drill="0.3"/>
 <wire x1="17.45" y1="29.6" x2="17.45" y2="29.05" width="0.2" layer="1"/>
 <wire x1="17.45" y1="29.05" x2="17.8" y2="28.7" width="0.2" layer="1"/>
 <wire x1="17.8" y1="28.7" x2="18.2" y2="28.7" width="0.2" layer="1"/>
@@ -4478,12 +4478,12 @@ design rules under a new name.</description>
 <approved hash="4,1,bd6a7040f056ff7d"/>
 <approved hash="4,1,ff7a505fd0463d6d"/>
 <approved hash="4,1,3d5bd07f5066f34c"/>
+<approved hash="4,16,bd6a7040f056ff7d"/>
+<approved hash="4,16,3d5bd07f5066f34c"/>
 <approved hash="4,16,a911c36341ee278e"/>
 <approved hash="4,16,5614abc669964ce0"/>
 <approved hash="4,16,bd24300f3016bb33"/>
 <approved hash="4,16,3d15d03f5026ff02"/>
-<approved hash="4,16,bd6a7040f056ff7d"/>
-<approved hash="4,16,3d5bd07f5066f34c"/>
 <approved hash="5,16,f995ef6dcbebda14"/>
 <approved hash="19,16,c917e7298130fcf7"/>
 <approved hash="19,16,ac1d7a958f140a65"/>
