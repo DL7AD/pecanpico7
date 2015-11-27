@@ -5894,7 +5894,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R36" library="PecanPico6" deviceset="RES-0402" device="" value=""/>
 <part name="C74" library="PecanPico6" deviceset="CAP-0402" device="" value=""/>
 <part name="C75" library="PecanPico6" deviceset="CAP-0402" device="" value=""/>
-<part name="P+37" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
 <part name="GND96" library="PecanPico6" deviceset="GND" device=""/>
 <part name="GND97" library="PecanPico6" deviceset="GND" device=""/>
 <part name="R35" library="PecanPico6" deviceset="RES-0402" device="" value=""/>
@@ -6306,7 +6305,6 @@ DATA0</text>
 <instance part="R36" gate="G$1" x="109.22" y="441.96" rot="R90"/>
 <instance part="C74" gate="G$1" x="109.22" y="429.26"/>
 <instance part="C75" gate="G$1" x="116.84" y="429.26"/>
-<instance part="P+37" gate="G$1" x="101.6" y="452.12"/>
 <instance part="GND96" gate="1" x="109.22" y="419.1"/>
 <instance part="GND97" gate="1" x="116.84" y="419.1"/>
 <instance part="R35" gate="G$1" x="96.52" y="426.72" rot="R90"/>
@@ -7735,16 +7733,6 @@ DATA0</text>
 <junction x="121.92" y="325.12"/>
 </segment>
 <segment>
-<pinref part="L15" gate="G$1" pin="2"/>
-<wire x1="101.6" y1="447.04" x2="101.6" y2="449.58" width="0.1524" layer="91"/>
-<pinref part="R36" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="447.04" x2="109.22" y2="449.58" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="449.58" x2="101.6" y2="449.58" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="449.58" x2="101.6" y2="452.12" width="0.1524" layer="91"/>
-<junction x="101.6" y="449.58"/>
-<pinref part="P+37" gate="G$1" pin="VCC"/>
-</segment>
-<segment>
 <pinref part="IC15" gate="G$1" pin="NCS"/>
 <pinref part="P+40" gate="G$1" pin="VCC"/>
 <wire x1="-20.32" y1="299.72" x2="-17.78" y2="299.72" width="0.1524" layer="91"/>
@@ -8056,7 +8044,8 @@ DATA0</text>
 <segment>
 <pinref part="IC4" gate="G$1" pin="8_VCC"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
-<wire x1="200.66" y1="398.78" x2="218.44" y2="398.78" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="398.78" x2="210.82" y2="398.78" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="398.78" x2="218.44" y2="398.78" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="398.78" x2="218.44" y2="403.86" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="398.78" x2="223.52" y2="398.78" width="0.1524" layer="91"/>
 <junction x="218.44" y="398.78"/>
@@ -8064,6 +8053,17 @@ DATA0</text>
 <pinref part="SJ2" gate="1" pin="2"/>
 <wire x1="215.9" y1="393.7" x2="218.44" y2="393.7" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="393.7" x2="218.44" y2="398.78" width="0.1524" layer="91"/>
+<pinref part="R36" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="447.04" x2="109.22" y2="449.58" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="449.58" x2="127" y2="449.58" width="0.1524" layer="91"/>
+<wire x1="127" y1="449.58" x2="144.78" y2="431.8" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="431.8" x2="210.82" y2="431.8" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="431.8" x2="210.82" y2="398.78" width="0.1524" layer="91"/>
+<junction x="210.82" y="398.78"/>
+<pinref part="L15" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="447.04" x2="101.6" y2="449.58" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="449.58" x2="109.22" y2="449.58" width="0.1524" layer="91"/>
+<junction x="109.22" y="449.58"/>
 </segment>
 </net>
 <net name="GPS_OFF" class="0">
