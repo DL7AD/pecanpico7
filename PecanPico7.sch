@@ -9527,7 +9527,7 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <part name="GND107" library="PecanPico6" deviceset="GND" device=""/>
 <part name="X1" library="con-molex" deviceset="52745-2490" device=""/>
 <part name="P+26" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
-<part name="LOGO1" library="PecanPico6" deviceset="OSHW-LOGO" device="L"/>
+<part name="LOGO2" library="PecanPico6" deviceset="OSHW-LOGO" device="M"/>
 </parts>
 <sheets>
 <sheet>
@@ -10107,7 +10107,7 @@ OV9655 or OV2640</text>
 <instance part="X1" gate="-27" x="330.2" y="119.38"/>
 <instance part="X1" gate="-28" x="330.2" y="116.84"/>
 <instance part="P+26" gate="G$1" x="7.62" y="205.74"/>
-<instance part="LOGO1" gate="G$1" x="30.48" y="546.1"/>
+<instance part="LOGO2" gate="G$1" x="58.42" y="546.1"/>
 </instances>
 <busses>
 </busses>
