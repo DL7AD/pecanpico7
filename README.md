@@ -14,7 +14,7 @@ Components
 | OmniVision OV9655          | Camera                 | Taking pictures
 | [**Camera OV2640 option**](https://raw.githubusercontent.com/DL7AD/pecanpico7/master/export/sch_camera.png?token=AFbk8RzoP9qTo4VENojvSboy-pLNPzOqks5Wddq2wA%3D%3D)
 | TI LP5951MF-1.3/NOPB       | LDO                    | Generate camera core voltage
-| OmniVision OV9655          | Camera                 | Taking pictures
+| OmniVision OV2640          | Camera                 | Taking pictures
 | [**Clock**](https://raw.githubusercontent.com/DL7AD/pecanpico7/master/export/sch_clock.png?token=AFbk8UbgKZMbE2NQFpeVvyRg0LgJKIOcks5WddrcwA%3D%3D)
 | Epson TG-5006CJ-19H        | TCXO 26MHz             | Generate clock for STM32 and transceivers
 | [**GNSS**](https://raw.githubusercontent.com/DL7AD/pecanpico7/master/export/sch_gps.png?token=AFbk8dw5krbUbh26B37_rMTrtYQ4tBQFks5Wddr7wA%3D%3D)
