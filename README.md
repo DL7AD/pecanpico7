@@ -1,6 +1,6 @@
 # Pecan Pico 7 Balloon Tracker
 
-Pecan Pico 7 is an APRS & SSDV Tracker based on the STM32F429 microcontroller.
+Pecan Pico 7 is an APRS & SSDV Tracker based on the STM32F429 microcontroller. Please note that this PCB is untested.
 
 ![Pecan Pico 7](https://raw.githubusercontent.com/DL7AD/pecanpico7/master/export/brd.png?token=AFbk8axOKo6MmS40_usIZG30oG-S_xhiks5WdduLwA%3D%3D)
 
