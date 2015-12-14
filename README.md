@@ -143,10 +143,16 @@ connector on the PCB. The STM32 data pins are connected to
 | PE5       | DCMI_D6
 | PE6       | DCMI_D7
 
+Known PCB errors
+================
 
+**ERROR 1:** RF6886 connected incorrectly to PAC1720 (fixable)<br />
+Effect: PAC1720 can't measure the current consumed by RF6886<br />
+Solution: *none* (will be fixed on next revision)
 
-
-
+**ERROR 2:** Capacitor missing at TPS62260DRVT (fixable)<br />
+Effect: This capacitor is responsible to reduce voltage ripple on Vcc rail.<br />
+Solution: Solder a capacitor (22pF 0402) on top of R18
 
 
 
