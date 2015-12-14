@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -9243,17 +9243,17 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <part name="P+1" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
 <part name="P+2" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
 <part name="IC2" library="PecanPico6" deviceset="SI4463/4" device="" value="Si4464-B1B-FM"/>
-<part name="L6" library="PecanPico6" deviceset="IND-0402" device="" value="56nH"/>
-<part name="L7" library="PecanPico6" deviceset="IND-0402" device="" value="68nH"/>
+<part name="L6" library="PecanPico6" deviceset="IND-0402" device="" value="33nH"/>
+<part name="L7" library="PecanPico6" deviceset="IND-0402" device="" value="30nH"/>
 <part name="L8" library="PecanPico6" deviceset="IND-0402" device="" value="56nH"/>
 <part name="L9" library="PecanPico6" deviceset="IND-0402" device="" value="56nH"/>
-<part name="L10" library="PecanPico6" deviceset="IND-0402" device="" value="68nH"/>
-<part name="C12" library="PecanPico6" deviceset="CAP-0402" device="" value="4.7pF"/>
-<part name="C13" library="PecanPico6" deviceset="CAP-0402" device="" value="4.7pF"/>
-<part name="C14" library="PecanPico6" deviceset="CAP-0402" device="" value="470pF"/>
-<part name="C15" library="PecanPico6" deviceset="CAP-0402" device="" value="18pF"/>
-<part name="C16" library="PecanPico6" deviceset="CAP-0402" device="" value="22pF"/>
-<part name="C17" library="PecanPico6" deviceset="CAP-0402" device="" value="22pF"/>
+<part name="L10" library="PecanPico6" deviceset="IND-0402" device="" value="36nH"/>
+<part name="C12" library="PecanPico6" deviceset="CAP-0402" device="" value="2.7pF"/>
+<part name="C13" library="PecanPico6" deviceset="CAP-0402" device="" value="5.1pF"/>
+<part name="C14" library="PecanPico6" deviceset="CAP-0402" device="" value="9.1pF"/>
+<part name="C15" library="PecanPico6" deviceset="CAP-0402" device="" value="15pF"/>
+<part name="C16" library="PecanPico6" deviceset="CAP-0402" device="" value="12pF"/>
+<part name="C17" library="PecanPico6" deviceset="CAP-0402" device="" value=""/>
 <part name="GND12" library="PecanPico6" deviceset="GND" device=""/>
 <part name="GND13" library="PecanPico6" deviceset="GND" device=""/>
 <part name="GND14" library="PecanPico6" deviceset="GND" device=""/>
@@ -9274,9 +9274,9 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <part name="R4" library="PecanPico6" deviceset="RES-0402" device="" value="47k"/>
 <part name="R5" library="PecanPico6" deviceset="RES-0402" device="" value="1k"/>
 <part name="R6" library="PecanPico6" deviceset="RES-0402" device="" value="1k"/>
-<part name="L12" library="PecanPico6" deviceset="INDUCTOR" device="0805"/>
+<part name="L12" library="PecanPico6" deviceset="INDUCTOR" device="0805" value="220nH"/>
 <part name="GND25" library="PecanPico6" deviceset="GND" device=""/>
-<part name="C24" library="PecanPico6" deviceset="CAP-0402" device="" value="470pF"/>
+<part name="C24" library="PecanPico6" deviceset="CAP-0402" device="" value="100pF"/>
 <part name="GND26" library="PecanPico6" deviceset="GND" device=""/>
 <part name="P+3" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
 <part name="P+4" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
@@ -9302,7 +9302,7 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <part name="GND30" library="PecanPico6" deviceset="GND" device=""/>
 <part name="U$4" library="PecanPico6" deviceset="JTI_ANTENNA-1575AT43A40" device=""/>
 <part name="LED5" library="PecanPico6" deviceset="LED" device="0603" value="red"/>
-<part name="R11" library="PecanPico6" deviceset="RES-0402" device="" value="3.3k"/>
+<part name="R11" library="PecanPico6" deviceset="RES-0402" device="" value="2.2k"/>
 <part name="P+12" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
 <part name="IC5" library="stm32f42x" deviceset="STM32F429IIH6" device=""/>
 <part name="GND31" library="PecanPico6" deviceset="GND" device=""/>
@@ -9352,23 +9352,23 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <part name="GND56" library="PecanPico6" deviceset="GND" device=""/>
 <part name="GND58" library="PecanPico6" deviceset="GND" device=""/>
 <part name="GND57" library="PecanPico6" deviceset="GND" device=""/>
-<part name="R15" library="PecanPico6" deviceset="RES-0402" device="" value="10k"/>
+<part name="R15" library="PecanPico6" deviceset="RES-0402" device="" value="22k"/>
 <part name="R16" library="PecanPico6" deviceset="RES-0402" device="" value="10k"/>
 <part name="GND60" library="PecanPico6" deviceset="GND" device=""/>
 <part name="C47" library="PecanFemto3" deviceset="CAP-0805" device="" value="10uF"/>
 <part name="GND61" library="PecanPico6" deviceset="GND" device=""/>
-<part name="TCXO" library="PecanFemto3" deviceset="TXC_7Z" device="" value="TG-5006CJ-19H"/>
+<part name="TCXO" library="PecanFemto3" deviceset="TXC_7Z" device="" value="KT2016K2BCW18ZAS"/>
 <part name="GND62" library="PecanPico6" deviceset="GND" device=""/>
 <part name="P+21" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
 <part name="C48" library="PecanPico6" deviceset="CAP-0402" device="" value="100nF"/>
 <part name="GND63" library="PecanPico6" deviceset="GND" device=""/>
 <part name="IC9" library="stm32f42x" deviceset="TPS62260DRVT" device=""/>
 <part name="GND64" library="PecanPico6" deviceset="GND" device=""/>
-<part name="R17" library="PecanPico6" deviceset="RES-0402" device="" value="47k"/>
+<part name="R17" library="PecanPico6" deviceset="RES-0402" device="" value="0R"/>
 <part name="GND65" library="PecanPico6" deviceset="GND" device=""/>
 <part name="L14" library="PecanPico6" deviceset="IND-LPS3015" device="" value="LPS3015-222MRB"/>
-<part name="R18" library="PecanPico6" deviceset="RES-0402" device="" value="720k"/>
-<part name="R19" library="PecanPico6" deviceset="RES-0402" device="" value="180k"/>
+<part name="R18" library="PecanPico6" deviceset="RES-0402" device="" value="680k"/>
+<part name="R19" library="PecanPico6" deviceset="RES-0402" device="" value="210k"/>
 <part name="GND66" library="PecanPico6" deviceset="GND" device=""/>
 <part name="C49" library="PecanFemto3" deviceset="CAP-0805" device="" value="10uF"/>
 <part name="GND67" library="PecanPico6" deviceset="GND" device=""/>
@@ -9405,7 +9405,7 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <part name="P+19" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
 <part name="C1" library="PecanPico6" deviceset="CAP-0402" device="" value="470pF"/>
 <part name="C2" library="PecanPico6" deviceset="CAP-0402" device="" value="470pF"/>
-<part name="C59" library="PecanPico6" deviceset="CAP-0402" device="" value="22pF"/>
+<part name="C59" library="PecanPico6" deviceset="CAP-0402" device="" value=""/>
 <part name="GND1" library="PecanPico6" deviceset="GND" device=""/>
 <part name="C60" library="PecanPico6" deviceset="CAP-0402" device="" value="22pF"/>
 <part name="GND55" library="PecanPico6" deviceset="GND" device=""/>
@@ -9452,16 +9452,16 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <part name="GND10" library="PecanPico6" deviceset="GND" device=""/>
 <part name="C70" library="PecanPico6" deviceset="CAP-0402" device="" value="100nF"/>
 <part name="GND11" library="PecanPico6" deviceset="GND" device=""/>
-<part name="L1" library="sven" deviceset="IND-0402" device="0603" value="68nH"/>
+<part name="L1" library="sven" deviceset="IND-0402" device="0603" value="56nH"/>
 <part name="L4" library="sven" deviceset="IND-0402" device="0603" value="68nH"/>
-<part name="L11" library="sven" deviceset="IND-0402" device="0805" value=""/>
-<part name="L5" library="sven" deviceset="IND-0402" device="0805" value=""/>
+<part name="L11" library="sven" deviceset="IND-0402" device="0805" value="470nH"/>
+<part name="L5" library="sven" deviceset="IND-0402" device="0805" value="470nH"/>
 <part name="P+35" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
 <part name="C71" library="PecanPico6" deviceset="CAP-0402" device="" value="2.2uF"/>
 <part name="GND21" library="PecanPico6" deviceset="GND" device=""/>
-<part name="R29" library="PecanPico6" deviceset="RES-0402" device="" value="RES-0402"/>
+<part name="R29" library="PecanPico6" deviceset="RES-0402" device="" value=""/>
 <part name="P+34" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
-<part name="R30" library="PecanPico6" deviceset="RES-0402" device="" value="RES-0402"/>
+<part name="R30" library="PecanPico6" deviceset="RES-0402" device="" value=""/>
 <part name="P+36" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
 <part name="C72" library="PecanPico6" deviceset="CAP-0402" device="" value="1uF"/>
 <part name="GND22" library="PecanPico6" deviceset="GND" device=""/>
@@ -9473,7 +9473,7 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <part name="LED7" library="PecanPico6" deviceset="LED" device="0603" value="yellow"/>
 <part name="LED8" library="PecanPico6" deviceset="LED" device="0603" value="green"/>
 <part name="LED9" library="PecanPico6" deviceset="LED" device="0603" value="green"/>
-<part name="R31" library="PecanPico6" deviceset="RES-0402" device="" value="3.3k"/>
+<part name="R31" library="PecanPico6" deviceset="RES-0402" device="" value="2.2k"/>
 <part name="R32" library="PecanPico6" deviceset="RES-0402" device="" value="1k"/>
 <part name="R33" library="PecanPico6" deviceset="RES-0402" device="" value="1k"/>
 <part name="R34" library="PecanPico6" deviceset="RES-0402" device="" value="1k"/>
@@ -9481,15 +9481,15 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <part name="GND95" library="PecanPico6" deviceset="GND" device=""/>
 <part name="IC6" library="stm32f42x" deviceset="ALM-GP003" device=""/>
 <part name="GND94" library="PecanPico6" deviceset="GND" device=""/>
-<part name="L2" library="PecanPico6" deviceset="IND-0402" device="" value="IND-0402"/>
-<part name="L15" library="PecanPico6" deviceset="IND-0402" device="" value="IND-0402"/>
-<part name="R36" library="PecanPico6" deviceset="RES-0402" device="" value="RES-0402"/>
-<part name="C74" library="PecanPico6" deviceset="CAP-0402" device="" value="CAP-0402"/>
-<part name="C75" library="PecanPico6" deviceset="CAP-0402" device="" value="CAP-0402"/>
+<part name="L2" library="PecanPico6" deviceset="IND-0402" device="" value="1.8nH"/>
+<part name="L15" library="PecanPico6" deviceset="IND-0402" device="" value="22nH"/>
+<part name="R36" library="PecanPico6" deviceset="RES-0402" device="" value="10k"/>
+<part name="C74" library="PecanPico6" deviceset="CAP-0402" device="" value="100nF"/>
+<part name="C75" library="PecanPico6" deviceset="CAP-0402" device="" value="47pF"/>
 <part name="GND96" library="PecanPico6" deviceset="GND" device=""/>
 <part name="GND97" library="PecanPico6" deviceset="GND" device=""/>
-<part name="R35" library="PecanPico6" deviceset="RES-0402" device="" value="RES-0402"/>
-<part name="C76" library="PecanPico6" deviceset="CAP-0402" device="" value="CAP-0402"/>
+<part name="R35" library="PecanPico6" deviceset="RES-0402" device="" value="4.7k"/>
+<part name="C76" library="PecanPico6" deviceset="CAP-0402" device="" value="330pF"/>
 <part name="GND98" library="PecanPico6" deviceset="GND" device=""/>
 <part name="IC15" library="SparkFun-Sensors" deviceset="MPU-9250" device=""/>
 <part name="P+39" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
@@ -9561,7 +9561,7 @@ DATA3
 DATA4
 DATA1
 DATA0</text>
-<text x="15.24" y="414.02" size="1.651" layer="152">VCC must be 3.3V or less</text>
+<text x="25.4" y="408.94" size="1.651" layer="152">Vcc = 2.54V</text>
 <wire x1="180.34" y1="584.2" x2="193.04" y2="584.2" width="0.1524" layer="97"/>
 <wire x1="193.04" y1="584.2" x2="213.36" y2="584.2" width="0.1524" layer="97"/>
 <wire x1="213.36" y1="584.2" x2="248.92" y2="584.2" width="0.1524" layer="97"/>
@@ -9764,6 +9764,69 @@ TC1185-1.8VCT713</text>
 <circle x="157.48" y="132.08" radius="0.635" width="0" layer="97"/>
 <text x="312.42" y="218.44" size="2.54" layer="97">Camera connector for
 OV9655 or OV2640</text>
+<text x="205.74" y="64.77" size="1.778" layer="97">Clockout26 MHz</text>
+<text x="297.18" y="462.28" size="1.778" layer="97">R29 and R30 must be set to a value so
+high that max. power can be radiated
+but low enough that no spurious signals
+are generated</text>
+<wire x1="295.91" y1="473.71" x2="342.9" y2="473.71" width="0.1524" layer="97"/>
+<wire x1="342.9" y1="473.71" x2="342.9" y2="461.01" width="0.1524" layer="97"/>
+<wire x1="342.9" y1="461.01" x2="295.91" y2="461.01" width="0.1524" layer="97"/>
+<wire x1="295.91" y1="461.01" x2="295.91" y2="473.71" width="0.1524" layer="97"/>
+<text x="162.56" y="485.14" size="1.778" layer="97">C63 and C72 located in the near
+of STM32 in order to block HF</text>
+<wire x1="161.29" y1="491.49" x2="199.39" y2="491.49" width="0.1524" layer="97"/>
+<wire x1="199.39" y1="491.49" x2="199.39" y2="483.87" width="0.1524" layer="97"/>
+<wire x1="199.39" y1="483.87" x2="179.07" y2="483.87" width="0.1524" layer="97"/>
+<wire x1="179.07" y1="483.87" x2="161.29" y2="483.87" width="0.1524" layer="97"/>
+<wire x1="161.29" y1="483.87" x2="161.29" y2="491.49" width="0.1524" layer="97"/>
+<wire x1="179.07" y1="483.87" x2="179.07" y2="454.66" width="0.1524" layer="97"/>
+<wire x1="295.91" y1="473.71" x2="289.56" y2="480.06" width="0.1524" layer="97"/>
+<wire x1="289.56" y1="480.06" x2="265.43" y2="480.06" width="0.1524" layer="97"/>
+<text x="170.18" y="378.46" size="1.778" layer="97">2m LPF</text>
+<text x="309.88" y="378.46" size="1.778" layer="97">2m LPF</text>
+<wire x1="168.91" y1="382.27" x2="175.26" y2="382.27" width="0.1524" layer="97"/>
+<wire x1="175.26" y1="382.27" x2="180.34" y2="382.27" width="0.1524" layer="97"/>
+<wire x1="180.34" y1="382.27" x2="180.34" y2="377.19" width="0.1524" layer="97"/>
+<wire x1="180.34" y1="377.19" x2="168.91" y2="377.19" width="0.1524" layer="97"/>
+<wire x1="168.91" y1="377.19" x2="168.91" y2="382.27" width="0.1524" layer="97"/>
+<wire x1="166.37" y1="407.67" x2="185.42" y2="407.67" width="0.1524" layer="97"/>
+<wire x1="185.42" y1="407.67" x2="185.42" y2="384.81" width="0.1524" layer="97"/>
+<wire x1="185.42" y1="384.81" x2="175.26" y2="384.81" width="0.1524" layer="97"/>
+<wire x1="175.26" y1="384.81" x2="166.37" y2="384.81" width="0.1524" layer="97"/>
+<wire x1="166.37" y1="384.81" x2="166.37" y2="407.67" width="0.1524" layer="97"/>
+<wire x1="175.26" y1="384.81" x2="175.26" y2="382.27" width="0.1524" layer="97"/>
+<wire x1="299.72" y1="407.67" x2="334.01" y2="407.67" width="0.1524" layer="97"/>
+<wire x1="334.01" y1="407.67" x2="334.01" y2="384.81" width="0.1524" layer="97"/>
+<wire x1="334.01" y1="384.81" x2="313.69" y2="384.81" width="0.1524" layer="97"/>
+<wire x1="313.69" y1="384.81" x2="299.72" y2="384.81" width="0.1524" layer="97"/>
+<wire x1="299.72" y1="384.81" x2="299.72" y2="407.67" width="0.1524" layer="97"/>
+<wire x1="308.61" y1="381" x2="308.61" y2="377.19" width="0.1524" layer="97"/>
+<wire x1="308.61" y1="377.19" x2="320.04" y2="377.19" width="0.1524" layer="97"/>
+<wire x1="320.04" y1="377.19" x2="320.04" y2="381" width="0.1524" layer="97"/>
+<wire x1="320.04" y1="381" x2="313.69" y2="381" width="0.1524" layer="97"/>
+<wire x1="313.69" y1="381" x2="308.61" y2="381" width="0.1524" layer="97"/>
+<wire x1="313.69" y1="384.81" x2="313.69" y2="381" width="0.1524" layer="97"/>
+<text x="-73.66" y="373.38" size="1.778" layer="97" rot="R90">Power save enabled</text>
+<wire x1="-76.2" y1="396.24" x2="-76.2" y2="372.11" width="0.1524" layer="97"/>
+<wire x1="-76.2" y1="372.11" x2="-72.39" y2="372.11" width="0.1524" layer="97"/>
+<wire x1="-72.39" y1="372.11" x2="-72.39" y2="396.24" width="0.1524" layer="97"/>
+<wire x1="-72.39" y1="396.24" x2="-76.2" y2="396.24" width="0.1524" layer="97"/>
+<text x="284.48" y="378.46" size="1.778" layer="97">not populated</text>
+<wire x1="290.83" y1="381" x2="290.83" y2="392.43" width="0.1524" layer="97"/>
+<wire x1="290.83" y1="392.43" x2="294.64" y2="396.24" width="0.1524" layer="97"/>
+<wire x1="283.21" y1="381" x2="300.99" y2="381" width="0.1524" layer="97"/>
+<wire x1="300.99" y1="381" x2="300.99" y2="377.19" width="0.1524" layer="97"/>
+<wire x1="300.99" y1="377.19" x2="283.21" y2="377.19" width="0.1524" layer="97"/>
+<wire x1="283.21" y1="377.19" x2="283.21" y2="381" width="0.1524" layer="97"/>
+<text x="220.98" y="271.78" size="1.778" layer="97">not populated</text>
+<wire x1="227.33" y1="274.32" x2="227.33" y2="285.75" width="0.1524" layer="97"/>
+<wire x1="219.71" y1="274.32" x2="227.33" y2="274.32" width="0.1524" layer="97"/>
+<wire x1="227.33" y1="274.32" x2="237.49" y2="274.32" width="0.1524" layer="97"/>
+<wire x1="237.49" y1="274.32" x2="237.49" y2="270.51" width="0.1524" layer="97"/>
+<wire x1="237.49" y1="270.51" x2="219.71" y2="270.51" width="0.1524" layer="97"/>
+<wire x1="219.71" y1="270.51" x2="219.71" y2="274.32" width="0.1524" layer="97"/>
+<wire x1="227.33" y1="285.75" x2="231.14" y2="289.56" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="119.38" y="403.86"/>
@@ -10041,9 +10104,9 @@ OV9655 or OV2640</text>
 <instance part="C75" gate="G$1" x="-208.28" y="335.28"/>
 <instance part="GND96" gate="1" x="-215.9" y="325.12"/>
 <instance part="GND97" gate="1" x="-208.28" y="325.12"/>
-<instance part="R35" gate="G$1" x="-228.6" y="332.74" rot="R90"/>
-<instance part="C76" gate="G$1" x="-238.76" y="335.28"/>
-<instance part="GND98" gate="1" x="-238.76" y="325.12"/>
+<instance part="R35" gate="G$1" x="-228.6" y="337.82" rot="R90"/>
+<instance part="C76" gate="G$1" x="-241.3" y="337.82"/>
+<instance part="GND98" gate="1" x="-241.3" y="325.12"/>
 <instance part="IC15" gate="G$1" x="-33.02" y="281.94"/>
 <instance part="P+39" gate="G$1" x="-53.34" y="297.18"/>
 <instance part="P+40" gate="G$1" x="0" y="274.32"/>
@@ -10841,7 +10904,7 @@ OV9655 or OV2640</text>
 <segment>
 <pinref part="C76" gate="G$1" pin="1"/>
 <pinref part="GND98" gate="1" pin="GND"/>
-<wire x1="-238.76" y1="327.66" x2="-238.76" y2="330.2" width="0.1524" layer="91"/>
+<wire x1="-241.3" y1="327.66" x2="-241.3" y2="332.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC15" gate="G$1" pin="RESV20"/>
@@ -12325,9 +12388,6 @@ OV9655 or OV2640</text>
 <wire x1="-66.04" y1="391.16" x2="-66.04" y2="396.24" width="0.1524" layer="91"/>
 <pinref part="IC9" gate="A" pin="MODE"/>
 <wire x1="-66.04" y1="396.24" x2="-55.88" y2="396.24" width="0.1524" layer="91"/>
-<wire x1="-66.04" y1="396.24" x2="-71.12" y2="396.24" width="0.1524" layer="91"/>
-<junction x="-66.04" y="396.24"/>
-<label x="-71.12" y="396.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -12467,10 +12527,9 @@ OV9655 or OV2640</text>
 <wire x1="154.94" y1="182.88" x2="154.94" y2="187.96" width="0.1524" layer="91"/>
 <junction x="154.94" y="187.96"/>
 <junction x="137.16" y="187.96"/>
-<wire x1="119.38" y1="187.96" x2="119.38" y2="152.4" width="0.1524" layer="91"/>
-<junction x="119.38" y="187.96"/>
-<wire x1="119.38" y1="152.4" x2="208.28" y2="152.4" width="0.1524" layer="91"/>
-<label x="208.28" y="152.4" size="1.27" layer="95" xref="yes"/>
+<wire x1="154.94" y1="200.66" x2="208.28" y2="200.66" width="0.1524" layer="91"/>
+<label x="208.28" y="200.66" size="1.27" layer="95" xref="yes"/>
+<wire x1="154.94" y1="200.66" x2="154.94" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="327.66" y1="165.1" x2="294.64" y2="165.1" width="0.1524" layer="91"/>
@@ -12922,13 +12981,13 @@ OV9655 or OV2640</text>
 <net name="GPS_BIAS" class="0">
 <segment>
 <pinref part="C76" gate="G$1" pin="2"/>
-<wire x1="-238.76" y1="337.82" x2="-238.76" y2="340.36" width="0.1524" layer="91"/>
-<wire x1="-238.76" y1="340.36" x2="-228.6" y2="340.36" width="0.1524" layer="91"/>
+<wire x1="-241.3" y1="340.36" x2="-241.3" y2="345.44" width="0.1524" layer="91"/>
+<wire x1="-241.3" y1="345.44" x2="-228.6" y2="345.44" width="0.1524" layer="91"/>
 <pinref part="R35" gate="G$1" pin="2"/>
-<wire x1="-228.6" y1="340.36" x2="-228.6" y2="337.82" width="0.1524" layer="91"/>
-<wire x1="-238.76" y1="340.36" x2="-243.84" y2="340.36" width="0.1524" layer="91"/>
-<junction x="-238.76" y="340.36"/>
-<label x="-243.84" y="340.36" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-228.6" y1="345.44" x2="-228.6" y2="342.9" width="0.1524" layer="91"/>
+<wire x1="-241.3" y1="345.44" x2="-246.38" y2="345.44" width="0.1524" layer="91"/>
+<junction x="-241.3" y="345.44"/>
+<label x="-246.38" y="345.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="SJ1" gate="G$1" pin="2"/>
@@ -12964,7 +13023,7 @@ OV9655 or OV2640</text>
 <net name="N$45" class="0">
 <segment>
 <pinref part="IC6" gate="G$1" pin="VSD"/>
-<wire x1="-228.6" y1="322.58" x2="-228.6" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="-228.6" y1="322.58" x2="-228.6" y2="332.74" width="0.1524" layer="91"/>
 <pinref part="R35" gate="G$1" pin="1"/>
 </segment>
 </net>
