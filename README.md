@@ -1,6 +1,6 @@
 # Pecan Pico 7 Balloon Tracker
 
-Pecan Pico 7 is an APRS & SSDV Tracker based on the STM32F429 microcontroller.
+Pecan Pico 7 is an APRS & SSDV Tracker based on the STM32F429 microcontroller. Please note that this PCB is untested.
 
 ![Pecan Pico 7](https://raw.githubusercontent.com/DL7AD/pecanpico7/master/export/brd.png?token=AFbk8axOKo6MmS40_usIZG30oG-S_xhiks5WdduLwA%3D%3D)
 
@@ -14,7 +14,7 @@ Components
 | OmniVision OV9655          | Camera                 | Taking pictures
 | [**Camera OV2640 option**](https://raw.githubusercontent.com/DL7AD/pecanpico7/master/export/sch_camera.png?token=AFbk8RzoP9qTo4VENojvSboy-pLNPzOqks5Wddq2wA%3D%3D)
 | TI LP5951MF-1.3/NOPB       | LDO                    | Generate camera core voltage
-| OmniVision OV9655          | Camera                 | Taking pictures
+| OmniVision OV2640          | Camera                 | Taking pictures
 | [**Clock**](https://raw.githubusercontent.com/DL7AD/pecanpico7/master/export/sch_clock.png?token=AFbk8UbgKZMbE2NQFpeVvyRg0LgJKIOcks5WddrcwA%3D%3D)
 | Epson TG-5006CJ-19H        | TCXO 26MHz             | Generate clock for STM32 and transceivers
 | [**GNSS**](https://raw.githubusercontent.com/DL7AD/pecanpico7/master/export/sch_gps.png?token=AFbk8dw5krbUbh26B37_rMTrtYQ4tBQFks5Wddr7wA%3D%3D)
@@ -143,10 +143,16 @@ connector on the PCB. The STM32 data pins are connected to
 | PE5       | DCMI_D6
 | PE6       | DCMI_D7
 
+Known PCB errors
+================
 
+**ERROR 1:** RF6886 connected incorrectly to PAC1720 (fixable)<br />
+Effect: PAC1720 can't measure the current consumed by RF6886<br />
+Solution: *none* (will be fixed on next revision)
 
-
-
+**ERROR 2:** Capacitor missing at TPS62260DRVT (fixable)<br />
+Effect: This capacitor is responsible to reduce voltage ripple on Vcc rail.<br />
+Solution: Solder a capacitor (22pF 0402) on top of R18
 
 
 
