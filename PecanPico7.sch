@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -9216,7 +9216,7 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 </class>
 </classes>
 <parts>
-<part name="IC1" library="PecanPico6" deviceset="SI4463/4" device="" value="Si4464-B1B-FM"/>
+<part name="IC1" library="PecanPico6" deviceset="SI4463/4" device="" value="Si4060-B1B-FM"/>
 <part name="L3" library="PecanPico6" deviceset="IND-0402" device="" value="56nH"/>
 <part name="C3" library="PecanPico6" deviceset="CAP-0402" device="" value="470pF"/>
 <part name="C4" library="PecanPico6" deviceset="CAP-0402" device="" value="18pF"/>
@@ -9289,7 +9289,7 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <part name="C25" library="PecanPico6" deviceset="CAP-0402" device="" value="100nF"/>
 <part name="P+8" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
 <part name="GND27" library="PecanPico6" deviceset="GND" device=""/>
-<part name="IC4" library="PecanPico6" deviceset="UBLOX_MAX-6" device=""/>
+<part name="IC4" library="PecanPico6" deviceset="UBLOX_MAX-6" device="" value="uBlox MAX7/8"/>
 <part name="R9" library="PecanPico6" deviceset="RES-0402" device="" value="47k"/>
 <part name="P+9" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
 <part name="Q1" library="PecanPico6" deviceset="MOSFET-PCHANNEL" device="" value="AP2301"/>
