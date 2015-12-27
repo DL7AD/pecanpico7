@@ -9238,7 +9238,7 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <part name="LED2" library="PecanPico6" deviceset="LED" device="0603" value="blue"/>
 <part name="R1" library="PecanPico6" deviceset="RES-0402" device="" value="47k"/>
 <part name="R2" library="PecanPico6" deviceset="RES-0402" device="" value="1k"/>
-<part name="R3" library="PecanPico6" deviceset="RES-0402" device="" value="1k"/>
+<part name="R3" library="PecanPico6" deviceset="RES-0402" device="" value="330R"/>
 <part name="GND23" library="PecanPico6" deviceset="GND" device=""/>
 <part name="P+1" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
 <part name="P+2" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
@@ -9273,7 +9273,7 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <part name="LED4" library="PecanPico6" deviceset="LED" device="0603" value="blue"/>
 <part name="R4" library="PecanPico6" deviceset="RES-0402" device="" value="47k"/>
 <part name="R5" library="PecanPico6" deviceset="RES-0402" device="" value="1k"/>
-<part name="R6" library="PecanPico6" deviceset="RES-0402" device="" value="1k"/>
+<part name="R6" library="PecanPico6" deviceset="RES-0402" device="" value="330R"/>
 <part name="L12" library="PecanPico6" deviceset="INDUCTOR" device="0805" value="220nH"/>
 <part name="GND25" library="PecanPico6" deviceset="GND" device=""/>
 <part name="C24" library="PecanPico6" deviceset="CAP-0402" device="" value="100pF"/>
@@ -9302,7 +9302,7 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <part name="GND30" library="PecanPico6" deviceset="GND" device=""/>
 <part name="U$4" library="PecanPico6" deviceset="JTI_ANTENNA-1575AT43A40" device=""/>
 <part name="LED5" library="PecanPico6" deviceset="LED" device="0603" value="red"/>
-<part name="R11" library="PecanPico6" deviceset="RES-0402" device="" value="2.2k"/>
+<part name="R11" library="PecanPico6" deviceset="RES-0402" device="" value="1k"/>
 <part name="P+12" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
 <part name="IC5" library="stm32f42x" deviceset="STM32F429IIH6" device=""/>
 <part name="GND31" library="PecanPico6" deviceset="GND" device=""/>
@@ -9367,8 +9367,8 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <part name="R17" library="PecanPico6" deviceset="RES-0402" device="" value="0R"/>
 <part name="GND65" library="PecanPico6" deviceset="GND" device=""/>
 <part name="L14" library="PecanPico6" deviceset="IND-LPS3015" device="" value="LPS3015-222MRB"/>
-<part name="R18" library="PecanPico6" deviceset="RES-0402" device="" value="680k"/>
-<part name="R19" library="PecanPico6" deviceset="RES-0402" device="" value="210k"/>
+<part name="R18" library="PecanPico6" deviceset="RES-0402" device="" value="249k"/>
+<part name="R19" library="PecanPico6" deviceset="RES-0402" device="" value="75k"/>
 <part name="GND66" library="PecanPico6" deviceset="GND" device=""/>
 <part name="C49" library="PecanFemto3" deviceset="CAP-0805" device="" value="10uF"/>
 <part name="GND67" library="PecanPico6" deviceset="GND" device=""/>
@@ -9473,7 +9473,7 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <part name="LED7" library="PecanPico6" deviceset="LED" device="0603" value="yellow"/>
 <part name="LED8" library="PecanPico6" deviceset="LED" device="0603" value="green"/>
 <part name="LED9" library="PecanPico6" deviceset="LED" device="0603" value="green"/>
-<part name="R31" library="PecanPico6" deviceset="RES-0402" device="" value="2.2k"/>
+<part name="R31" library="PecanPico6" deviceset="RES-0402" device="" value="1k"/>
 <part name="R32" library="PecanPico6" deviceset="RES-0402" device="" value="1k"/>
 <part name="R33" library="PecanPico6" deviceset="RES-0402" device="" value="1k"/>
 <part name="R34" library="PecanPico6" deviceset="RES-0402" device="" value="1k"/>
@@ -9561,7 +9561,7 @@ DATA3
 DATA4
 DATA1
 DATA0</text>
-<text x="25.4" y="408.94" size="1.651" layer="152">Vcc = 2.54V</text>
+<text x="25.4" y="408.94" size="1.651" layer="152">Vcc = 2.59V</text>
 <wire x1="180.34" y1="584.2" x2="193.04" y2="584.2" width="0.1524" layer="97"/>
 <wire x1="193.04" y1="584.2" x2="213.36" y2="584.2" width="0.1524" layer="97"/>
 <wire x1="213.36" y1="584.2" x2="248.92" y2="584.2" width="0.1524" layer="97"/>
