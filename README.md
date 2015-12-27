@@ -154,6 +154,18 @@ Solution: *none* (will be fixed on next revision)
 Effect: This capacitor is responsible to reduce voltage ripple on Vcc rail.<br />
 Solution: Solder a capacitor (22pF 0402) on top of R18
 
+**ERROR 3:** BYPASS_REG connected to Vcc<br />
+Effect: The STM32 doesn't starup because internal voltage regulate is shut down<br />
+Solution: Desolder R41 and connect BYPASS_REG to GND (put solder junction to resistor pad next to R41)
 
+**WARNING 1:** LEDs connected to transceivers are switched on<br />
+Effect: Current draw on startup. It could prevent the PCB to startup when the battery is dischanged completely, when the SPV1040 doesn't provide enough power. So the STM32 doesnt boot.<br />
+Solution: *none* (will be fixed on next revision) or desolder LEDs
 
+**WARNING 2:** Pad extremly large on PAC1720 and MPU9250<br />
+Effect: It could cause solder junctions in production<br />
+Solution: *none* (will be fixed on next revision) or put less solder on the pads
 
+**WARNING 3:** Solder jumper included in soldermask<br />
+Effect: *no electrical effect*<br />
+Solution: *none* (will be fixed on next revision)
