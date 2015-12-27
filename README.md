@@ -154,7 +154,7 @@ Solution: *none* (will be fixed on next revision)
 Effect: This capacitor is responsible to reduce voltage ripple on Vcc rail.<br />
 Solution: Solder a capacitor (22pF 0402) on top of R18
 
-**ERROR 3:** BYPASS_REG connected to Vcc<br />
+**ERROR 3:** BYPASS_REG connected to Vcc (fixable)<br />
 Effect: The STM32 doesn't starup because internal voltage regulate is shut down<br />
 Solution: Desolder R41 and connect BYPASS_REG to GND (put solder junction to resistor pad next to R41)
 
