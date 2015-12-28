@@ -158,6 +158,10 @@ Solution: Solder a capacitor (22pF 0402) on top of R18
 Effect: The STM32 doesn't starup because internal voltage regulate is shut down<br />
 Solution: Desolder R41 and connect BYPASS_REG to GND (put solder junction to resistor pad next to R41)
 
+**ERROR 4:** Wrong oscillator only supplies 0.7V (fixable)<br />
+Effect: The external oscillator can't be used for the STM32<br />
+Solution: Use an TXC 7L 26MHz oscillator instead or use the internal oscillator
+
 **WARNING 1:** LEDs connected to transceivers are switched on<br />
 Effect: Current draw on startup. It could prevent the PCB to startup when the battery is dischanged completely, when the SPV1040 doesn't provide enough power. So the STM32 doesnt boot.<br />
 Solution: *none* (will be fixed on next revision) or desolder LEDs
