@@ -173,3 +173,7 @@ Solution: *none* (will be fixed on next revision) or put less solder on the pads
 **WARNING 3:** Solder jumper included in soldermask<br />
 Effect: *no electrical effect*<br />
 Solution: *none* (will be fixed on next revision)
+
+**WARNING 4:** RF6886 draws much current in idle<br />
+Effect: *no functional limitation*<br />
+Solution: *none* (will be fixed on next revision)
