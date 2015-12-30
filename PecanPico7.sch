@@ -871,9 +871,8 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <wire x1="-0.1397" y1="-0.127" x2="-0.1397" y2="0.127" width="0.635" layer="51" curve="-180" cap="flat"/>
 <wire x1="0.1397" y1="0.127" x2="0.1397" y2="-0.127" width="0.635" layer="51" curve="-180" cap="flat"/>
 <rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
-<smd name="1" x="-0.4318" y="0" dx="0.5842" dy="0.8001" layer="1"/>
-<smd name="2" x="0.4318" y="0" dx="0.5842" dy="0.8001" layer="1"/>
-<text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<smd name="1" x="-0.4318" y="0" dx="0.5842" dy="0.8001" layer="1" cream="no"/>
+<smd name="2" x="0.4318" y="0" dx="0.5842" dy="0.8001" layer="1" cream="no"/>
 </package>
 <package name="SJW">
 <description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
@@ -8498,9 +8497,9 @@ For feedback and Technical support please contact reach from below:
 EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <packages>
 <package name="DFN300X300X90-11N">
-<smd name="1" x="-1.4224" y="1" dx="0.762" dy="0.3" layer="1"/>
-<smd name="6" x="1.4224" y="-1" dx="0.762" dy="0.3" layer="1"/>
-<smd name="11" x="0" y="0" dx="1.6002" dy="2.4" layer="1"/>
+<smd name="1" x="-1.5" y="1" dx="0.8" dy="0.25" layer="1"/>
+<smd name="6" x="1.5" y="-1" dx="0.8" dy="0.25" layer="1"/>
+<smd name="11" x="0" y="0" dx="1.6" dy="2.3" layer="1"/>
 <wire x1="-1.4986" y1="-1.4986" x2="1.4986" y2="-1.4986" width="0.1524" layer="21"/>
 <wire x1="1.4986" y1="-1.4986" x2="1.4986" y2="1.4986" width="0.1524" layer="21"/>
 <wire x1="1.4986" y1="1.4986" x2="-1.4986" y2="1.4986" width="0.1524" layer="21"/>
@@ -8509,14 +8508,14 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <wire x1="-2.4384" y1="0.9652" x2="-2.032" y2="0.9652" width="0.1524" layer="21" curve="-180"/>
 <text x="-1.5" y="1.7" size="0.6" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-1.5" y="-2.3" size="0.6" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
-<smd name="2" x="-1.4224" y="0.5" dx="0.762" dy="0.3" layer="1"/>
-<smd name="3" x="-1.4224" y="0" dx="0.762" dy="0.3" layer="1"/>
-<smd name="4" x="-1.4224" y="-0.5" dx="0.762" dy="0.3" layer="1"/>
-<smd name="5" x="-1.4224" y="-1" dx="0.762" dy="0.3" layer="1"/>
-<smd name="7" x="1.4224" y="-0.5" dx="0.762" dy="0.3" layer="1"/>
-<smd name="8" x="1.4224" y="0" dx="0.762" dy="0.3" layer="1"/>
-<smd name="9" x="1.4224" y="0.5" dx="0.762" dy="0.3" layer="1"/>
-<smd name="10" x="1.4224" y="1" dx="0.762" dy="0.3" layer="1"/>
+<smd name="2" x="-1.5" y="0.5" dx="0.8" dy="0.25" layer="1"/>
+<smd name="3" x="-1.5" y="0" dx="0.8" dy="0.25" layer="1"/>
+<smd name="4" x="-1.5" y="-0.5" dx="0.8" dy="0.25" layer="1"/>
+<smd name="5" x="-1.5" y="-1" dx="0.8" dy="0.25" layer="1"/>
+<smd name="7" x="1.5" y="-0.5" dx="0.8" dy="0.25" layer="1"/>
+<smd name="8" x="1.5" y="0" dx="0.8" dy="0.25" layer="1"/>
+<smd name="9" x="1.5" y="0.5" dx="0.8" dy="0.25" layer="1"/>
+<smd name="10" x="1.5" y="1" dx="0.8" dy="0.25" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -8904,30 +8903,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2" y1="-2" x2="2" y2="2" width="0.2032" layer="21"/>
 <wire x1="2" y1="2" x2="-1.652" y2="2" width="0.2032" layer="21"/>
 <wire x1="-1.65" y1="2" x2="-2" y2="1.65" width="0.2032" layer="21"/>
-<smd name="1" x="-2" y="1.25" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="2" x="-2" y="0.75" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="3" x="-2" y="0.25" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="4" x="-2" y="-0.25" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="5" x="-2" y="-0.75" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="6" x="-2" y="-1.25" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="7" x="-1.25" y="-2" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="8" x="-0.75" y="-2" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="9" x="-0.25" y="-2" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="10" x="0.25" y="-2" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="11" x="0.75" y="-2" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="12" x="1.25" y="-2" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="13" x="2" y="-1.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="14" x="2" y="-0.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="15" x="2" y="-0.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="16" x="2" y="0.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="17" x="2" y="0.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="18" x="2" y="1.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="19" x="1.25" y="2" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="20" x="0.75" y="2" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="21" x="0.25" y="2" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="22" x="-0.25" y="2" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="23" x="-0.75" y="2" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="24" x="-1.25" y="2" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="1" x="-2" y="1.25" dx="0.7" dy="0.25" layer="1" rot="R180"/>
+<smd name="2" x="-2" y="0.75" dx="0.7" dy="0.25" layer="1" rot="R180"/>
+<smd name="3" x="-2" y="0.25" dx="0.7" dy="0.25" layer="1" rot="R180"/>
+<smd name="4" x="-2" y="-0.25" dx="0.7" dy="0.25" layer="1" rot="R180"/>
+<smd name="5" x="-2" y="-0.75" dx="0.7" dy="0.25" layer="1" rot="R180"/>
+<smd name="6" x="-2" y="-1.25" dx="0.7" dy="0.25" layer="1" rot="R180"/>
+<smd name="7" x="-1.25" y="-2" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="8" x="-0.75" y="-2" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="9" x="-0.25" y="-2" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="10" x="0.25" y="-2" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="11" x="0.75" y="-2" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="12" x="1.25" y="-2" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="13" x="2" y="-1.25" dx="0.7" dy="0.25" layer="1"/>
+<smd name="14" x="2" y="-0.75" dx="0.7" dy="0.25" layer="1"/>
+<smd name="15" x="2" y="-0.25" dx="0.7" dy="0.25" layer="1"/>
+<smd name="16" x="2" y="0.25" dx="0.7" dy="0.25" layer="1"/>
+<smd name="17" x="2" y="0.75" dx="0.7" dy="0.25" layer="1"/>
+<smd name="18" x="2" y="1.25" dx="0.7" dy="0.25" layer="1"/>
+<smd name="19" x="1.25" y="2" dx="0.7" dy="0.25" layer="1" rot="R270"/>
+<smd name="20" x="0.75" y="2" dx="0.7" dy="0.25" layer="1" rot="R270"/>
+<smd name="21" x="0.25" y="2" dx="0.7" dy="0.25" layer="1" rot="R270"/>
+<smd name="22" x="-0.25" y="2" dx="0.7" dy="0.25" layer="1" rot="R270"/>
+<smd name="23" x="-0.75" y="2" dx="0.7" dy="0.25" layer="1" rot="R270"/>
+<smd name="24" x="-1.25" y="2" dx="0.7" dy="0.25" layer="1" rot="R270"/>
 <text x="-1.8" y="2.6" size="0.6" layer="25">&gt;NAME</text>
 <text x="-1.8" y="-3.2" size="0.6" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.85" y1="-0.85" x2="0.85" y2="0.85" layer="1"/>
@@ -9444,10 +9443,6 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <part name="Q2" library="PecanPico6" deviceset="MOSFET-PCHANNEL" device="" value="AP2301"/>
 <part name="R22" library="PecanPico6" deviceset="RES-0402" device="" value="47k"/>
 <part name="P+33" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
-<part name="P+20" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
-<part name="P+22" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
-<part name="P+24" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
-<part name="P+25" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
 <part name="U1" library="SparkFun-Connectors" deviceset="USD-SOCKET" device="USD"/>
 <part name="GND10" library="PecanPico6" deviceset="GND" device=""/>
 <part name="C70" library="PecanPico6" deviceset="CAP-0402" device="" value="100nF"/>
@@ -9506,8 +9501,6 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <part name="GND104" library="PecanPico6" deviceset="GND" device=""/>
 <part name="R39" library="PecanPico6" deviceset="RES-0402" device="" value="10k"/>
 <part name="R40" library="PecanPico6" deviceset="RES-0402" device="" value="10k"/>
-<part name="R41" library="PecanPico6" deviceset="RES-0402" device="" value="10k"/>
-<part name="P+42" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
 <part name="R42" library="PecanPico6" deviceset="RES-0402" device="" value="10k"/>
 <part name="P+43" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
 <part name="SJ1" library="PecanPico6" deviceset="SJ2W" device=""/>
@@ -9528,6 +9521,12 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <part name="X1" library="con-molex" deviceset="52745-2490" device=""/>
 <part name="P+26" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
 <part name="LOGO2" library="PecanPico6" deviceset="OSHW-LOGO" device="M"/>
+<part name="GND46" library="PecanPico6" deviceset="GND" device=""/>
+<part name="GND52" library="PecanPico6" deviceset="GND" device=""/>
+<part name="GND54" library="PecanPico6" deviceset="GND" device=""/>
+<part name="GND76" library="PecanPico6" deviceset="GND" device=""/>
+<part name="GND77" library="PecanPico6" deviceset="GND" device=""/>
+<part name="C55" library="PecanPico6" deviceset="CAP-0402" device="" value="22pF"/>
 </parts>
 <sheets>
 <sheet>
@@ -9847,8 +9846,8 @@ of STM32 in order to block HF</text>
 <instance part="GND7" gate="1" x="83.82" y="434.34" rot="R270"/>
 <instance part="GND8" gate="1" x="83.82" y="441.96" rot="R270"/>
 <instance part="GND9" gate="1" x="83.82" y="449.58" rot="R270"/>
-<instance part="LED1" gate="G$1" x="60.96" y="381" rot="R180"/>
-<instance part="LED2" gate="G$1" x="71.12" y="381" rot="R180"/>
+<instance part="LED1" gate="G$1" x="60.96" y="383.54"/>
+<instance part="LED2" gate="G$1" x="71.12" y="383.54"/>
 <instance part="R1" gate="G$1" x="88.9" y="421.64"/>
 <instance part="R2" gate="G$1" x="60.96" y="393.7" rot="R90"/>
 <instance part="R3" gate="G$1" x="71.12" y="393.7" rot="R90"/>
@@ -9882,8 +9881,8 @@ of STM32 in order to block HF</text>
 <instance part="GND18" gate="1" x="81.28" y="327.66" rot="R270"/>
 <instance part="GND19" gate="1" x="81.28" y="335.28" rot="R270"/>
 <instance part="GND20" gate="1" x="81.28" y="342.9" rot="R270"/>
-<instance part="LED3" gate="G$1" x="60.96" y="274.32" rot="R180"/>
-<instance part="LED4" gate="G$1" x="71.12" y="274.32" rot="R180"/>
+<instance part="LED3" gate="G$1" x="60.96" y="276.86"/>
+<instance part="LED4" gate="G$1" x="71.12" y="276.86"/>
 <instance part="R4" gate="G$1" x="88.9" y="314.96"/>
 <instance part="R5" gate="G$1" x="60.96" y="287.02" rot="R90"/>
 <instance part="R6" gate="G$1" x="71.12" y="287.02" rot="R90"/>
@@ -9946,11 +9945,11 @@ of STM32 in order to block HF</text>
 <instance part="GND43" gate="1" x="-7.62" y="177.8"/>
 <instance part="P+13" gate="G$1" x="-50.8" y="127"/>
 <instance part="P+14" gate="G$1" x="-7.62" y="205.74"/>
-<instance part="C37" gate="G$1" x="7.62" y="193.04" rot="R180"/>
-<instance part="GND44" gate="1" x="7.62" y="185.42"/>
+<instance part="C37" gate="G$1" x="2.54" y="193.04" rot="R180"/>
+<instance part="GND44" gate="1" x="2.54" y="185.42"/>
 <instance part="C38" gate="G$1" x="-7.62" y="193.04" rot="R180"/>
-<instance part="C39" gate="G$1" x="17.78" y="193.04" rot="R180"/>
-<instance part="GND45" gate="1" x="17.78" y="185.42"/>
+<instance part="C39" gate="G$1" x="12.7" y="193.04" rot="R180"/>
+<instance part="GND45" gate="1" x="12.7" y="185.42"/>
 <instance part="P+15" gate="G$1" x="-7.62" y="228.6"/>
 <instance part="P+16" gate="G$1" x="254" y="546.1"/>
 <instance part="R12" gate="G$1" x="22.86" y="215.9" rot="R90"/>
@@ -9982,10 +9981,10 @@ of STM32 in order to block HF</text>
 <instance part="GND64" gate="1" x="-58.42" y="373.38"/>
 <instance part="R17" gate="G$1" x="-66.04" y="386.08" rot="R90"/>
 <instance part="GND65" gate="1" x="-66.04" y="373.38"/>
-<instance part="L14" gate="G$1" x="-5.08" y="406.4"/>
-<instance part="R18" gate="G$1" x="5.08" y="398.78" rot="R90"/>
-<instance part="R19" gate="G$1" x="5.08" y="383.54" rot="R90"/>
-<instance part="GND66" gate="1" x="5.08" y="373.38"/>
+<instance part="L14" gate="G$1" x="-7.62" y="406.4"/>
+<instance part="R18" gate="G$1" x="0" y="398.78" rot="R90"/>
+<instance part="R19" gate="G$1" x="0" y="383.54" rot="R90"/>
+<instance part="GND66" gate="1" x="0" y="373.38"/>
 <instance part="C49" gate="G$1" x="17.78" y="391.16"/>
 <instance part="GND67" gate="1" x="17.78" y="373.38"/>
 <instance part="C50" gate="G$1" x="30.48" y="391.16"/>
@@ -10060,10 +10059,6 @@ of STM32 in order to block HF</text>
 <instance part="Q2" gate="G$1" x="119.38" y="198.12" rot="MR180"/>
 <instance part="R22" gate="G$1" x="111.76" y="205.74" rot="MR0"/>
 <instance part="P+33" gate="G$1" x="119.38" y="210.82" rot="MR0"/>
-<instance part="P+20" gate="G$1" x="60.96" y="375.92" rot="R180"/>
-<instance part="P+22" gate="G$1" x="71.12" y="375.92" rot="R180"/>
-<instance part="P+24" gate="G$1" x="60.96" y="269.24" rot="R180"/>
-<instance part="P+25" gate="G$1" x="71.12" y="269.24" rot="R180"/>
 <instance part="U1" gate="G$1" x="332.74" y="548.64"/>
 <instance part="GND10" gate="1" x="320.04" y="523.24"/>
 <instance part="C70" gate="G$1" x="304.8" y="538.48" rot="R180"/>
@@ -10122,8 +10117,6 @@ of STM32 in order to block HF</text>
 <instance part="GND104" gate="1" x="167.64" y="434.34"/>
 <instance part="R39" gate="G$1" x="309.88" y="198.12" rot="R90"/>
 <instance part="R40" gate="G$1" x="317.5" y="198.12" rot="R90"/>
-<instance part="R41" gate="G$1" x="0" y="231.14" rot="R90"/>
-<instance part="P+42" gate="G$1" x="0" y="238.76"/>
 <instance part="R42" gate="G$1" x="7.62" y="231.14" rot="R90"/>
 <instance part="P+43" gate="G$1" x="7.62" y="238.76"/>
 <instance part="SJ1" gate="G$1" x="-185.42" y="292.1"/>
@@ -10169,8 +10162,14 @@ of STM32 in order to block HF</text>
 <instance part="X1" gate="-26" x="330.2" y="121.92"/>
 <instance part="X1" gate="-27" x="330.2" y="119.38"/>
 <instance part="X1" gate="-28" x="330.2" y="116.84"/>
-<instance part="P+26" gate="G$1" x="7.62" y="205.74"/>
+<instance part="P+26" gate="G$1" x="2.54" y="205.74"/>
 <instance part="LOGO2" gate="G$1" x="58.42" y="546.1"/>
+<instance part="GND46" gate="1" x="60.96" y="266.7"/>
+<instance part="GND52" gate="1" x="71.12" y="266.7"/>
+<instance part="GND54" gate="1" x="60.96" y="373.38"/>
+<instance part="GND76" gate="1" x="71.12" y="373.38"/>
+<instance part="GND77" gate="1" x="12.7" y="205.74"/>
+<instance part="C55" gate="G$1" x="10.16" y="398.78" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -10575,13 +10574,13 @@ of STM32 in order to block HF</text>
 </segment>
 <segment>
 <pinref part="C37" gate="G$1" pin="2"/>
-<wire x1="7.62" y1="190.5" x2="7.62" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="190.5" x2="2.54" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="GND44" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C39" gate="G$1" pin="2"/>
 <pinref part="GND45" gate="1" pin="GND"/>
-<wire x1="17.78" y1="187.96" x2="17.78" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="187.96" x2="12.7" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
@@ -10655,7 +10654,7 @@ of STM32 in order to block HF</text>
 </segment>
 <segment>
 <pinref part="R19" gate="G$1" pin="1"/>
-<wire x1="5.08" y1="378.46" x2="5.08" y2="375.92" width="0.1524" layer="91"/>
+<wire x1="0" y1="378.46" x2="0" y2="375.92" width="0.1524" layer="91"/>
 <pinref part="GND66" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -10981,6 +10980,32 @@ of STM32 in order to block HF</text>
 <wire x1="-238.76" y1="391.16" x2="-233.68" y2="391.16" width="0.1524" layer="91"/>
 <junction x="-233.68" y="391.16"/>
 <pinref part="GND107" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND52" gate="1" pin="GND"/>
+<pinref part="LED4" gate="G$1" pin="C"/>
+<wire x1="71.12" y1="271.78" x2="71.12" y2="269.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND46" gate="1" pin="GND"/>
+<pinref part="LED3" gate="G$1" pin="C"/>
+<wire x1="60.96" y1="271.78" x2="60.96" y2="269.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND54" gate="1" pin="GND"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
+<wire x1="60.96" y1="378.46" x2="60.96" y2="375.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND76" gate="1" pin="GND"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
+<wire x1="71.12" y1="378.46" x2="71.12" y2="375.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$3" pin="BYPASS_REG"/>
+<wire x1="-12.7" y1="215.9" x2="12.7" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="215.9" x2="12.7" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="GND77" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -11440,13 +11465,14 @@ of STM32 in order to block HF</text>
 </segment>
 <segment>
 <pinref part="L14" gate="G$1" pin="2"/>
-<wire x1="0" y1="406.4" x2="5.08" y2="406.4" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="406.4" x2="5.08" y2="403.86" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="406.4" x2="0" y2="406.4" width="0.1524" layer="91"/>
+<wire x1="0" y1="406.4" x2="0" y2="403.86" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 <pinref part="C49" gate="G$1" pin="2"/>
-<wire x1="5.08" y1="406.4" x2="17.78" y2="406.4" width="0.1524" layer="91"/>
+<wire x1="0" y1="406.4" x2="10.16" y2="406.4" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="406.4" x2="17.78" y2="406.4" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="406.4" x2="17.78" y2="393.7" width="0.1524" layer="91"/>
-<junction x="5.08" y="406.4"/>
+<junction x="0" y="406.4"/>
 <pinref part="C50" gate="G$1" pin="2"/>
 <wire x1="17.78" y1="406.4" x2="30.48" y2="406.4" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="406.4" x2="30.48" y2="393.7" width="0.1524" layer="91"/>
@@ -11454,6 +11480,9 @@ of STM32 in order to block HF</text>
 <pinref part="P+17" gate="G$1" pin="VCC"/>
 <wire x1="35.56" y1="406.4" x2="30.48" y2="406.4" width="0.1524" layer="91"/>
 <junction x="30.48" y="406.4"/>
+<pinref part="C55" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="403.86" x2="10.16" y2="406.4" width="0.1524" layer="91"/>
+<junction x="10.16" y="406.4"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$3" pin="VBAT"/>
@@ -11510,26 +11539,6 @@ of STM32 in order to block HF</text>
 <wire x1="119.38" y1="205.74" x2="119.38" y2="210.82" width="0.1524" layer="91"/>
 <junction x="119.38" y="205.74"/>
 <pinref part="P+33" gate="G$1" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="P+20" gate="G$1" pin="VCC"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="60.96" y1="375.92" x2="60.96" y2="378.46" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="P+22" gate="G$1" pin="VCC"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="71.12" y1="375.92" x2="71.12" y2="378.46" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="P+24" gate="G$1" pin="VCC"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
-<wire x1="60.96" y1="269.24" x2="60.96" y2="271.78" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="LED4" gate="G$1" pin="A"/>
-<pinref part="P+25" gate="G$1" pin="VCC"/>
-<wire x1="71.12" y1="271.78" x2="71.12" y2="269.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+35" gate="G$1" pin="VCC"/>
@@ -11600,11 +11609,6 @@ of STM32 in order to block HF</text>
 <junction x="-53.34" y="289.56"/>
 </segment>
 <segment>
-<pinref part="R41" gate="G$1" pin="2"/>
-<pinref part="P+42" gate="G$1" pin="VCC"/>
-<wire x1="0" y1="238.76" x2="0" y2="236.22" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R42" gate="G$1" pin="2"/>
 <pinref part="P+43" gate="G$1" pin="VCC"/>
 <wire x1="7.62" y1="238.76" x2="7.62" y2="236.22" width="0.1524" layer="91"/>
@@ -11616,15 +11620,15 @@ of STM32 in order to block HF</text>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$3" pin="VREF+"/>
-<wire x1="-12.7" y1="200.66" x2="7.62" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="200.66" x2="2.54" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="C37" gate="G$1" pin="1"/>
-<wire x1="7.62" y1="200.66" x2="17.78" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="198.12" x2="7.62" y2="200.66" width="0.1524" layer="91"/>
-<junction x="7.62" y="200.66"/>
+<wire x1="2.54" y1="200.66" x2="12.7" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="198.12" x2="2.54" y2="200.66" width="0.1524" layer="91"/>
+<junction x="2.54" y="200.66"/>
 <pinref part="C39" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="198.12" x2="17.78" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="198.12" x2="12.7" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="P+26" gate="G$1" pin="VCC"/>
-<wire x1="7.62" y1="205.74" x2="7.62" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="205.74" x2="2.54" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -11776,12 +11780,7 @@ of STM32 in order to block HF</text>
 <label x="-233.68" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="RADIO2_GPIO0" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="GPIO_0"/>
-<wire x1="93.98" y1="304.8" x2="99.06" y2="304.8" width="0.1524" layer="91"/>
-<label x="93.98" y="304.8" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
+<net name="RADIO2_GPIO1" class="0">
 <segment>
 <pinref part="IC5" gate="G$2" pin="PE13"/>
 <wire x1="-180.34" y1="88.9" x2="-200.66" y2="88.9" width="0.1524" layer="91"/>
@@ -11789,19 +11788,24 @@ of STM32 in order to block HF</text>
 <wire x1="-223.52" y1="111.76" x2="-233.68" y2="111.76" width="0.1524" layer="91"/>
 <label x="-233.68" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-</net>
-<net name="RADIO2_GPIO1" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="GPIO_1"/>
-<wire x1="99.06" y1="302.26" x2="93.98" y2="302.26" width="0.1524" layer="91"/>
-<label x="93.98" y="302.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="96.52" y1="302.26" x2="99.06" y2="302.26" width="0.1524" layer="91"/>
+<label x="96.52" y="302.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+</net>
+<net name="RADIO2_GPIO0" class="0">
 <segment>
 <pinref part="IC5" gate="G$2" pin="PE14"/>
 <wire x1="-233.68" y1="109.22" x2="-223.52" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="-223.52" y1="109.22" x2="-200.66" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="-200.66" y1="86.36" x2="-180.34" y2="86.36" width="0.1524" layer="91"/>
 <label x="-233.68" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="GPIO_0"/>
+<wire x1="99.06" y1="304.8" x2="96.52" y2="304.8" width="0.1524" layer="91"/>
+<label x="96.52" y="304.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="I2C_SDA" class="0">
@@ -12303,11 +12307,6 @@ of STM32 in order to block HF</text>
 <wire x1="-30.48" y1="459.74" x2="-35.56" y2="459.74" width="0.1524" layer="91"/>
 <label x="-35.56" y="459.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="R43" gate="G$1" pin="2"/>
-<wire x1="337.82" y1="429.26" x2="342.9" y2="429.26" width="0.1524" layer="91"/>
-<label x="342.9" y="429.26" size="1.27" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="N$32" class="0">
 <segment>
@@ -12393,19 +12392,22 @@ of STM32 in order to block HF</text>
 <net name="N$31" class="0">
 <segment>
 <pinref part="IC9" gate="A" pin="SW"/>
-<wire x1="-15.24" y1="406.4" x2="-10.16" y2="406.4" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="406.4" x2="-12.7" y2="406.4" width="0.1524" layer="91"/>
 <pinref part="L14" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$37" class="0">
 <segment>
 <pinref part="IC9" gate="A" pin="FB"/>
-<wire x1="-15.24" y1="391.16" x2="5.08" y2="391.16" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="391.16" x2="0" y2="391.16" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 <pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="5.08" y1="388.62" x2="5.08" y2="391.16" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="391.16" x2="5.08" y2="393.7" width="0.1524" layer="91"/>
-<junction x="5.08" y="391.16"/>
+<wire x1="0" y1="388.62" x2="0" y2="391.16" width="0.1524" layer="91"/>
+<wire x1="0" y1="391.16" x2="0" y2="393.7" width="0.1524" layer="91"/>
+<junction x="0" y="391.16"/>
+<pinref part="C55" gate="G$1" pin="2"/>
+<wire x1="0" y1="391.16" x2="10.16" y2="391.16" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="391.16" x2="10.16" y2="396.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$39" class="0">
@@ -12473,6 +12475,11 @@ of STM32 in order to block HF</text>
 <pinref part="IC16" gate="A" pin="SENSE2-"/>
 <wire x1="-30.48" y1="457.2" x2="-35.56" y2="457.2" width="0.1524" layer="91"/>
 <label x="-35.56" y="457.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R43" gate="G$1" pin="2"/>
+<wire x1="337.82" y1="429.26" x2="342.9" y2="429.26" width="0.1524" layer="91"/>
+<label x="342.9" y="429.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$42" class="0">
@@ -12776,34 +12783,6 @@ of STM32 in order to block HF</text>
 <label x="-233.68" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="LED2" gate="G$1" pin="C"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="386.08" x2="71.12" y2="388.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="386.08" x2="60.96" y2="388.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="LED3" gate="G$1" pin="C"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="279.4" x2="60.96" y2="281.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="LED4" gate="G$1" pin="C"/>
-<wire x1="71.12" y1="281.94" x2="71.12" y2="279.4" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="SD_CS" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="CS"/>
@@ -13049,14 +13028,6 @@ of STM32 in order to block HF</text>
 <wire x1="12.7" y1="289.56" x2="12.7" y2="281.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$53" class="0">
-<segment>
-<pinref part="IC5" gate="G$3" pin="BYPASS_REG"/>
-<wire x1="-12.7" y1="215.9" x2="0" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="0" y1="215.9" x2="0" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="R41" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="N$54" class="0">
 <segment>
 <pinref part="SJ1" gate="G$1" pin="3"/>
@@ -13103,6 +13074,34 @@ of STM32 in order to block HF</text>
 <pinref part="SJ3" gate="1" pin="1"/>
 <pinref part="BATT" gate="G$1" pin="+"/>
 <wire x1="-129.54" y1="393.7" x2="-129.54" y2="391.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="LED4" gate="G$1" pin="A"/>
+<wire x1="71.12" y1="279.4" x2="71.12" y2="281.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
+<wire x1="60.96" y1="279.4" x2="60.96" y2="281.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<wire x1="60.96" y1="386.08" x2="60.96" y2="388.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<wire x1="71.12" y1="386.08" x2="71.12" y2="388.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
