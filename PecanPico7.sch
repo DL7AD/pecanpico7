@@ -9516,7 +9516,6 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <part name="GND106" library="PecanPico6" deviceset="GND" device=""/>
 <part name="JP5" library="SparkFun-Connectors" deviceset="M01" device="SMD"/>
 <part name="JP6" library="SparkFun-Connectors" deviceset="M01" device="SMD"/>
-<part name="JP7" library="SparkFun-Connectors" deviceset="M01" device="SMD"/>
 <part name="GND107" library="PecanPico6" deviceset="GND" device=""/>
 <part name="X1" library="con-molex" deviceset="52745-2490" device=""/>
 <part name="P+26" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
@@ -10132,7 +10131,6 @@ of STM32 in order to block HF</text>
 <instance part="GND106" gate="1" x="200.66" y="563.88"/>
 <instance part="JP5" gate="G$1" x="-246.38" y="411.48"/>
 <instance part="JP6" gate="G$1" x="-246.38" y="401.32"/>
-<instance part="JP7" gate="G$1" x="-246.38" y="391.16"/>
 <instance part="GND107" gate="1" x="-233.68" y="373.38"/>
 <instance part="X1" gate="-1" x="330.2" y="193.04"/>
 <instance part="X1" gate="-2" x="330.2" y="190.5"/>
@@ -10972,13 +10970,9 @@ of STM32 in order to block HF</text>
 <wire x1="-238.76" y1="411.48" x2="-233.68" y2="411.48" width="0.1524" layer="91"/>
 <wire x1="-233.68" y1="411.48" x2="-233.68" y2="401.32" width="0.1524" layer="91"/>
 <pinref part="JP6" gate="G$1" pin="1"/>
-<wire x1="-233.68" y1="401.32" x2="-233.68" y2="391.16" width="0.1524" layer="91"/>
-<wire x1="-233.68" y1="391.16" x2="-233.68" y2="375.92" width="0.1524" layer="91"/>
+<wire x1="-233.68" y1="401.32" x2="-233.68" y2="375.92" width="0.1524" layer="91"/>
 <wire x1="-238.76" y1="401.32" x2="-233.68" y2="401.32" width="0.1524" layer="91"/>
 <junction x="-233.68" y="401.32"/>
-<pinref part="JP7" gate="G$1" pin="1"/>
-<wire x1="-238.76" y1="391.16" x2="-233.68" y2="391.16" width="0.1524" layer="91"/>
-<junction x="-233.68" y="391.16"/>
 <pinref part="GND107" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -11942,11 +11936,9 @@ of STM32 in order to block HF</text>
 <label x="-88.9" y="314.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="-233.68" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="IC5" gate="G$2" pin="PE7"/>
-<wire x1="-180.34" y1="104.14" x2="-193.04" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="-193.04" y1="104.14" x2="-213.36" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="-213.36" y1="83.82" x2="-233.68" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="PA3"/>
+<wire x1="-180.34" y1="215.9" x2="-210.82" y2="215.9" width="0.1524" layer="91"/>
+<label x="-210.82" y="215.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="TIMEPULSE" class="0">
@@ -12738,30 +12730,6 @@ of STM32 in order to block HF</text>
 <junction x="190.5" y="449.58"/>
 <pinref part="R37" gate="G$1" pin="2"/>
 <wire x1="190.5" y1="447.04" x2="190.5" y2="449.58" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="UART_TO_GPS" class="0">
-<segment>
-<label x="-233.68" y="218.44" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="IC5" gate="G$1" pin="PA2"/>
-<wire x1="-180.34" y1="218.44" x2="-233.68" y2="218.44" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="3_RXD1"/>
-<wire x1="-124.46" y1="279.4" x2="-119.38" y2="279.4" width="0.1524" layer="91"/>
-<label x="-119.38" y="279.4" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="UART_FROM_GPS" class="0">
-<segment>
-<label x="-233.68" y="215.9" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="IC5" gate="G$1" pin="PA3"/>
-<wire x1="-180.34" y1="215.9" x2="-233.68" y2="215.9" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="2_TXD1"/>
-<wire x1="-124.46" y1="274.32" x2="-119.38" y2="274.32" width="0.1524" layer="91"/>
-<label x="-119.38" y="274.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CAM_OFF" class="0">
