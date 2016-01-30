@@ -9510,6 +9510,77 @@ High-power, low thermal resistance package.</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="GDynamics">
+<packages>
+<package name="MICRO_SD_CONNECTOR">
+<wire x1="-0.2" y1="-0.2" x2="13.3" y2="-0.2" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="14.1" x2="13.3" y2="14.1" width="0.127" layer="21"/>
+<smd name="1" x="4.4" y="15.57" dx="0.8" dy="1.7" layer="1" roundness="50" rot="R180"/>
+<smd name="2" x="5.5" y="15.57" dx="0.8" dy="1.7" layer="1" roundness="50"/>
+<smd name="3" x="6.6" y="15.57" dx="0.8" dy="1.7" layer="1" roundness="50"/>
+<smd name="4" x="7.7" y="15.57" dx="0.8" dy="1.7" layer="1" roundness="50"/>
+<smd name="5" x="8.8" y="15.57" dx="0.8" dy="1.7" layer="1" roundness="50"/>
+<smd name="6" x="9.9" y="15.57" dx="0.8" dy="1.7" layer="1" roundness="50"/>
+<smd name="7" x="11" y="15.57" dx="0.8" dy="1.7" layer="1" roundness="50"/>
+<smd name="8" x="12.1" y="15.57" dx="0.8" dy="1.7" layer="1" roundness="50"/>
+<wire x1="-0.2" y1="-0.2" x2="-0.2" y2="14.1" width="0.127" layer="21"/>
+<wire x1="13.3" y1="-0.2" x2="13.3" y2="14.1" width="0.127" layer="21"/>
+<smd name="P$1" x="0.75" y="0.85" dx="1.5" dy="1.7" layer="1" roundness="50"/>
+<smd name="P$2" x="0.85" y="15.7" dx="1.7" dy="1.5" layer="1" roundness="50"/>
+<smd name="P$3" x="14.46" y="6.65" dx="1.5" dy="1.4" layer="1" roundness="50"/>
+<smd name="P$4" x="14.46" y="14.05" dx="1.5" dy="1.3" layer="1" roundness="50"/>
+<smd name="P$5" x="13.51" y="15.7" dx="1.6" dy="1.5" layer="1" roundness="50"/>
+<smd name="P$6" x="14.25" y="0.85" dx="1.5" dy="1.7" layer="1" roundness="50"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MICROSD_SPI_MODE">
+<wire x1="7.62" y1="15.24" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="15.24" x2="7.62" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="15.24" x2="-7.62" y2="10.16" width="0.254" layer="94" curve="-90"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="-12.7" y2="-15.24" width="0.254" layer="94" curve="-90"/>
+<text x="-12.7" y="20.32" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="17.78" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-5.08" y="7.62" size="1.778" layer="94" rot="R270">microSD CARD</text>
+<pin name="NC" x="12.7" y="12.7" length="middle" rot="R180"/>
+<pin name="/CS" x="12.7" y="10.16" length="middle" rot="R180"/>
+<pin name="DI" x="12.7" y="7.62" length="middle" rot="R180"/>
+<pin name="VDD" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="CLK" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="VSS" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="DO" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="RSV" x="12.7" y="-5.08" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MICROSD_SPI_MODE">
+<description>&lt;b&gt;MOLEX - 49225-0821 - CONNECTEUR MICRO SD PUSH/PUSH REV&lt;/b&gt;&lt;hr&gt;&lt;p&gt;Fabricant: MOLEX&lt;br&gt;Code commande Farnell: &lt;a href="http://fr.farnell.com/molex/49225-0821/connecteur-micro-sd-push-push-rev/dp/1366700?Ntt=1366700"&gt;1366700&lt;/a&gt;&lt;br&gt;Référence fabricant: 49225-0821 &lt;/p&gt;&lt;img src="MOLEX - 49225-0821 - CONNECTEUR MICRO SD.png"&gt;</description>
+<gates>
+<gate name="G$1" symbol="MICROSD_SPI_MODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MICRO_SD_CONNECTOR">
+<connects>
+<connect gate="G$1" pin="/CS" pad="2"/>
+<connect gate="G$1" pin="CLK" pad="5"/>
+<connect gate="G$1" pin="DI" pad="3"/>
+<connect gate="G$1" pin="DO" pad="7"/>
+<connect gate="G$1" pin="NC" pad="1"/>
+<connect gate="G$1" pin="RSV" pad="8"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9829,6 +9900,7 @@ High-power, low thermal resistance package.</description>
 <part name="P+30" library="PecanPico6" deviceset="3.3V" device="" value="VCC_PA"/>
 <part name="P+34" library="PecanPico6" deviceset="3.3V" device="" value="VCC_PA"/>
 <part name="P+36" library="PecanPico6" deviceset="3.3V" device="" value="VCC_PA"/>
+<part name="U$1" library="GDynamics" deviceset="MICROSD_SPI_MODE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10436,6 +10508,7 @@ are generated</text>
 <instance part="P+30" gate="G$1" x="246.38" y="474.98"/>
 <instance part="P+34" gate="G$1" x="213.36" y="434.34"/>
 <instance part="P+36" gate="G$1" x="182.88" y="490.22" rot="R180"/>
+<instance part="U$1" gate="G$1" x="378.46" y="614.68" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -12016,9 +12089,9 @@ are generated</text>
 <label x="-129.54" y="325.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="PB1"/>
-<wire x1="-180.34" y1="177.8" x2="-182.88" y2="177.8" width="0.1524" layer="91"/>
-<label x="-182.88" y="177.8" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC5" gate="G$1" pin="PB0"/>
+<wire x1="-180.34" y1="180.34" x2="-182.88" y2="180.34" width="0.1524" layer="91"/>
+<label x="-182.88" y="180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="TIMEPULSE" class="0">
@@ -12033,9 +12106,9 @@ are generated</text>
 <pinref part="R11" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="PB0"/>
-<wire x1="-180.34" y1="180.34" x2="-182.88" y2="180.34" width="0.1524" layer="91"/>
-<label x="-182.88" y="180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC5" gate="G$1" pin="PB1"/>
+<wire x1="-180.34" y1="177.8" x2="-182.88" y2="177.8" width="0.1524" layer="91"/>
+<label x="-182.88" y="177.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$33" class="0">
