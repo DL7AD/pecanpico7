@@ -167,6 +167,10 @@ Pin 1 should be actually Pin 24 and Pin 24 should be Pin 1
 Effect: The camera and the core voltage segulator gets very hot<br />
 Solution: Solder the camera to the PCB upsidedown (not easy but possible)
 
+**ERROR 6:** LED6 - 9 anode and cathode switched (fixable)<br />
+Effect: The LED's will not work<br />
+Solution: Ignore the LED-soldermask and solder them in the other way around
+
 **WARNING 1:** LEDs connected to transceivers are switched on<br />
 Effect: Current draw on startup. It could prevent the PCB to startup when the battery is dischanged completely, when the SPV1040 doesn't provide enough power. So the STM32 doesnt boot.<br />
 Solution: *none* (will be fixed on next revision) or desolder LEDs
