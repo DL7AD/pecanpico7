@@ -162,6 +162,11 @@ Solution: Desolder R41 and connect BYPASS_REG to GND (put solder junction to res
 Effect: The external oscillator can't be used for the STM32<br />
 Solution: Use an TXC 7L 26MHz oscillator instead or use the internal oscillator
 
+**ERROR 5:** Camera connector swapped (fixable)<br />
+Pin 1 should be actually Pin 24 and Pin 24 should be Pin 1
+Effect: The camera and the core voltage segulator gets very hot<br />
+Solution: Solder the camera to the PCB upsidedown (not easy but possible)
+
 **WARNING 1:** LEDs connected to transceivers are switched on<br />
 Effect: Current draw on startup. It could prevent the PCB to startup when the battery is dischanged completely, when the SPV1040 doesn't provide enough power. So the STM32 doesnt boot.<br />
 Solution: *none* (will be fixed on next revision) or desolder LEDs
