@@ -12755,11 +12755,6 @@ are generated</text>
 </net>
 <net name="SD_MOSI" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="DI"/>
-<wire x1="325.12" y1="627.38" x2="317.5" y2="627.38" width="0.1524" layer="91"/>
-<label x="317.5" y="627.38" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <label x="-116.84" y="187.96" size="1.27" layer="95" xref="yes"/>
 <pinref part="IC5" gate="G$1" pin="PC12"/>
 <wire x1="-116.84" y1="187.96" x2="-121.92" y2="187.96" width="0.1524" layer="91"/>
@@ -12769,11 +12764,6 @@ are generated</text>
 </net>
 <net name="SD_SCK" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="SCK"/>
-<wire x1="325.12" y1="622.3" x2="317.5" y2="622.3" width="0.1524" layer="91"/>
-<label x="317.5" y="622.3" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC5" gate="G$1" pin="PC10"/>
 <wire x1="-144.78" y1="198.12" x2="-127" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="-127" y1="198.12" x2="-121.92" y2="193.04" width="0.1524" layer="91"/>
@@ -12782,11 +12772,6 @@ are generated</text>
 </segment>
 </net>
 <net name="SD_MISO" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="DO"/>
-<wire x1="325.12" y1="617.22" x2="317.5" y2="617.22" width="0.1524" layer="91"/>
-<label x="317.5" y="617.22" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="PC11"/>
 <wire x1="-144.78" y1="195.58" x2="-127" y2="195.58" width="0.1524" layer="91"/>
@@ -13364,6 +13349,27 @@ are generated</text>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="182.88" y1="492.76" x2="182.88" y2="490.22" width="0.1524" layer="91"/>
 <pinref part="P+36" gate="G$1" pin="VCC"/>
+</segment>
+</net>
+<net name="MOSI" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="DI"/>
+<wire x1="325.12" y1="627.38" x2="317.5" y2="627.38" width="0.1524" layer="91"/>
+<label x="317.5" y="627.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SCK" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="SCK"/>
+<wire x1="325.12" y1="622.3" x2="317.5" y2="622.3" width="0.1524" layer="91"/>
+<label x="317.5" y="622.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MISO" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="DO"/>
+<wire x1="325.12" y1="617.22" x2="317.5" y2="617.22" width="0.1524" layer="91"/>
+<label x="317.5" y="617.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
