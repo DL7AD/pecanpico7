@@ -9901,6 +9901,8 @@ High-power, low thermal resistance package.</description>
 <part name="P+34" library="PecanPico6" deviceset="3.3V" device="" value="VCC_PA"/>
 <part name="P+36" library="PecanPico6" deviceset="3.3V" device="" value="VCC_PA"/>
 <part name="U$1" library="GDynamics" deviceset="MICROSD_SPI_MODE" device=""/>
+<part name="C40" library="PecanPico6" deviceset="CAP-0402" device="" value="2.2uF"/>
+<part name="GND79" library="PecanPico6" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10509,6 +10511,8 @@ are generated</text>
 <instance part="P+34" gate="G$1" x="213.36" y="434.34"/>
 <instance part="P+36" gate="G$1" x="182.88" y="490.22" rot="R180"/>
 <instance part="U$1" gate="G$1" x="378.46" y="614.68" rot="R180"/>
+<instance part="C40" gate="G$1" x="-88.9" y="114.3" rot="R180"/>
+<instance part="GND79" gate="1" x="-88.9" y="109.22"/>
 </instances>
 <busses>
 </busses>
@@ -11340,6 +11344,10 @@ are generated</text>
 <pinref part="GND75" gate="1" pin="GND"/>
 <wire x1="251.46" y1="198.12" x2="251.46" y2="200.66" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C40" gate="G$1" pin="2"/>
+<pinref part="GND79" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="N$5" class="0">
 <segment>
@@ -11409,6 +11417,11 @@ are generated</text>
 <wire x1="-200.66" y1="132.08" x2="-233.68" y2="132.08" width="0.1524" layer="91"/>
 <label x="-233.68" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="SCK"/>
+<wire x1="325.12" y1="622.3" x2="317.5" y2="622.3" width="0.1524" layer="91"/>
+<label x="317.5" y="622.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SPI_MISO" class="0">
 <segment>
@@ -11428,6 +11441,11 @@ are generated</text>
 <wire x1="-185.42" y1="144.78" x2="-180.34" y2="144.78" width="0.1524" layer="91"/>
 <label x="-233.68" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="DO"/>
+<wire x1="325.12" y1="617.22" x2="317.5" y2="617.22" width="0.1524" layer="91"/>
+<label x="317.5" y="617.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SPI_MOSI" class="0">
 <segment>
@@ -11446,6 +11464,11 @@ are generated</text>
 <wire x1="-185.42" y1="142.24" x2="-200.66" y2="127" width="0.1524" layer="91"/>
 <wire x1="-200.66" y1="127" x2="-233.68" y2="127" width="0.1524" layer="91"/>
 <label x="-233.68" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="DI"/>
+<wire x1="325.12" y1="627.38" x2="317.5" y2="627.38" width="0.1524" layer="91"/>
+<label x="317.5" y="627.38" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RADIO1_CS" class="0">
@@ -11714,6 +11737,10 @@ are generated</text>
 <wire x1="-78.74" y1="119.38" x2="-78.74" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="121.92" x2="-68.58" y2="121.92" width="0.1524" layer="91"/>
 <junction x="-68.58" y="121.92"/>
+<pinref part="C40" gate="G$1" pin="1"/>
+<wire x1="-88.9" y1="119.38" x2="-88.9" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="-88.9" y1="121.92" x2="-78.74" y2="121.92" width="0.1524" layer="91"/>
+<junction x="-78.74" y="121.92"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$3" pin="VDDA"/>
@@ -12811,14 +12838,14 @@ are generated</text>
 <label x="223.52" y="607.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$2" pin="PH0"/>
-<wire x1="-144.78" y1="78.74" x2="-139.7" y2="78.74" width="0.1524" layer="91"/>
-<label x="-139.7" y="78.74" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="JP3" gate="G$1" pin="7"/>
 <wire x1="254" y1="599.44" x2="261.62" y2="599.44" width="0.1524" layer="91"/>
 <label x="254" y="599.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<label x="-58.42" y="203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC5" gate="G$3" pin="PI8"/>
+<wire x1="-58.42" y1="203.2" x2="-48.26" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED1" class="0">
@@ -12845,11 +12872,11 @@ are generated</text>
 <label x="223.52" y="596.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-127" y1="172.72" x2="-116.84" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="172.72" x2="-116.84" y2="172.72" width="0.1524" layer="91"/>
 <label x="-116.84" y="172.72" size="1.27" layer="95" xref="yes"/>
-<pinref part="IC5" gate="G$1" pin="PC15"/>
-<wire x1="-144.78" y1="185.42" x2="-139.7" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="-139.7" y1="185.42" x2="-127" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="190.5" x2="-124.46" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="PC13"/>
+<wire x1="-142.24" y1="190.5" x2="-144.78" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -13349,27 +13376,6 @@ are generated</text>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="182.88" y1="492.76" x2="182.88" y2="490.22" width="0.1524" layer="91"/>
 <pinref part="P+36" gate="G$1" pin="VCC"/>
-</segment>
-</net>
-<net name="MOSI" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="DI"/>
-<wire x1="325.12" y1="627.38" x2="317.5" y2="627.38" width="0.1524" layer="91"/>
-<label x="317.5" y="627.38" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="SCK" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="SCK"/>
-<wire x1="325.12" y1="622.3" x2="317.5" y2="622.3" width="0.1524" layer="91"/>
-<label x="317.5" y="622.3" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="MISO" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="DO"/>
-<wire x1="325.12" y1="617.22" x2="317.5" y2="617.22" width="0.1524" layer="91"/>
-<label x="317.5" y="617.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
