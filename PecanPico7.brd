@@ -1846,7 +1846,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="4.5" y="27.7" size="0.6" layer="25"/>
 <attribute name="VALUE" x="4.3" y="29.4" size="0.6" layer="27" rot="R180"/>
 </element>
-<element name="R1" library="PecanPico6" package="0402" value="47k" x="3.3" y="25.8" smashed="yes">
+<element name="R1" library="PecanPico6" package="0402" value="110k" x="3.3" y="25.8" smashed="yes">
 <attribute name="NAME" x="2.8" y="26.4" size="0.6" layer="25"/>
 <attribute name="VALUE" x="2.6" y="24.6" size="0.6" layer="27"/>
 </element>
@@ -1931,7 +1931,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="8.7" y="39.2" size="0.6" layer="25" rot="R180"/>
 <attribute name="VALUE" x="8.9" y="37.4" size="0.6" layer="27"/>
 </element>
-<element name="R4" library="PecanPico6" package="0402" value="47k" x="14" y="24.2" smashed="yes">
+<element name="R4" library="PecanPico6" package="0402" value="110k" x="14" y="24.2" smashed="yes">
 <attribute name="NAME" x="12.3" y="22.1" size="0.6" layer="25" rot="R180"/>
 <attribute name="VALUE" x="13.3" y="23" size="0.6" layer="27"/>
 </element>
@@ -1968,7 +1968,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="9.4" y="2.2" size="0.6" layer="27" rot="R180"/>
 </element>
 <element name="IC4" library="PecanPico6" package="UBLOX_MAX-6" value="uBlox MAX7/8" x="25.1" y="40.8" rot="R180"/>
-<element name="R9" library="PecanPico6" package="0402" value="47k" x="18.6" y="37" smashed="yes" rot="R270">
+<element name="R9" library="PecanPico6" package="0402" value="110k" x="18.6" y="37" smashed="yes" rot="R270">
 <attribute name="NAME" x="18.1" y="37.8" size="0.6" layer="25"/>
 <attribute name="VALUE" x="17.4" y="37.7" size="0.6" layer="27" rot="R270"/>
 </element>
@@ -2187,14 +2187,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="2.1" y="23.9" size="0.6" layer="25"/>
 <attribute name="VALUE" x="3.8" y="25.6" size="0.2" layer="27" rot="R180"/>
 </element>
-<element name="R29" library="PecanPico6" package="0402" value="" x="7.1" y="19.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="5.8" y="14" size="0.6" layer="25" rot="R180"/>
-<attribute name="VALUE" x="7.8" y="20.3" size="0.6" layer="27" rot="R180"/>
-</element>
-<element name="R30" library="PecanPico6" package="0402" value="" x="10.7" y="12.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.85" y="10.2" size="0.6" layer="26" rot="MR90"/>
-<attribute name="VALUE" x="11.9" y="12.2" size="0.6" layer="27" rot="R90"/>
-</element>
 <element name="JP3" library="SparkFun-Connectors" package="1X12" value="" x="32.4" y="1.8" rot="R90"/>
 <element name="LED6" library="PecanPico6" package="LED-0603" value="red" x="29.1" y="16.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="30.4" y="16.1" size="0.8" layer="25"/>
@@ -2305,14 +2297,14 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="21.2" y="4" size="0.6" layer="27" display="off"/>
 </element>
 <element name="LOGO2" library="PecanPico6" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="6.4" y="18.4" rot="MR90"/>
-<element name="U2" library="stm32f42x" package="SON65P210X210X80-7N" value="TPS62260DRVT" x="20.5" y="27.2" rot="R270">
+<element name="IC10" library="stm32f42x" package="SON65P210X210X80-7N" value="TPS62260DRVT" x="20.5" y="27.2" rot="R270">
 <attribute name="MPN" value="TPS62260DRVT" x="20.5" y="27.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SUPPLIER" value="Texas Instruments" x="20.5" y="27.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="2075399" x="20.5" y="27.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="82T3169" x="20.5" y="27.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE" value="Blue" x="20.5" y="27.2" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U3" library="stm32f42x" package="SON65P210X210X80-7N" value="TPS62260DRVT" x="13.1" y="33" rot="R90">
+<element name="IC11" library="stm32f42x" package="SON65P210X210X80-7N" value="TPS62260DRVT" x="13.1" y="33" rot="R90">
 <attribute name="MPN" value="TPS62260DRVT" x="13.1" y="33" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SUPPLIER" value="Texas Instruments" x="13.1" y="33" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="2075399" x="13.1" y="33" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2322,14 +2314,14 @@ design rules under a new name.</description>
 <element name="L16" library="PecanPico6" package="LPS3015" value="LPS3015-222MRB" x="14" y="29.6" rot="R90"/>
 <element name="C49" library="PecanFemto3" package="0805" value="10uF" x="19.4" y="33.6"/>
 <element name="C50" library="PecanFemto3" package="0805" value="10uF" x="13.4" y="26.3" rot="R180"/>
-<element name="R17" library="PecanPico6" package="0402" value="" x="18.3" y="27.2" rot="R180"/>
-<element name="R18" library="PecanPico6" package="0402" value="" x="18.3" y="26.2"/>
-<element name="R19" library="PecanPico6" package="0402" value="" x="15.3" y="33"/>
-<element name="R23" library="PecanPico6" package="0402" value="" x="14.9" y="34.4" rot="R270"/>
+<element name="R17" library="PecanPico6" package="0402" value="511k" x="18.3" y="27.2" rot="R180"/>
+<element name="R18" library="PecanPico6" package="0402" value="110k" x="18.3" y="26.2"/>
+<element name="R19" library="PecanPico6" package="0402" value="511k" x="15.3" y="33"/>
+<element name="R23" library="PecanPico6" package="0402" value="249k" x="14.9" y="34.4" rot="R270"/>
 <element name="C55" library="PecanPico6" package="0402" value="22pF" x="15.3" y="32"/>
 <element name="C56" library="PecanPico6" package="0402" value="22pF" x="18.3" y="28.2" rot="R180"/>
 <element name="L17" library="sven" package="0603@1" value="56nH" x="3.2" y="10.1" rot="R270"/>
-<element name="U4" library="stm32f42x" package="SON65P210X210X80-7N" value="TPS62260DRVT" x="25.8" y="27.2" rot="R270">
+<element name="IC9" library="stm32f42x" package="SON65P210X210X80-7N" value="TPS62260DRVT" x="25.8" y="27.2" rot="R270">
 <attribute name="MPN" value="TPS62260DRVT" x="35.6" y="31.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="82T3169" x="35.6" y="31.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SUPPLIER" value="Texas Instruments" x="35.6" y="31.3" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2338,20 +2330,20 @@ design rules under a new name.</description>
 </element>
 <element name="L18" library="PecanPico6" package="LPS3015" value="LPS3015-222MRB" x="24.9" y="30.6" rot="R270"/>
 <element name="C17" library="PecanFemto3" package="0805" value="10uF" x="27.8" y="30.6" rot="R90"/>
-<element name="R22" library="PecanPico6" package="0402" value="" x="23.6" y="27.2" rot="R180"/>
-<element name="R25" library="PecanPico6" package="0402" value="" x="23.6" y="26.2"/>
+<element name="R22" library="PecanPico6" package="0402" value="511k" x="23.6" y="27.2" rot="R180"/>
+<element name="R25" library="PecanPico6" package="0402" value="140k" x="23.6" y="26.2"/>
 <element name="C37" library="PecanPico6" package="0402" value="22pF" x="23.6" y="28.2" rot="R180"/>
 <element name="C39" library="PecanFemto3" package="0805" value="10uF" x="12.8" y="36.9" rot="R270"/>
 <element name="SJ2" library="PecanPico6" package="SJ_2" value="" x="31.1" y="32.5" rot="R270"/>
-<element name="R10" library="PecanPico6" package="0402" value="" x="23.6" y="24.7"/>
-<element name="R26" library="PecanPico6" package="0402" value="" x="18.3" y="25.2"/>
+<element name="R10" library="PecanPico6" package="0402" value="10k" x="23.6" y="24.7"/>
+<element name="R26" library="PecanPico6" package="0402" value="10k" x="18.3" y="25.2"/>
 <element name="Q1" library="PecanPico6" package="SOT23-3" value="MOSFET-PCHANNEL" x="3.1" y="31.8" rot="R270">
 <attribute name="PROD_ID" value="TRANS-08285" x="3.1" y="31.8" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="Q3" library="SparkFun-DiscreteSemi" package="SOT23-3" value="MOSFET-NCHANNEL" x="28.9" y="10.6" rot="R270">
 <attribute name="PROD_ID" value="TRAN-12988" x="28.9" y="10.6" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R27" library="PecanPico6" package="0402" value="100k" x="25.9" y="10.9"/>
+<element name="R27" library="PecanPico6" package="0402" value="110k" x="25.9" y="10.9"/>
 <element name="U$1" library="GDynamics" package="MICRO_SD_CONNECTOR" value="MICROSD_SPI_MODE" x="29.7" y="5.3" rot="MR0"/>
 <element name="IC8" library="stm32f42x" package="SOT95P290X145-5N" value="LP5951MF-1.3/NOPB" x="16.2" y="9.7">
 <attribute name="OC_FARNELL" value="1331510" x="16.2" y="9.7" size="1.778" layer="27" display="off"/>
@@ -2363,8 +2355,8 @@ design rules under a new name.</description>
 <element name="SJ4" library="PecanPico6" package="SJ_2" value="" x="18.7" y="8.6" rot="MR270"/>
 <element name="C52" library="PecanPico6" package="0402" value="100nF" x="19" y="10.2"/>
 <element name="C53" library="PecanPico6" package="0402" value="100nF" x="8.5" y="11.5" rot="R180"/>
-<element name="R37" library="PecanPico6" package="0402" value="" x="7.9" y="18.1" rot="R180"/>
-<element name="R38" library="PecanPico6" package="0402" value="" x="10.2" y="15.1" rot="R180"/>
+<element name="R37" library="PecanPico6" package="0402" value="1k" x="7.9" y="18.1" rot="R180"/>
+<element name="R38" library="PecanPico6" package="0402" value="1k" x="10.2" y="15.1" rot="R180"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -2605,12 +2597,12 @@ design rules under a new name.</description>
 <contactref element="LED1" pad="C"/>
 <contactref element="LED2" pad="C"/>
 <contactref element="IC5" pad="L4"/>
-<contactref element="U3" pad="7"/>
-<contactref element="U3" pad="6"/>
-<contactref element="U3" pad="2"/>
-<contactref element="U2" pad="2"/>
-<contactref element="U2" pad="7"/>
-<contactref element="U2" pad="6"/>
+<contactref element="IC11" pad="7"/>
+<contactref element="IC11" pad="6"/>
+<contactref element="IC11" pad="2"/>
+<contactref element="IC10" pad="2"/>
+<contactref element="IC10" pad="7"/>
+<contactref element="IC10" pad="6"/>
 <contactref element="R23" pad="P$1"/>
 <contactref element="R18" pad="P$1"/>
 <contactref element="C49" pad="1"/>
@@ -2628,9 +2620,9 @@ design rules under a new name.</description>
 <contactref element="C77" pad="P$1"/>
 <contactref element="C42" pad="P$2"/>
 <contactref element="C41" pad="P$2"/>
-<contactref element="U4" pad="7"/>
-<contactref element="U4" pad="6"/>
-<contactref element="U4" pad="2"/>
+<contactref element="IC9" pad="7"/>
+<contactref element="IC9" pad="6"/>
+<contactref element="IC9" pad="2"/>
 <contactref element="R25" pad="P$1"/>
 <contactref element="C17" pad="1"/>
 <contactref element="C39" pad="1"/>
@@ -4116,11 +4108,11 @@ design rules under a new name.</description>
 </signal>
 <signal name="VBAT_OUT">
 <contactref element="IC16" pad="4"/>
-<contactref element="U2" pad="5"/>
-<contactref element="U3" pad="5"/>
+<contactref element="IC10" pad="5"/>
+<contactref element="IC11" pad="5"/>
 <contactref element="R21" pad="P$2"/>
-<contactref element="U3" pad="4"/>
-<contactref element="U4" pad="5"/>
+<contactref element="IC11" pad="4"/>
+<contactref element="IC9" pad="5"/>
 <contactref element="C39" pad="2"/>
 <wire x1="13.1" y1="34.0414" x2="13.1" y2="34.9" width="0.3" layer="1"/>
 <wire x1="13.7604" y1="34.0414" x2="13.7604" y2="34.9" width="0.2" layer="1"/>
@@ -4231,14 +4223,6 @@ design rules under a new name.</description>
 <wire x1="4.7" y1="18.5" x2="3.95" y2="17.75" width="0.2" layer="1"/>
 <wire x1="3.95" y1="17.75" x2="3.95" y2="17.364" width="0.2" layer="1"/>
 </signal>
-<signal name="AM1">
-<contactref element="R24" pad="P$1"/>
-<contactref element="C23" pad="P$2"/>
-<contactref element="R29" pad="P$2"/>
-<wire x1="6.65" y1="20.1" x2="6.65" y2="19.45" width="0.2" layer="1"/>
-<wire x1="5.7" y1="19.45" x2="6.65" y2="19.45" width="0.2" layer="1"/>
-<wire x1="6.65" y1="19.45" x2="6.65" y2="19.1" width="0.2" layer="1"/>
-</signal>
 <signal name="N$6">
 <contactref element="C1" pad="P$2"/>
 <contactref element="IC13" pad="6"/>
@@ -4268,13 +4252,6 @@ design rules under a new name.</description>
 <wire x1="3.95" y1="13.1" x2="4.45" y2="13.1" width="0.2" layer="1"/>
 <wire x1="4.45" y1="13.1" x2="4.95" y2="13.1" width="0.2" layer="1"/>
 <wire x1="4.45" y1="13.636" x2="4.45" y2="13.1" width="0.2" layer="1"/>
-</signal>
-<signal name="AM2">
-<contactref element="C67" pad="P$2"/>
-<contactref element="R28" pad="P$2"/>
-<contactref element="R30" pad="P$1"/>
-<wire x1="8.7" y1="12.45" x2="9.7" y2="12.45" width="0.2" layer="1"/>
-<wire x1="9.7" y1="12.45" x2="10.7" y2="12.45" width="0.2" layer="1"/>
 </signal>
 <signal name="SD_CS">
 <contactref element="U$1" pad="2"/>
@@ -4467,7 +4444,7 @@ design rules under a new name.</description>
 <signal name="N$28">
 <contactref element="R17" pad="P$1"/>
 <contactref element="R18" pad="P$2"/>
-<contactref element="U2" pad="3"/>
+<contactref element="IC10" pad="3"/>
 <contactref element="C56" pad="P$1"/>
 <wire x1="18.75" y1="27.2" x2="18.75" y2="28.2" width="0.2" layer="1"/>
 <wire x1="18.75" y1="27.2" x2="18.75" y2="26.2" width="0.2" layer="1"/>
@@ -4477,7 +4454,7 @@ design rules under a new name.</description>
 <signal name="N$37">
 <contactref element="R23" pad="P$2"/>
 <contactref element="R19" pad="P$1"/>
-<contactref element="U3" pad="3"/>
+<contactref element="IC11" pad="3"/>
 <contactref element="C55" pad="P$1"/>
 <wire x1="13.7604" y1="31.9586" x2="14.85" y2="31.9586" width="0.2" layer="1"/>
 <wire x1="14.85" y1="31.9586" x2="14.85" y2="32" width="0.2" layer="1"/>
@@ -4486,7 +4463,7 @@ design rules under a new name.</description>
 <wire x1="14.85" y1="33.95" x2="14.9" y2="33.95" width="0.2" layer="1"/>
 </signal>
 <signal name="N$30">
-<contactref element="U2" pad="1"/>
+<contactref element="IC10" pad="1"/>
 <contactref element="L14" pad="2_6"/>
 <contactref element="L14" pad="2_8"/>
 <contactref element="L14" pad="2_5"/>
@@ -4508,7 +4485,7 @@ design rules under a new name.</description>
 <wire x1="21.1604" y1="28.9126" x2="21.1604" y2="28.2414" width="0.3" layer="1"/>
 </signal>
 <signal name="N$31">
-<contactref element="U3" pad="1"/>
+<contactref element="IC11" pad="1"/>
 <contactref element="L16" pad="2_6"/>
 <contactref element="L16" pad="2_8"/>
 <contactref element="L16" pad="2_5"/>
@@ -4535,7 +4512,6 @@ design rules under a new name.</description>
 <wire x1="3.2" y1="10.85" x2="3.2" y2="11.65" width="0.4" layer="1"/>
 </signal>
 <signal name="RADIO1_VREG2_PWM">
-<contactref element="R29" pad="P$1"/>
 <via x="14.6" y="13.5" extent="1-16" drill="0.3"/>
 <via x="8.3" y="19.1" extent="1-16" drill="0.3"/>
 <contactref element="IC5" pad="C15"/>
@@ -4543,19 +4519,20 @@ design rules under a new name.</description>
 <wire x1="8.3" y1="17.5" x2="12.2" y2="13.7" width="0.2" layer="16"/>
 <wire x1="12.2" y1="13.7" x2="14.4" y2="13.7" width="0.2" layer="16"/>
 <wire x1="14.4" y1="13.7" x2="14.6" y2="13.5" width="0.2" layer="16"/>
-<wire x1="7.55" y1="19.1" x2="8.3" y2="19.1" width="0.2" layer="1"/>
 <wire x1="14.6" y1="13.5" x2="15.4" y2="14.3" width="0.2" layer="1"/>
 <wire x1="15.4" y1="14.3" x2="15.6" y2="14.3" width="0.2" layer="1"/>
 <contactref element="R37" pad="P$1"/>
 <wire x1="8.35" y1="18.1" x2="8.3" y2="18.15" width="0.2" layer="1"/>
 <wire x1="8.3" y1="18.15" x2="8.3" y2="19.1" width="0.2" layer="1"/>
+<contactref element="R24" pad="P$1"/>
+<contactref element="C23" pad="P$2"/>
+<wire x1="6.65" y1="20.1" x2="8.3" y2="19.1" width="0" layer="19" extent="1-1"/>
+<wire x1="5.7" y1="19.45" x2="6.65" y2="20.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RADIO1_VREG1_PWM">
-<contactref element="R30" pad="P$2"/>
 <via x="14.1" y="12.8" extent="1-16" drill="0.3"/>
 <via x="10.7" y="14.1" extent="1-16" drill="0.3"/>
 <contactref element="IC5" pad="B15"/>
-<wire x1="10.7" y1="14.1" x2="10.7" y2="13.35" width="0.2" layer="1"/>
 <wire x1="10.7" y1="14.1" x2="11.2" y2="14.1" width="0.2" layer="16"/>
 <wire x1="11.2" y1="14.1" x2="12" y2="13.3" width="0.2" layer="16"/>
 <wire x1="12" y1="13.3" x2="13.6" y2="13.3" width="0.2" layer="16"/>
@@ -4565,6 +4542,10 @@ design rules under a new name.</description>
 <wire x1="10.7" y1="15.1" x2="10.7" y2="14.1" width="0.2" layer="1"/>
 <wire x1="15.6" y1="13.65" x2="14.65" y2="12.8" width="0.2" layer="1"/>
 <wire x1="14.65" y1="12.8" x2="14.1" y2="12.8" width="0.2" layer="1"/>
+<contactref element="C67" pad="P$2"/>
+<contactref element="R28" pad="P$2"/>
+<wire x1="9.7" y1="12.45" x2="10.7" y2="14.1" width="0" layer="19" extent="1-16"/>
+<wire x1="8.7" y1="12.45" x2="9.7" y2="12.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAM_D0">
 <contactref element="X1" pad="1"/>
@@ -4673,7 +4654,7 @@ design rules under a new name.</description>
 <wire x1="25.761959375" y1="31.45" x2="25.722959375" y2="31.489" width="0.5" layer="1"/>
 </signal>
 <signal name="CAM_EN">
-<contactref element="U4" pad="4"/>
+<contactref element="IC9" pad="4"/>
 <contactref element="R10" pad="P$2"/>
 <wire x1="25.1396" y1="25.2" x2="25.1396" y2="26.1586" width="0.2" layer="1"/>
 <wire x1="24.05" y1="24.7" x2="24.7" y2="24.7" width="0.2" layer="1"/>
@@ -4711,7 +4692,7 @@ design rules under a new name.</description>
 <signal name="N$50">
 <contactref element="R25" pad="P$2"/>
 <contactref element="R22" pad="P$1"/>
-<contactref element="U4" pad="3"/>
+<contactref element="IC9" pad="3"/>
 <contactref element="C37" pad="P$1"/>
 <wire x1="24.05" y1="28.2" x2="24.05" y2="27.2" width="0.2" layer="1"/>
 <wire x1="24.05" y1="27.2" x2="24.05" y2="26.2" width="0.2" layer="1"/>
@@ -4719,7 +4700,7 @@ design rules under a new name.</description>
 <wire x1="24.0914" y1="28.2414" x2="25.1396" y2="28.2414" width="0.2" layer="1"/>
 </signal>
 <signal name="N$53">
-<contactref element="U4" pad="1"/>
+<contactref element="IC9" pad="1"/>
 <contactref element="L18" pad="2_7"/>
 <contactref element="L18" pad="2_1"/>
 <contactref element="L18" pad="2_5"/>
@@ -4808,7 +4789,7 @@ design rules under a new name.</description>
 <wire x1="24.55" y1="34.9" x2="24.55" y2="35.7" width="0.2" layer="1"/>
 </signal>
 <signal name="GPS_EN">
-<contactref element="U2" pad="4"/>
+<contactref element="IC10" pad="4"/>
 <contactref element="R26" pad="P$2"/>
 <contactref element="IC5" pad="R10"/>
 <wire x1="18.75" y1="25.2" x2="19.2" y2="25.2" width="0.2" layer="1"/>
