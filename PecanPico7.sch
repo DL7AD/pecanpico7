@@ -8751,8 +8751,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="24" x="-1.25" y="2" dx="0.7" dy="0.25" layer="1" rot="R270"/>
 <text x="-1.8" y="2.6" size="0.6" layer="25">&gt;NAME</text>
 <text x="-1.8" y="-3.2" size="0.6" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.85" y1="-0.85" x2="0.85" y2="0.85" layer="1"/>
-<rectangle x1="-0.85" y1="-0.85" x2="0.85" y2="0.85" layer="29"/>
 </package>
 </packages>
 <symbols>
@@ -9788,8 +9786,6 @@ High-power, low thermal resistance package.</description>
 <part name="P+34" library="PecanPico6" deviceset="3.3V" device="" value="VCC_PA"/>
 <part name="P+36" library="PecanPico6" deviceset="3.3V" device="" value="VCC_PA"/>
 <part name="U$1" library="GDynamics" deviceset="MICROSD_SPI_MODE" device=""/>
-<part name="C40" library="PecanPico6" deviceset="CAP-0402" device="" value="2.2uF"/>
-<part name="GND79" library="PecanPico6" deviceset="GND" device=""/>
 <part name="GND80" library="PecanPico6" deviceset="GND" device=""/>
 <part name="P+37" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
 <part name="IC8" library="stm32f42x" deviceset="TC1185-1.8VCT713" device="" value="LP5951MF-1.3/NOPB"/>
@@ -10396,8 +10392,6 @@ OV9655 or OV2640</text>
 <instance part="P+34" gate="G$1" x="213.36" y="434.34"/>
 <instance part="P+36" gate="G$1" x="121.92" y="474.98" rot="R180"/>
 <instance part="U$1" gate="G$1" x="335.28" y="617.22" rot="R180"/>
-<instance part="C40" gate="G$1" x="-88.9" y="114.3" rot="R180"/>
-<instance part="GND79" gate="1" x="-88.9" y="109.22"/>
 <instance part="GND80" gate="1" x="320.04" y="599.44"/>
 <instance part="P+37" gate="G$1" x="302.26" y="617.22" rot="MR0"/>
 <instance part="IC8" gate="A" x="162.56" y="187.96"/>
@@ -11213,10 +11207,6 @@ OV9655 or OV2640</text>
 <wire x1="251.46" y1="198.12" x2="251.46" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C40" gate="G$1" pin="2"/>
-<pinref part="GND79" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="NC"/>
 <wire x1="322.58" y1="604.52" x2="320.04" y2="604.52" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="604.52" x2="320.04" y2="601.98" width="0.1524" layer="91"/>
@@ -11626,10 +11616,6 @@ OV9655 or OV2640</text>
 <wire x1="-78.74" y1="119.38" x2="-78.74" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="121.92" x2="-68.58" y2="121.92" width="0.1524" layer="91"/>
 <junction x="-68.58" y="121.92"/>
-<pinref part="C40" gate="G$1" pin="1"/>
-<wire x1="-88.9" y1="119.38" x2="-88.9" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="-88.9" y1="121.92" x2="-78.74" y2="121.92" width="0.1524" layer="91"/>
-<junction x="-78.74" y="121.92"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$3" pin="VDDA"/>
