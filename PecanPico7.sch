@@ -9367,9 +9367,9 @@ OV9655 or OV2640</text>
 <wire x1="181.61" y1="384.81" x2="181.61" y2="417.83" width="0.1524" layer="97"/>
 <wire x1="198.12" y1="384.81" x2="198.12" y2="382.27" width="0.1524" layer="97"/>
 <text x="-93.98" y="327.66" size="1.778" layer="97">3.3V or 1.8V</text>
-<text x="2.54" y="402.59" size="2.54" layer="97">1.83V</text>
+<text x="2.54" y="402.59" size="2.54" layer="97">1.80V</text>
 <text x="2.54" y="448.31" size="2.54" layer="97">3.38V</text>
-<text x="2.54" y="494.03" size="2.54" layer="97">2.79V</text>
+<text x="2.54" y="494.03" size="2.54" layer="97">2.50V</text>
 <wire x1="213.36" y1="384.81" x2="213.36" y2="417.83" width="0.1524" layer="97"/>
 </plain>
 <instances>
