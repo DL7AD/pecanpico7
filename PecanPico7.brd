@@ -406,6 +406,11 @@ rev1.0</text>
 <text x="15.4" y="60.4" size="1" layer="38" rot="MR90">Dec 2015</text>
 <wire x1="0.7" y1="10.6" x2="0.8" y2="10.7" width="0.1" layer="25"/>
 <wire x1="0.8" y1="10.7" x2="1.3" y2="10.7" width="0.1" layer="25"/>
+<rectangle x1="21.3" y1="14.1" x2="21.5" y2="14.5" layer="16"/>
+<rectangle x1="32.4" y1="32.7" x2="32.6" y2="33.1" layer="1"/>
+<rectangle x1="31" y1="32.7" x2="31.2" y2="33.1" layer="1"/>
+<rectangle x1="1.8" y1="18.6" x2="2" y2="19" layer="16"/>
+<rectangle x1="8.2" y1="22.8" x2="8.6" y2="23" layer="16"/>
 </plain>
 <libraries>
 <library name="PecanPico6">
