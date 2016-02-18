@@ -654,36 +654,6 @@ From Silicon Laboratories Si446x datasheet.</description>
 <vertex x="0.1794" y="-0.4331"/>
 </polygon>
 </package>
-<package name="SOT23-3">
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.15" layer="21"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.15" layer="21"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.15" layer="21"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.15" layer="21"/>
-<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
-<text x="-1.3" y="1.7" size="0.6" layer="25">&gt;NAME</text>
-<text x="-1.3" y="-2.3" size="0.6" layer="27">&gt;VALUE</text>
-</package>
-<package name="TO220V">
-<description>&lt;b&gt;TO 220 Vertical&lt;/b&gt; Package works with various parts including N-Channel MOSFET SparkFun SKU: COM-10213</description>
-<wire x1="-5.08" y1="2.032" x2="-5.08" y2="-0.381" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="2.032" x2="5.08" y2="-0.381" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="2.032" x2="-5.08" y2="2.032" width="0.2032" layer="21"/>
-<wire x1="-5.08" y1="2.032" x2="-5.08" y2="3.048" width="0.2032" layer="21"/>
-<wire x1="-5.08" y1="3.048" x2="5.08" y2="3.048" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="3.048" x2="5.08" y2="2.032" width="0.2032" layer="21"/>
-<wire x1="-5.08" y1="-0.381" x2="-4.191" y2="-1.27" width="0.2032" layer="21" curve="92.798868"/>
-<wire x1="4.191" y1="-1.27" x2="5.08" y2="-0.381" width="0.2032" layer="21" curve="92.798868"/>
-<wire x1="-4.191" y1="-1.27" x2="-3.81" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="4.191" y1="-1.27" x2="3.81" y2="-1.27" width="0.2032" layer="21"/>
-<rectangle x1="-5.08" y1="2.032" x2="5.08" y2="3.048" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="-2.794" y="3.429" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.302" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
 <package name="SC-70">
 <circle x="-0.65" y="-0.2" radius="0.07" width="0.2" layer="51"/>
 <wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
@@ -4425,47 +4395,6 @@ From SiLabs Si446x datasheet</description>
 <vertex x="0.6834" y="-1.65"/>
 </polygon>
 </symbol>
-<symbol name="MOSFET-PCHANNEL">
-<circle x="0" y="-1.905" radius="0.127" width="0.4064" layer="94"/>
-<circle x="0" y="1.905" radius="0.127" width="0.4064" layer="94"/>
-<rectangle x1="-2.794" y1="-2.54" x2="-2.032" y2="-1.27" layer="94"/>
-<rectangle x1="-2.794" y1="1.27" x2="-2.032" y2="2.54" layer="94"/>
-<rectangle x1="-2.794" y1="-0.889" x2="-2.032" y2="0.889" layer="94"/>
-<wire x1="-3.6576" y1="2.413" x2="-3.6576" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="1.905" x2="-2.0066" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="-2.032" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="1.905" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.905" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="-0.762" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-0.762" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-0.762" x2="3.175" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="0.635" x2="1.905" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="0.635" x2="2.54" y2="-0.762" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="-0.762" x2="2.54" y2="-0.762" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-0.762" x2="1.905" y2="-0.762" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="-0.762" x2="1.651" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="-0.762" x2="3.429" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="0.508" x2="-1.27" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="-0.508" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.143" y1="0" x2="-2.032" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.143" y1="-0.254" x2="-0.254" y2="0" width="0.3048" layer="94"/>
-<wire x1="-0.254" y1="0" x2="-1.143" y2="0.254" width="0.3048" layer="94"/>
-<wire x1="-1.143" y1="0.254" x2="-1.143" y2="0" width="0.3048" layer="94"/>
-<wire x1="-1.143" y1="0" x2="-0.889" y2="0" width="0.3048" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
-<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="G" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
-<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<text x="5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="5.08" y="0" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-1.27" y="2.54" size="0.8128" layer="93">D</text>
-<text x="-1.27" y="-3.556" size="0.8128" layer="93">S</text>
-<text x="-5.08" y="-1.27" size="0.8128" layer="93">G</text>
-</symbol>
 <symbol name="AS213-92LF">
 <circle x="-5.08" y="2.54" radius="0.254" width="1.016" layer="94"/>
 <circle x="2.54" y="7.62" radius="0.254" width="1.016" layer="94"/>
@@ -4858,85 +4787,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </technologies>
 </device>
 <device name="S" package="OSHW-LOGO-S">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MOSFET-PCHANNEL" prefix="Q">
-<description>Generic PMOSFET
-
-&lt;ul&gt;
-&lt;li&gt;
-IRLML2244 - TRANS-11153 
-(SOT-23 -20V -4.3A) 
-(1.Gate 2.Source 3.Drain)
-&lt;/li&gt;
-&lt;li&gt;
-FQP27P06 - 
-&lt;a href="http://www.sparkfun.com/products/10349"&gt;COM-10349&lt;/a&gt;
-(TO-220 -60V -27A)
-(1.Gate 2.Source 3.Drain)
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="MOSFET-PCHANNEL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-08285" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="DMG2307L" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-11308"/>
-<attribute name="VALUE" value="30V, 2.5A"/>
-</technology>
-</technologies>
-</device>
-<device name="FQP27P06" package="TO220V">
-<connects>
-<connect gate="G$1" pin="D" pad="2"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="IRLML2244" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-11153"/>
-</technology>
-</technologies>
-</device>
-<device name="SMD" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -9187,7 +9037,6 @@ High-power, low thermal resistance package.</description>
 <part name="R26" library="PecanPico6" deviceset="RES-0402" device="" value="10k"/>
 <part name="GND72" library="PecanPico6" deviceset="GND" device=""/>
 <part name="GND73" library="PecanPico6" deviceset="GND" device=""/>
-<part name="Q1" library="PecanPico6" deviceset="MOSFET-PCHANNEL" device=""/>
 <part name="Q3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="AO3404A" value="MOSFET-NCHANNEL"/>
 <part name="P+31" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
 <part name="P+32" library="PecanPico6" deviceset="3.3V" device="" value="VCC_CAM"/>
@@ -9212,7 +9061,6 @@ High-power, low thermal resistance package.</description>
 <part name="GND87" library="PecanPico6" deviceset="GND" device=""/>
 <part name="R38" library="PecanPico6" deviceset="RES-0402" device="" value="1k"/>
 <part name="P+45" library="PecanPico6" deviceset="3.3V" device="" value="VCC_PA"/>
-<part name="R29" library="PecanPico6" deviceset="RES-0402" device="" value="10k"/>
 <part name="L6" library="PecanPico6" deviceset="IND-0402" device="" value="30nH"/>
 <part name="C12" library="PecanPico6" deviceset="CAP-0402" device="" value="47pF"/>
 <part name="GND11" library="PecanPico6" deviceset="GND" device=""/>
@@ -9275,6 +9123,8 @@ High-power, low thermal resistance package.</description>
 <part name="C24" library="PecanPico6" deviceset="CAP-0402" device="" value="10pF"/>
 <part name="SJ5" library="PecanPico6" deviceset="SJ2W" device=""/>
 <part name="SJ6" library="PecanPico6" deviceset="SJ2W" device=""/>
+<part name="C7" library="PecanFemto3" deviceset="CAP-0805" device="" value="10uF"/>
+<part name="GND12" library="PecanPico6" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9789,7 +9639,6 @@ OV9655 or OV2640</text>
 <instance part="R26" gate="G$1" x="-88.9" y="434.34" rot="R90"/>
 <instance part="GND72" gate="1" x="-88.9" y="424.18"/>
 <instance part="GND73" gate="1" x="-88.9" y="469.9"/>
-<instance part="Q1" gate="G$1" x="419.1" y="518.16"/>
 <instance part="Q3" gate="G$1" x="266.7" y="213.36"/>
 <instance part="P+31" gate="G$1" x="266.7" y="220.98"/>
 <instance part="P+32" gate="G$1" x="266.7" y="205.74" rot="R180"/>
@@ -9814,7 +9663,6 @@ OV9655 or OV2640</text>
 <instance part="GND87" gate="1" x="142.24" y="170.18"/>
 <instance part="R38" gate="G$1" x="386.08" y="500.38" rot="R90"/>
 <instance part="P+45" gate="G$1" x="386.08" y="508"/>
-<instance part="R29" gate="G$1" x="408.94" y="525.78" rot="R90"/>
 <instance part="L6" gate="G$1" x="195.58" y="403.86"/>
 <instance part="C12" gate="G$1" x="205.74" y="398.78"/>
 <instance part="GND11" gate="1" x="205.74" y="388.62"/>
@@ -9877,6 +9725,8 @@ OV9655 or OV2640</text>
 <instance part="C24" gate="G$1" x="195.58" y="411.48" rot="R90"/>
 <instance part="SJ5" gate="G$1" x="152.4" y="429.26" rot="R270"/>
 <instance part="SJ6" gate="G$1" x="152.4" y="327.66" rot="R270"/>
+<instance part="C7" gate="G$1" x="-91.44" y="497.84" rot="R180"/>
+<instance part="GND12" gate="1" x="-91.44" y="508" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -10729,6 +10579,11 @@ OV9655 or OV2640</text>
 <pinref part="C22" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="317.5" x2="177.8" y2="317.5" width="0.1524" layer="91"/>
 <pinref part="GND46" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="-91.44" y1="502.92" x2="-91.44" y2="505.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -11861,6 +11716,9 @@ OV9655 or OV2640</text>
 <pinref part="C39" gate="G$1" pin="2"/>
 <wire x1="-83.82" y1="492.76" x2="-83.82" y2="495.3" width="0.1524" layer="91"/>
 <junction x="-83.82" y="492.76"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="-83.82" y1="492.76" x2="-91.44" y2="492.76" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="492.76" x2="-91.44" y2="495.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC16" gate="A" pin="SENSE2-"/>
@@ -11868,14 +11726,9 @@ OV9655 or OV2640</text>
 <label x="-203.2" y="457.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="419.1" y1="523.24" x2="419.1" y2="533.4" width="0.1524" layer="91"/>
-<wire x1="419.1" y1="533.4" x2="408.94" y2="533.4" width="0.1524" layer="91"/>
+<wire x1="419.1" y1="533.4" x2="403.86" y2="533.4" width="0.1524" layer="91"/>
 <label x="403.86" y="533.4" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R29" gate="G$1" pin="2"/>
-<wire x1="408.94" y1="533.4" x2="403.86" y2="533.4" width="0.1524" layer="91"/>
-<wire x1="408.94" y1="530.86" x2="408.94" y2="533.4" width="0.1524" layer="91"/>
-<junction x="408.94" y="533.4"/>
 </segment>
 </net>
 <net name="CAM_VCC_CORE" class="0">
@@ -12301,9 +12154,9 @@ OV9655 or OV2640</text>
 <junction x="-88.9" y="487.68"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="PA2"/>
-<wire x1="-180.34" y1="218.44" x2="-187.96" y2="218.44" width="0.1524" layer="91"/>
-<label x="-187.96" y="218.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC5" gate="G$2" pin="PE12"/>
+<wire x1="-180.34" y1="91.44" x2="-182.88" y2="91.44" width="0.1524" layer="91"/>
+<label x="-182.88" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$42" class="0">
@@ -12403,9 +12256,9 @@ OV9655 or OV2640</text>
 <junction x="-88.9" y="441.96"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$2" pin="PE12"/>
-<wire x1="-180.34" y1="91.44" x2="-182.88" y2="91.44" width="0.1524" layer="91"/>
-<label x="-182.88" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC5" gate="G$1" pin="PA2"/>
+<wire x1="-180.34" y1="218.44" x2="-187.96" y2="218.44" width="0.1524" layer="91"/>
+<label x="-187.96" y="218.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VCC_CAM" class="0">
@@ -12448,13 +12301,8 @@ OV9655 or OV2640</text>
 </net>
 <net name="PA_EN" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="411.48" y1="518.16" x2="408.94" y2="518.16" width="0.1524" layer="91"/>
 <label x="403.86" y="518.16" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R29" gate="G$1" pin="1"/>
 <wire x1="408.94" y1="518.16" x2="403.86" y2="518.16" width="0.1524" layer="91"/>
-<wire x1="408.94" y1="520.7" x2="408.94" y2="518.16" width="0.1524" layer="91"/>
-<junction x="408.94" y="518.16"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="PD10"/>
@@ -12508,7 +12356,6 @@ OV9655 or OV2640</text>
 <pinref part="P+30" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="419.1" y1="513.08" x2="419.1" y2="510.54" width="0.1524" layer="91"/>
 <pinref part="P+36" gate="G$1" pin="VCC"/>
 </segment>
