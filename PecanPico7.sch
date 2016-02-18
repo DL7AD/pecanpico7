@@ -9125,6 +9125,8 @@ High-power, low thermal resistance package.</description>
 <part name="C7" library="PecanFemto3" deviceset="CAP-0805" device="" value="10uF"/>
 <part name="GND12" library="PecanPico6" deviceset="GND" device=""/>
 <part name="SJ7" library="PecanPico6" deviceset="SJ" device=""/>
+<part name="C15" library="PecanPico6" deviceset="CAP-0402" device="" value="100nF"/>
+<part name="GND45" library="PecanPico6" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9286,7 +9288,7 @@ DATA0</text>
 <text x="251.46" y="53.34" size="12.7" layer="91">CLOCK</text>
 <text x="149.86" y="218.44" size="12.7" layer="91">CAMERA</text>
 <text x="401.32" y="269.24" size="12.7" layer="91">RADIOS</text>
-<text x="-233.68" y="525.78" size="12.7" layer="91">POWER MANAGEMENT</text>
+<text x="-259.08" y="553.72" size="12.7" layer="91">POWER MANAGEMENT</text>
 <text x="-160.02" y="340.36" size="12.7" layer="91">GPS</text>
 <text x="40.64" y="266.7" size="12.7" layer="91" rot="R90">SENSING</text>
 <text x="-20.32" y="147.32" size="12.7" layer="91">MCU</text>
@@ -9449,7 +9451,7 @@ OV9655 or OV2640</text>
 <instance part="P+15" gate="G$1" x="-7.62" y="228.6"/>
 <instance part="P+16" gate="G$1" x="254" y="617.22"/>
 <instance part="GND47" gate="1" x="22.86" y="205.74"/>
-<instance part="P+18" gate="G$1" x="261.62" y="637.54" rot="R180"/>
+<instance part="P+18" gate="G$1" x="261.62" y="635" rot="R180"/>
 <instance part="GND49" gate="1" x="264.16" y="627.38"/>
 <instance part="JP1" gate="G$1" x="264.16" y="647.7" rot="R270"/>
 <instance part="L13" gate="G$1" x="-215.9" y="414.02" rot="R270"/>
@@ -9727,6 +9729,8 @@ OV9655 or OV2640</text>
 <instance part="C7" gate="G$1" x="-91.44" y="497.84" rot="R180"/>
 <instance part="GND12" gate="1" x="-91.44" y="508" rot="R180"/>
 <instance part="SJ7" gate="1" x="22.86" y="215.9" rot="R270"/>
+<instance part="C15" gate="G$1" x="256.54" y="632.46" rot="R180"/>
+<instance part="GND45" gate="1" x="256.54" y="627.38"/>
 </instances>
 <busses>
 </busses>
@@ -10585,6 +10589,10 @@ OV9655 or OV2640</text>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="-91.44" y1="502.92" x2="-91.44" y2="505.46" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND45" gate="1" pin="GND"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+</segment>
 </net>
 <net name="N$5" class="0">
 <segment>
@@ -10966,9 +10974,14 @@ OV9655 or OV2640</text>
 <pinref part="JP3" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="261.62" y1="642.62" x2="261.62" y2="637.54" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="642.62" x2="261.62" y2="640.08" width="0.1524" layer="91"/>
 <pinref part="P+18" gate="G$1" pin="VCC"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="261.62" y1="640.08" x2="261.62" y2="635" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="637.54" x2="256.54" y2="640.08" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="640.08" x2="261.62" y2="640.08" width="0.1524" layer="91"/>
+<junction x="261.62" y="640.08"/>
 </segment>
 <segment>
 <pinref part="P+21" gate="G$1" pin="VCC"/>
