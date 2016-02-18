@@ -8873,7 +8873,6 @@ High-power, low thermal resistance package.</description>
 <part name="C38" library="PecanPico6" deviceset="CAP-0402" device="" value="100nF"/>
 <part name="P+15" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
 <part name="P+16" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
-<part name="R12" library="PecanPico6" deviceset="RES-0402" device="" value="10k"/>
 <part name="GND47" library="PecanPico6" deviceset="GND" device=""/>
 <part name="P+18" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
 <part name="GND49" library="PecanPico6" deviceset="GND" device=""/>
@@ -9125,6 +9124,7 @@ High-power, low thermal resistance package.</description>
 <part name="SJ6" library="PecanPico6" deviceset="SJ2W" device=""/>
 <part name="C7" library="PecanFemto3" deviceset="CAP-0805" device="" value="10uF"/>
 <part name="GND12" library="PecanPico6" deviceset="GND" device=""/>
+<part name="SJ7" library="PecanPico6" deviceset="SJ" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9448,7 +9448,6 @@ OV9655 or OV2640</text>
 <instance part="C38" gate="G$1" x="-7.62" y="193.04" rot="R180"/>
 <instance part="P+15" gate="G$1" x="-7.62" y="228.6"/>
 <instance part="P+16" gate="G$1" x="254" y="617.22"/>
-<instance part="R12" gate="G$1" x="22.86" y="215.9" rot="R90"/>
 <instance part="GND47" gate="1" x="22.86" y="205.74"/>
 <instance part="P+18" gate="G$1" x="261.62" y="637.54" rot="R180"/>
 <instance part="GND49" gate="1" x="264.16" y="627.38"/>
@@ -9727,6 +9726,7 @@ OV9655 or OV2640</text>
 <instance part="SJ6" gate="G$1" x="152.4" y="327.66" rot="R270"/>
 <instance part="C7" gate="G$1" x="-91.44" y="497.84" rot="R180"/>
 <instance part="GND12" gate="1" x="-91.44" y="508" rot="R180"/>
+<instance part="SJ7" gate="1" x="22.86" y="215.9" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -10058,9 +10058,9 @@ OV9655 or OV2640</text>
 <junction x="-7.62" y="187.96"/>
 </segment>
 <segment>
-<pinref part="R12" gate="G$1" pin="1"/>
 <pinref part="GND47" gate="1" pin="GND"/>
 <wire x1="22.86" y1="208.28" x2="22.86" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="SJ7" gate="1" pin="2"/>
 </segment>
 <segment>
 <wire x1="264.16" y1="642.62" x2="264.16" y2="629.92" width="0.1524" layer="91"/>
@@ -11301,10 +11301,10 @@ OV9655 or OV2640</text>
 <pinref part="IC5" gate="G$3" pin="BOOT0"/>
 <wire x1="-12.7" y1="223.52" x2="22.86" y2="223.52" width="0.1524" layer="91"/>
 <label x="27.94" y="223.52" size="1.27" layer="95" xref="yes"/>
-<pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="223.52" x2="27.94" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="220.98" x2="22.86" y2="223.52" width="0.1524" layer="91"/>
 <junction x="22.86" y="223.52"/>
+<pinref part="SJ7" gate="1" pin="1"/>
 </segment>
 </net>
 <net name="CAM_SCL" class="0">
