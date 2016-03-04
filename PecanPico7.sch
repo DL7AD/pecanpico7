@@ -544,11 +544,11 @@ From Silicon Laboratories Si446x datasheet.</description>
 <text x="1" y="0" size="0.02" layer="27">&gt;VALUE</text>
 </package>
 <package name="SC-70">
-<circle x="-0.65" y="-0.2" radius="0.07" width="0.2" layer="51"/>
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
-<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
-<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.127" layer="51"/>
-<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="51"/>
+<circle x="-1.35" y="-0.9" radius="0.1" width="0.2" layer="21"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="21"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="21"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="21"/>
 <smd name="1" x="-0.65" y="-0.9" dx="0.4" dy="0.8" layer="1" rot="R180"/>
 <smd name="2" x="0" y="-0.9" dx="0.4" dy="0.8" layer="1" rot="R180"/>
 <smd name="3" x="0.65" y="-0.9" dx="0.4" dy="0.8" layer="1" rot="R180"/>
@@ -4628,10 +4628,10 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <library name="KT5TK2">
 <packages>
 <package name="QFN-14">
-<wire x1="2" y1="-1.5" x2="-2" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="-2" y1="-1.5" x2="-2" y2="1.5" width="0.127" layer="51"/>
-<wire x1="-2" y1="1.5" x2="2" y2="1.5" width="0.127" layer="51"/>
-<wire x1="2" y1="1.5" x2="2" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="2" y1="-1.5" x2="-2" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.5" x2="-2" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="1.5" x2="2" y2="1.5" width="0.127" layer="21"/>
+<wire x1="2" y1="1.5" x2="2" y2="-1.5" width="0.127" layer="21"/>
 <smd name="1" x="-1.5" y="-1.51" dx="0.82" dy="0.28" layer="1" rot="R90"/>
 <smd name="2" x="-1" y="-1.51" dx="0.82" dy="0.28" layer="1" rot="R90"/>
 <smd name="3" x="-0.5" y="-1.51" dx="0.82" dy="0.28" layer="1" rot="R90"/>

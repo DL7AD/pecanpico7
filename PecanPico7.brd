@@ -303,11 +303,10 @@
 <wire x1="34" y1="15.8" x2="30.1" y2="15.8" width="0.2" layer="38"/>
 <wire x1="30.1" y1="15.8" x2="30.1" y2="0.5" width="0.2" layer="38"/>
 <wire x1="30.1" y1="0.5" x2="34" y2="0.5" width="0.2" layer="38"/>
-<wire x1="30.1" y1="15.8" x2="30.1" y2="20.6" width="0.2" layer="38"/>
-<wire x1="30.1" y1="20.6" x2="27.8" y2="20.6" width="0.2" layer="38"/>
-<wire x1="27.8" y1="20.6" x2="27.8" y2="23.4" width="0.2" layer="38"/>
-<wire x1="27.8" y1="23.4" x2="34" y2="23.4" width="0.2" layer="38"/>
-<text x="31.1" y="21.7" size="0.8" layer="38" rot="MR0">GND</text>
+<wire x1="30.1" y1="15.8" x2="30.1" y2="23.4" width="0.2" layer="38"/>
+<wire x1="27.8" y1="23.4" x2="30.1" y2="23.4" width="0.2" layer="38"/>
+<text x="30.4" y="20.8" size="0.8" layer="38" rot="MR90">GND</text>
+<wire x1="30.1" y1="23.4" x2="34" y2="23.4" width="0.2" layer="38"/>
 <wire x1="27.8" y1="31.2" x2="34" y2="31.2" width="0.2" layer="38"/>
 <wire x1="27.8" y1="23.4" x2="27.8" y2="31.2" width="0.2" layer="38"/>
 <text x="31.1" y="24.2" size="0.8" layer="38" rot="MR0">RXD</text>
@@ -337,7 +336,7 @@
 <wire x1="1.9" y1="9.2" x2="2.4" y2="9.2" width="0.1" layer="25"/>
 <wire x1="2.4" y1="9.2" x2="2.8" y2="8.8" width="0.1" layer="25"/>
 <wire x1="4.7" y1="3.9" x2="3.8" y2="4.8" width="0.1" layer="25"/>
-<text x="9.2" y="4.7" size="1" layer="38" rot="R90">Pecan Pico 7b</text>
+<text x="9" y="4.7" size="0.9" layer="37" rot="R90">Pecan Pico 7b</text>
 <text x="0.5" y="8.2" size="1" layer="38" rot="MR90">March 2016</text>
 <wire x1="0.7" y1="10.6" x2="0.8" y2="10.7" width="0.1" layer="25"/>
 <wire x1="0.8" y1="10.7" x2="1.3" y2="10.7" width="0.1" layer="25"/>
@@ -346,7 +345,7 @@
 <rectangle x1="31" y1="32.7" x2="31.2" y2="33.1" layer="1"/>
 <rectangle x1="1.8" y1="18.6" x2="2" y2="19" layer="16"/>
 <rectangle x1="8.2" y1="22.8" x2="8.6" y2="23" layer="16"/>
-<text x="10.8" y="4.7" size="0.8" layer="38" rot="R90">OVER THE HILLS</text>
+<text x="10.6" y="4.7" size="0.7" layer="37" rot="R90">OVER THE HILLS</text>
 <wire x1="34.1" y1="38.8" x2="34.1" y2="36.8" width="0.2" layer="38"/>
 <wire x1="29.7" y1="38.8" x2="29.7" y2="36.8" width="0.2" layer="38"/>
 <wire x1="33.7" y1="36.4" x2="34.1" y2="36.8" width="0.2" layer="38" curve="90"/>
@@ -367,7 +366,6 @@
 <wire x1="13.4" y1="50" x2="13" y2="49.6" width="0.2" layer="38" curve="90"/>
 <wire x1="13" y1="47.6" x2="13.4" y2="47.2" width="0.2" layer="38" curve="90"/>
 <wire x1="17" y1="47.2" x2="17.4" y2="47.6" width="0.2" layer="38" curve="90"/>
-<text x="22.7" y="43.4" size="0.7" layer="37">SWITCH ON</text>
 <text x="12.6" y="46.8" size="0.7" layer="38" rot="MR180">VCC SOLAR</text>
 <text x="1.3" y="36" size="0.7" layer="38" rot="MR180">GND</text>
 <text x="30.9" y="36" size="0.7" layer="38" rot="MR180">GND</text>
@@ -383,15 +381,15 @@
 <text x="7.5" y="22.1" size="0.7" layer="38" rot="MR270">XOUT</text>
 <text x="2.8" y="18.7" size="0.7" layer="38" rot="MR180">XIN</text>
 <text x="2.8" y="20.3" size="0.7" layer="38" rot="MR180">XOUT</text>
-<wire x1="23.6" y1="46.8" x2="23.6" y2="44.4" width="0.2" layer="38"/>
-<wire x1="23.6" y1="44.4" x2="22.1" y2="42.9" width="0.2" layer="38"/>
-<text x="21.7" y="41.4" size="0.7" layer="38" rot="MR0">I2C Header
+<wire x1="23.6" y1="46.8" x2="23.6" y2="43.8" width="0.2" layer="38"/>
+<wire x1="23.6" y1="43.8" x2="22.8" y2="43" width="0.2" layer="38"/>
+<text x="22.4" y="41.4" size="0.7" layer="38" rot="MR0">I2C Header
 1 VCC GND SCL SDA 4</text>
-<wire x1="22.1" y1="42.9" x2="22.1" y2="43.7" width="0.2" layer="38"/>
-<wire x1="22.1" y1="43.7" x2="10.5" y2="43.7" width="0.2" layer="38"/>
-<wire x1="10.5" y1="43.7" x2="10.5" y2="40.9" width="0.2" layer="38"/>
-<wire x1="10.5" y1="40.9" x2="22.1" y2="40.9" width="0.2" layer="38"/>
-<wire x1="22.1" y1="40.9" x2="22.1" y2="42.9" width="0.2" layer="38"/>
+<wire x1="22.8" y1="43" x2="22.8" y2="43.7" width="0.2" layer="38"/>
+<wire x1="22.8" y1="43.7" x2="10" y2="43.7" width="0.2" layer="38"/>
+<wire x1="10" y1="43.7" x2="10" y2="40.9" width="0.2" layer="38"/>
+<wire x1="10" y1="40.9" x2="22.8" y2="40.9" width="0.2" layer="38"/>
+<wire x1="22.8" y1="40.9" x2="22.8" y2="43" width="0.2" layer="38"/>
 <wire x1="23.6" y1="46.8" x2="29.6" y2="46.8" width="0.2" layer="38"/>
 <wire x1="29.6" y1="46.8" x2="29.6" y2="49.6" width="0.2" layer="38"/>
 <wire x1="29.6" y1="49.6" x2="19.2" y2="49.6" width="0.2" layer="38"/>
@@ -605,11 +603,11 @@ From Silicon Laboratories Si446x datasheet.</description>
 <smd name="2" x="0.4318" y="0" dx="0.5842" dy="0.8001" layer="1" cream="no"/>
 </package>
 <package name="SC-70">
-<circle x="-0.65" y="-0.2" radius="0.07" width="0.2" layer="51"/>
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
-<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
-<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.127" layer="51"/>
-<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="51"/>
+<circle x="-1.35" y="-0.9" radius="0.1" width="0.2" layer="21"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="21"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="21"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="21"/>
 <smd name="1" x="-0.65" y="-0.9" dx="0.4" dy="0.8" layer="1" rot="R180"/>
 <smd name="2" x="0" y="-0.9" dx="0.4" dy="0.8" layer="1" rot="R180"/>
 <smd name="3" x="0.65" y="-0.9" dx="0.4" dy="0.8" layer="1" rot="R180"/>
@@ -1487,10 +1485,10 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <library name="KT5TK2">
 <packages>
 <package name="QFN-14">
-<wire x1="2" y1="-1.5" x2="-2" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="-2" y1="-1.5" x2="-2" y2="1.5" width="0.127" layer="51"/>
-<wire x1="-2" y1="1.5" x2="2" y2="1.5" width="0.127" layer="51"/>
-<wire x1="2" y1="1.5" x2="2" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="2" y1="-1.5" x2="-2" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.5" x2="-2" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="1.5" x2="2" y2="1.5" width="0.127" layer="21"/>
+<wire x1="2" y1="1.5" x2="2" y2="-1.5" width="0.127" layer="21"/>
 <smd name="1" x="-1.5" y="-1.51" dx="0.82" dy="0.28" layer="1" rot="R90"/>
 <smd name="2" x="-1" y="-1.51" dx="0.82" dy="0.28" layer="1" rot="R90"/>
 <smd name="3" x="-0.5" y="-1.51" dx="0.82" dy="0.28" layer="1" rot="R90"/>
