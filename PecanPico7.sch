@@ -5415,7 +5415,7 @@ OV9655 or OV2640</text>
 <instance part="GND63" gate="1" x="193.04" y="50.8"/>
 <instance part="L14" gate="G$1" x="-22.86" y="447.04" rot="R180"/>
 <instance part="P+17" gate="G$1" x="10.16" y="447.04" rot="R270"/>
-<instance part="C51" gate="G$1" x="-76.2" y="195.58" rot="R180"/>
+<instance part="C51" gate="G$1" x="-134.62" y="81.28" rot="R90"/>
 <instance part="IC16" gate="A" x="-180.34" y="462.28"/>
 <instance part="P+23" gate="G$1" x="-200.66" y="482.6"/>
 <instance part="GND70" gate="1" x="-200.66" y="436.88"/>
@@ -6587,8 +6587,8 @@ OV9655 or OV2640</text>
 </segment>
 <segment>
 <pinref part="C51" gate="G$1" pin="1"/>
-<wire x1="-76.2" y1="200.66" x2="-76.2" y2="203.2" width="0.1524" layer="91"/>
-<label x="-76.2" y="203.2" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="-129.54" y1="81.28" x2="-127" y2="81.28" width="0.1524" layer="91"/>
+<label x="-127" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C16" gate="G$1" pin="2"/>
@@ -7554,12 +7554,11 @@ OV9655 or OV2640</text>
 </net>
 <net name="N$39" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="PC14"/>
-<wire x1="-144.78" y1="187.96" x2="-129.54" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="-129.54" y1="187.96" x2="-124.46" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="-124.46" y1="182.88" x2="-76.2" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="-76.2" y1="182.88" x2="-76.2" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="C51" gate="G$1" pin="2"/>
+<wire x1="-137.16" y1="81.28" x2="-139.7" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="81.28" x2="-142.24" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="78.74" x2="-144.78" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$2" pin="PH0"/>
 </segment>
 </net>
 <net name="SOLAR_OUT" class="0">
