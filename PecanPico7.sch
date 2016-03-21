@@ -8384,9 +8384,9 @@ OV9655 or OV2640</text>
 <label x="93.98" y="307.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="PD15"/>
-<wire x1="-144.78" y1="142.24" x2="-139.7" y2="142.24" width="0.1524" layer="91"/>
-<label x="-139.7" y="142.24" size="1.27" layer="95" xref="yes"/>
+<label x="-139.7" y="167.64" size="1.27" layer="95" xref="yes"/>
+<pinref part="IC5" gate="G$1" pin="PD5"/>
+<wire x1="-139.7" y1="167.64" x2="-144.78" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RADIO2_CS" class="0">

@@ -4677,11 +4677,15 @@ design rules under a new name.</description>
 </signal>
 <signal name="RADIO2_GPIO1">
 <contactref element="IC2" pad="10"/>
-<contactref element="IC5" pad="L14"/>
-<wire x1="15.175" y1="19.175" x2="15.925" y2="19.175" width="0.1" layer="1"/>
-<wire x1="15.925" y1="19.175" x2="16.25" y2="19.5" width="0.1" layer="1"/>
 <wire x1="15.175" y1="19.175" x2="14.9" y2="18.9" width="0.1" layer="1"/>
 <wire x1="14.9" y1="18.9" x2="6.7" y2="18.9" width="0.2" layer="1"/>
+<wire x1="15.175" y1="19.175" x2="16.575" y2="19.175" width="0.1" layer="1"/>
+<wire x1="16.575" y1="19.175" x2="16.575" y2="16.575" width="0.1" layer="1"/>
+<wire x1="16.575" y1="16.575" x2="17.225" y2="16.575" width="0.1" layer="1"/>
+<wire x1="17.225" y1="16.575" x2="17.225" y2="14.625" width="0.1" layer="1"/>
+<contactref element="IC5" pad="C11"/>
+<wire x1="17.225" y1="14.625" x2="17.875" y2="14.625" width="0.1" layer="1"/>
+<wire x1="17.875" y1="14.625" x2="18.2" y2="14.3" width="0.1" layer="1"/>
 </signal>
 <signal name="RADIO2_CS">
 <contactref element="IC2" pad="15"/>
