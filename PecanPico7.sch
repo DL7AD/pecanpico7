@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3866,6 +3866,16 @@ by exp-lbrs.ulp</description>
 <text x="-1.6" y="1.1" size="0.6" layer="25">&gt;NAME</text>
 <text x="-1.6" y="-1.7" size="0.6" layer="27">&gt;VALUE</text>
 </package>
+<package name="TCXO_3.2X2.5">
+<smd name="4" x="-1.3" y="0.975" dx="1.2" dy="0.95" layer="1"/>
+<smd name="1" x="-1.3" y="-0.975" dx="1.2" dy="0.95" layer="1"/>
+<smd name="2" x="1.3" y="-0.975" dx="1.2" dy="0.95" layer="1"/>
+<smd name="3" x="1.3" y="0.975" dx="1.2" dy="0.95" layer="1"/>
+<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.1" layer="21"/>
+<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.1" layer="21"/>
+<wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.1" layer="21"/>
+<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.1" layer="21"/>
+</package>
 <package name="TCXO_2.0X1.6">
 <wire x1="-1" y1="0.8" x2="1" y2="0.8" width="0.1" layer="21"/>
 <wire x1="1" y1="0.8" x2="1" y2="-0.8" width="0.1" layer="21"/>
@@ -3925,7 +3935,18 @@ by exp-lbrs.ulp</description>
 <gate name="TCXO" symbol="TXC_TCXO" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TCXO_2.0X1.6">
+<device name="7Z" package="TCXO_2.0X1.6">
+<connects>
+<connect gate="TCXO" pin="AFC" pad="1"/>
+<connect gate="TCXO" pin="GND" pad="2"/>
+<connect gate="TCXO" pin="OUT" pad="3"/>
+<connect gate="TCXO" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="7Q" package="TCXO_3.2X2.5">
 <connects>
 <connect gate="TCXO" pin="AFC" pad="1"/>
 <connect gate="TCXO" pin="GND" pad="2"/>
@@ -4813,7 +4834,6 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <part name="GND60" library="PecanPico6" deviceset="GND" device=""/>
 <part name="C47" library="PecanFemto3" deviceset="CAP-0805" device="" value="10uF"/>
 <part name="GND61" library="PecanPico6" deviceset="GND" device=""/>
-<part name="TCXO" library="PecanFemto3" deviceset="TXC_7Z" device="" value="KT2016K2BCW18ZAS"/>
 <part name="GND62" library="PecanPico6" deviceset="GND" device=""/>
 <part name="P+21" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
 <part name="C48" library="PecanPico6" deviceset="CAP-0402" device="" value="100nF"/>
@@ -5050,6 +5070,7 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <part name="GND121" library="PecanPico6" deviceset="GND" device=""/>
 <part name="GND122" library="PecanPico6" deviceset="GND" device=""/>
 <part name="GND123" library="PecanPico6" deviceset="GND" device=""/>
+<part name="U$3" library="PecanFemto3" deviceset="TXC_7Z" device="7Q"/>
 </parts>
 <sheets>
 <sheet>
@@ -5408,7 +5429,6 @@ OV9655 or OV2640</text>
 <instance part="GND60" gate="1" x="-116.84" y="373.38"/>
 <instance part="C47" gate="G$1" x="-147.32" y="391.16"/>
 <instance part="GND61" gate="1" x="-147.32" y="373.38"/>
-<instance part="TCXO" gate="TCXO" x="175.26" y="60.96"/>
 <instance part="GND62" gate="1" x="157.48" y="50.8"/>
 <instance part="P+21" gate="G$1" x="157.48" y="68.58"/>
 <instance part="C48" gate="G$1" x="157.48" y="59.69" rot="R180"/>
@@ -5672,6 +5692,7 @@ OV9655 or OV2640</text>
 <instance part="GND121" gate="1" x="-71.12" y="469.9"/>
 <instance part="GND122" gate="1" x="-17.78" y="469.9"/>
 <instance part="GND123" gate="1" x="-66.04" y="469.9"/>
+<instance part="U$3" gate="TCXO" x="175.26" y="60.96"/>
 </instances>
 <busses>
 </busses>
@@ -6045,17 +6066,17 @@ OV9655 or OV2640</text>
 <segment>
 <pinref part="GND62" gate="1" pin="GND"/>
 <wire x1="157.48" y1="53.34" x2="157.48" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="TCXO" gate="TCXO" pin="GND"/>
 <wire x1="157.48" y1="55.88" x2="160.02" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="C48" gate="G$1" pin="2"/>
 <wire x1="157.48" y1="55.88" x2="157.48" y2="57.15" width="0.1524" layer="91"/>
 <junction x="157.48" y="55.88"/>
+<pinref part="U$3" gate="TCXO" pin="GND"/>
 </segment>
 <segment>
-<pinref part="TCXO" gate="TCXO" pin="AFC"/>
 <wire x1="190.5" y1="55.88" x2="193.04" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="55.88" x2="193.04" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="GND63" gate="1" pin="GND"/>
+<pinref part="U$3" gate="TCXO" pin="AFC"/>
 </segment>
 <segment>
 <pinref part="IC16" gate="A" pin="GND"/>
@@ -6581,9 +6602,9 @@ OV9655 or OV2640</text>
 <label x="137.16" y="444.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="TCXO" gate="TCXO" pin="OUT"/>
 <wire x1="190.5" y1="66.04" x2="193.04" y2="66.04" width="0.1524" layer="91"/>
 <label x="193.04" y="66.04" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$3" gate="TCXO" pin="OUT"/>
 </segment>
 <segment>
 <pinref part="C51" gate="G$1" pin="1"/>
@@ -6931,11 +6952,11 @@ OV9655 or OV2640</text>
 <segment>
 <pinref part="P+21" gate="G$1" pin="VCC"/>
 <wire x1="157.48" y1="66.04" x2="157.48" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="TCXO" gate="TCXO" pin="VCC"/>
 <wire x1="160.02" y1="66.04" x2="157.48" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="C48" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="64.77" x2="157.48" y2="66.04" width="0.1524" layer="91"/>
 <junction x="157.48" y="66.04"/>
+<pinref part="U$3" gate="TCXO" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$3" pin="VBAT"/>
