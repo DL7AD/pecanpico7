@@ -160,7 +160,8 @@ Solution: Desolder R41 and connect BYPASS_REG to GND (put solder junction to res
 
 **ERROR 4:** Wrong oscillator only supplies 0.7V (fixable)<br />
 Effect: The external oscillator can't be used for the STM32<br />
-Solution: Use an TXC 7L 26MHz oscillator instead or use the internal oscillator
+Solution: Use ~~an TXC 7L 26MHz oscillator instead or~~ use the internal oscillator
+See: Error 7
 
 **ERROR 5:** Camera connector swapped (fixable)<br />
 Pin 1 should be actually Pin 24 and Pin 24 should be Pin 1
@@ -170,6 +171,10 @@ Solution: Solder the camera to the PCB upsidedown (not easy but possible)
 **ERROR 6:** LED6 - 9 anode and cathode switched (fixable)<br />
 Effect: The LED's will not work<br />
 Solution: Ignore the LED-soldermask and solder them in the other way around
+
+**ERROR 7:** External oscillator connected to OSC32_IN instead of OSC_IN (not fixable)<br />
+Effect: The external HSE oscillator can't be used for clocking<br />
+Solution: Use the internal clock (HSI), Problem => HSI very inaccurate (~5%)
 
 **WARNING 1:** LEDs connected to transceivers are switched on<br />
 Effect: Current draw on startup. It could prevent the PCB to startup when the battery is dischanged completely, when the SPV1040 doesn't provide enough power. So the STM32 doesnt boot.<br />
