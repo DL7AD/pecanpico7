@@ -5068,6 +5068,7 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <part name="C41" library="PecanPico6" deviceset="CAP-0402" device="" value="100pF"/>
 <part name="R10" library="PecanPico6" deviceset="RES-0402" device="" value="DIODE"/>
 <part name="R22" library="PecanPico6" deviceset="RES-0402" device="" value="10k"/>
+<part name="C51" library="PecanPico6" deviceset="CAP-0402" device="" value="470pF"/>
 </parts>
 <sheets>
 <sheet>
@@ -5277,9 +5278,9 @@ OV9655</text>
 <text x="134.62" y="218.44" size="1.778" layer="97">DVVD needed
 1.30V
 1.80V</text>
-<text x="152.4" y="218.44" size="1.778" layer="97">IC8
-LP5951MF-1.3/NOPB
-none (switch solder jumper)</text>
+<text x="152.4" y="218.44" size="1.778" layer="97">R10
+Diode
+0R Resistor</text>
 <wire x1="119.38" y1="228.6" x2="184.15" y2="228.6" width="0.1524" layer="97"/>
 <wire x1="184.15" y1="228.6" x2="184.15" y2="215.9" width="0.1524" layer="97"/>
 <wire x1="184.15" y1="215.9" x2="119.38" y2="215.9" width="0.1524" layer="97"/>
@@ -5687,6 +5688,7 @@ OV9655 or OV2640</text>
 <instance part="C41" gate="G$1" x="154.94" y="335.28"/>
 <instance part="R10" gate="G$1" x="279.4" y="170.18"/>
 <instance part="R22" gate="G$1" x="-132.08" y="81.28"/>
+<instance part="C51" gate="G$1" x="322.58" y="403.86" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -7755,21 +7757,14 @@ OV9655 or OV2640</text>
 <junction x="302.26" y="424.18"/>
 <wire x1="302.26" y1="403.86" x2="312.42" y2="403.86" width="0.1524" layer="91"/>
 <junction x="302.26" y="403.86"/>
-<wire x1="312.42" y1="403.86" x2="332.74" y2="403.86" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="429.26" x2="302.26" y2="434.34" width="0.1524" layer="91"/>
 <junction x="302.26" y="429.26"/>
 <pinref part="L11" gate="G$1" pin="1"/>
-<pinref part="C59" gate="G$1" pin="2"/>
-<wire x1="332.74" y1="403.86" x2="335.28" y2="403.86" width="0.1524" layer="91"/>
-<wire x1="332.74" y1="401.32" x2="332.74" y2="403.86" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="1"/>
-<junction x="332.74" y="403.86"/>
-<wire x1="332.74" y1="403.86" x2="332.74" y2="411.48" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="332.74" y1="411.48" x2="335.28" y2="411.48" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="403.86" x2="312.42" y2="401.32" width="0.1524" layer="91"/>
-<junction x="312.42" y="403.86"/>
 <pinref part="C63" gate="G$1" pin="2"/>
+<pinref part="C51" gate="G$1" pin="1"/>
+<wire x1="312.42" y1="403.86" x2="317.5" y2="403.86" width="0.1524" layer="91"/>
+<junction x="312.42" y="403.86"/>
 </segment>
 </net>
 <net name="SD_CS" class="0">
@@ -8576,6 +8571,20 @@ OV9655 or OV2640</text>
 <wire x1="292.1" y1="170.18" x2="284.48" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="162.56" x2="292.1" y2="170.18" width="0.1524" layer="91"/>
 <junction x="292.1" y="170.18"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="332.74" y1="411.48" x2="335.28" y2="411.48" width="0.1524" layer="91"/>
+<pinref part="L1" gate="G$1" pin="1"/>
+<wire x1="332.74" y1="403.86" x2="335.28" y2="403.86" width="0.1524" layer="91"/>
+<junction x="332.74" y="403.86"/>
+<wire x1="332.74" y1="403.86" x2="332.74" y2="411.48" width="0.1524" layer="91"/>
+<pinref part="C59" gate="G$1" pin="2"/>
+<wire x1="332.74" y1="401.32" x2="332.74" y2="403.86" width="0.1524" layer="91"/>
+<pinref part="C51" gate="G$1" pin="2"/>
+<wire x1="325.12" y1="403.86" x2="332.74" y2="403.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
