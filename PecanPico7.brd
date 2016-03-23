@@ -372,9 +372,6 @@ HILLS</text>
 <text x="3.9" y="49.5" size="1" layer="38" rot="MR270">RADIO1</text>
 <text x="2.8" y="0.5" size="1" layer="38" rot="MR90">RADIO2</text>
 <text x="21.7" y="13.2" size="0.7" layer="38" rot="MR270">BOOT0</text>
-<text x="13.2" y="14.3" size="0.7" layer="38" rot="MR270">CAM CORE VCC SW</text>
-<text x="14.3" y="13.5" size="0.7" layer="38" rot="MR270">1.3V</text>
-<text x="14.3" y="8.4" size="0.7" layer="38" rot="MR270">1.8V</text>
 <wire x1="23.6" y1="46.8" x2="23.6" y2="43.8" width="0.2" layer="38"/>
 <wire x1="23.6" y1="43.8" x2="22.8" y2="43" width="0.2" layer="38"/>
 <text x="22.4" y="41.4" size="0.7" layer="38" rot="MR0">I2C Header
@@ -2334,8 +2331,8 @@ design rules under a new name.</description>
 <vertex x="30.7" y="50"/>
 <vertex x="30.7" y="41.2"/>
 <vertex x="31.8" y="41.2"/>
-<vertex x="31.8" y="38.4"/>
-<vertex x="33.2" y="38.4"/>
+<vertex x="31.8" y="38.1"/>
+<vertex x="33.2" y="38.1"/>
 <vertex x="33.2" y="41.2"/>
 <vertex x="34.2" y="41.2"/>
 <vertex x="34.2" y="0"/>
@@ -3704,10 +3701,10 @@ design rules under a new name.</description>
 <wire x1="17.225" y1="46.875" x2="15.925" y2="46.875" width="0.3" layer="1"/>
 <wire x1="15.925" y1="46.875" x2="15.9" y2="46.9" width="0.3" layer="1"/>
 <via x="15.9" y="46.9" extent="1-16" drill="0.3"/>
-<wire x1="15.9" y1="46.9" x2="15.9" y2="48.6" width="0.3" layer="16"/>
+<wire x1="15.9" y1="46.9" x2="15.9" y2="48.6" width="0.6" layer="16"/>
 <wire x1="15.9" y1="48.6" x2="15.2" y2="48.6" width="0.3" layer="16"/>
 <wire x1="15.2" y1="48.6" x2="14.4" y2="48.6" width="0.3" layer="16"/>
-<wire x1="14.4" y1="48.6" x2="12.7" y2="46.9" width="0.3" layer="16"/>
+<wire x1="14.4" y1="48.6" x2="12.7" y2="46.9" width="0.6" layer="16"/>
 <via x="12.7" y="46.9" extent="1-16" drill="0.3"/>
 <wire x1="12.7" y1="46.9" x2="12.675" y2="46.875" width="0.3" layer="1"/>
 <wire x1="12.675" y1="46.875" x2="11.375" y2="46.875" width="0.3" layer="1"/>
@@ -4635,8 +4632,10 @@ design rules under a new name.</description>
 <wire x1="14.7" y1="19.3" x2="14.9" y2="19.5" width="0.2" layer="1"/>
 <wire x1="14.9" y1="19.5" x2="15.6" y2="19.5" width="0.2" layer="1"/>
 <wire x1="6.3" y1="19.5" x2="5.2" y2="19.5" width="0.2" layer="16"/>
-<wire x1="5.2" y1="19.5" x2="4.8" y2="19.9" width="0.2" layer="16"/>
-<wire x1="4.8" y1="19.9" x2="3" y2="19.9" width="0.2" layer="16"/>
+<wire x1="3" y1="19.9" x2="3.1" y2="19.9" width="0.2" layer="16"/>
+<wire x1="3.1" y1="19.9" x2="3.5" y2="20.3" width="0.2" layer="16"/>
+<wire x1="3.5" y1="20.3" x2="4.4" y2="20.3" width="0.2" layer="16"/>
+<wire x1="4.4" y1="20.3" x2="5.2" y2="19.5" width="0.2" layer="16"/>
 </signal>
 <signal name="N$4">
 <contactref element="IC2" pad="3"/>
