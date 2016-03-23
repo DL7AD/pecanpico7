@@ -4897,7 +4897,6 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <part name="R33" library="PecanPico6" deviceset="RES-0402" device="" value="1k"/>
 <part name="R34" library="PecanPico6" deviceset="RES-0402" device="" value="1k"/>
 <part name="P+38" library="PecanPico6" deviceset="3.3V" device="" value="VCC"/>
-<part name="GND95" library="PecanPico6" deviceset="GND" device=""/>
 <part name="IC6" library="stm32f42x" deviceset="ALM-GP003" device=""/>
 <part name="GND94" library="PecanPico6" deviceset="GND" device=""/>
 <part name="L2" library="PecanPico6" deviceset="IND-0402" device="" value="1.8nH"/>
@@ -5490,9 +5489,8 @@ OV9655 or OV2640</text>
 <instance part="R33" gate="G$1" x="261.62" y="596.9"/>
 <instance part="R34" gate="G$1" x="261.62" y="586.74"/>
 <instance part="P+38" gate="G$1" x="243.84" y="622.3"/>
-<instance part="GND95" gate="1" x="271.78" y="586.74" rot="R90"/>
 <instance part="IC6" gate="G$1" x="-226.06" y="304.8"/>
-<instance part="GND94" gate="1" x="-223.52" y="276.86"/>
+<instance part="GND94" gate="1" x="-228.6" y="276.86"/>
 <instance part="L2" gate="G$1" x="-223.52" y="332.74" rot="R90"/>
 <instance part="L15" gate="G$1" x="-223.52" y="347.98" rot="R90"/>
 <instance part="R36" gate="G$1" x="-215.9" y="347.98" rot="R90"/>
@@ -6181,20 +6179,8 @@ OV9655 or OV2640</text>
 <junction x="304.8" y="594.36"/>
 </segment>
 <segment>
-<pinref part="R34" gate="G$1" pin="2"/>
-<wire x1="266.7" y1="586.74" x2="269.24" y2="586.74" width="0.1524" layer="91"/>
-<pinref part="GND95" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="GND6"/>
-<wire x1="-223.52" y1="287.02" x2="-223.52" y2="284.48" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="GND5"/>
-<wire x1="-226.06" y1="287.02" x2="-226.06" y2="284.48" width="0.1524" layer="91"/>
-<wire x1="-226.06" y1="284.48" x2="-223.52" y2="284.48" width="0.1524" layer="91"/>
 <pinref part="IC6" gate="G$1" pin="GND4"/>
 <wire x1="-228.6" y1="287.02" x2="-228.6" y2="284.48" width="0.1524" layer="91"/>
-<wire x1="-228.6" y1="284.48" x2="-226.06" y2="284.48" width="0.1524" layer="91"/>
-<junction x="-226.06" y="284.48"/>
 <pinref part="IC6" gate="G$1" pin="GND3"/>
 <wire x1="-231.14" y1="287.02" x2="-231.14" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="-231.14" y1="284.48" x2="-228.6" y2="284.48" width="0.1524" layer="91"/>
@@ -6207,8 +6193,7 @@ OV9655 or OV2640</text>
 <wire x1="-236.22" y1="287.02" x2="-236.22" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="-236.22" y1="284.48" x2="-233.68" y2="284.48" width="0.1524" layer="91"/>
 <junction x="-233.68" y="284.48"/>
-<wire x1="-223.52" y1="284.48" x2="-223.52" y2="279.4" width="0.1524" layer="91"/>
-<junction x="-223.52" y="284.48"/>
+<wire x1="-228.6" y1="284.48" x2="-228.6" y2="279.4" width="0.1524" layer="91"/>
 <pinref part="GND94" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -8585,6 +8570,18 @@ OV9655 or OV2640</text>
 <wire x1="332.74" y1="401.32" x2="332.74" y2="403.86" width="0.1524" layer="91"/>
 <pinref part="C51" gate="G$1" pin="2"/>
 <wire x1="325.12" y1="403.86" x2="332.74" y2="403.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED4" class="0">
+<segment>
+<pinref part="R34" gate="G$1" pin="2"/>
+<wire x1="266.7" y1="586.74" x2="269.24" y2="586.74" width="0.1524" layer="91"/>
+<label x="269.24" y="586.74" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$2" pin="PF7"/>
+<wire x1="-180.34" y1="60.96" x2="-185.42" y2="60.96" width="0.1524" layer="91"/>
+<label x="-185.42" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
