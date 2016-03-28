@@ -23,7 +23,7 @@
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -297,7 +297,7 @@
 <wire x1="18.3" y1="20.7" x2="18.5" y2="20.9" width="0.1" layer="26"/>
 <wire x1="18" y1="21.7" x2="18.3" y2="21.7" width="0.1" layer="26"/>
 <wire x1="18.3" y1="21.7" x2="18.5" y2="21.9" width="0.1" layer="26"/>
-<text x="20.7" y="44.6" size="0.7" layer="38" rot="MR0">SWITCH ON</text>
+<text x="21.9" y="44.6" size="0.7" layer="38" rot="MR0">SWITCH ON</text>
 <text x="22.9" y="35.1" size="0.6" layer="38" rot="MR0"></text>
 <text x="30.4" y="3" size="0.8" layer="38" rot="MR90">SWD INTERFACE</text>
 <wire x1="34" y1="15.8" x2="30.1" y2="15.8" width="0.2" layer="38"/>
@@ -336,14 +336,14 @@
 <wire x1="1.9" y1="9.2" x2="2.4" y2="9.2" width="0.1" layer="25"/>
 <wire x1="2.4" y1="9.2" x2="2.8" y2="8.8" width="0.1" layer="25"/>
 <wire x1="4.7" y1="3.9" x2="3.8" y2="4.8" width="0.1" layer="25"/>
-<text x="0.7" y="21.8" size="1.1" layer="37">Pecan Pico 7b</text>
+<text x="0.5" y="21.5" size="1" layer="37">Pecan Pico 7b</text>
 <text x="0.5" y="8.2" size="1" layer="38" rot="MR90">March 2016</text>
 <wire x1="0.7" y1="10.6" x2="0.8" y2="10.7" width="0.1" layer="25"/>
 <wire x1="0.8" y1="10.7" x2="1.3" y2="10.7" width="0.1" layer="25"/>
 <rectangle x1="21.3" y1="14.1" x2="21.5" y2="14.5" layer="16"/>
 <rectangle x1="32.4" y1="32.7" x2="32.6" y2="33.1" layer="1"/>
 <rectangle x1="31" y1="32.7" x2="31.2" y2="33.1" layer="1"/>
-<text x="14.5" y="21" size="0.9" layer="37" rot="R180">OVER THE
+<text x="14.5" y="20.5" size="0.9" layer="37" rot="R180">OVER THE
 HILLS</text>
 <wire x1="34.1" y1="38.8" x2="34.1" y2="36.8" width="0.2" layer="38"/>
 <wire x1="29.7" y1="38.8" x2="29.7" y2="36.8" width="0.2" layer="38"/>
@@ -372,15 +372,14 @@ HILLS</text>
 <text x="3.9" y="49.5" size="1" layer="38" rot="MR270">RADIO1</text>
 <text x="2.8" y="0.5" size="1" layer="38" rot="MR90">RADIO2</text>
 <text x="21.7" y="13.2" size="0.7" layer="38" rot="MR270">BOOT0</text>
-<wire x1="23.6" y1="46.2" x2="23.6" y2="43.8" width="0.2" layer="38"/>
-<wire x1="23.6" y1="43.8" x2="22.8" y2="43" width="0.2" layer="38"/>
-<text x="22.4" y="41.4" size="0.7" layer="38" rot="MR0">I2C Header
-1 VCC GND SCL SDA 4</text>
-<wire x1="22.8" y1="43" x2="22.8" y2="43.7" width="0.2" layer="38"/>
-<wire x1="22.8" y1="43.7" x2="10" y2="43.7" width="0.2" layer="38"/>
-<wire x1="10" y1="43.7" x2="10" y2="40.9" width="0.2" layer="38"/>
-<wire x1="10" y1="40.9" x2="22.8" y2="40.9" width="0.2" layer="38"/>
-<wire x1="22.8" y1="40.9" x2="22.8" y2="43" width="0.2" layer="38"/>
+<wire x1="24.6" y1="46.65" x2="24.6" y2="43.7" width="0.2" layer="38"/>
+<text x="24" y="40.3" size="0.7" layer="38" rot="MR0">I2C Header
+1 VCC  GND SCL  SDA
+  VSOL GND BAT1 BAT2 8</text>
+<wire x1="24.6" y1="43.7" x2="9.5" y2="43.7" width="0.2" layer="38"/>
+<wire x1="9.5" y1="43.7" x2="9.5" y2="39.7" width="0.2" layer="38"/>
+<wire x1="9.5" y1="39.7" x2="24.6" y2="39.6" width="0.2" layer="38"/>
+<wire x1="24.6" y1="39.6" x2="24.6" y2="43.7" width="0.2" layer="38"/>
 <polygon width="0.2" layer="30">
 <vertex x="13.2" y="1.8"/>
 <vertex x="29.2" y="1.8"/>
@@ -1101,44 +1100,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="P$1" x="0" y="0" dx="3.9" dy="2.4" layer="1" roundness="25" thermals="no" cream="no"/>
 </package>
 <package name="2X4_2">
-<wire x1="-5.08" y1="-1.905" x2="-4.445" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="-2.54" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-1.905" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="0" y1="-1.905" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="-2.54" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-1.905" x2="-5.08" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="0.762" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-2.54" x2="4.445" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-2.54" x2="1.905" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-2.54" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="-2.54" x2="-3.175" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-1.651" x2="-5.08" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0.762" x2="5.08" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-1.651" x2="-4.445" y2="-2.286" width="0.1524" layer="21"/>
 <text x="-5.08" y="1.397" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
-<smd name="1" x="-3.81" y="-0.508" dx="2.54" dy="1.27" layer="1" rot="R90"/>
-<smd name="2" x="-3.81" y="-0.508" dx="2.54" dy="1.27" layer="16" rot="R90"/>
-<smd name="3" x="-1.27" y="-0.508" dx="2.54" dy="1.27" layer="1" rot="R90"/>
-<smd name="4" x="-1.27" y="-0.508" dx="2.54" dy="1.27" layer="16" rot="R90"/>
-<smd name="5" x="1.27" y="-0.508" dx="2.54" dy="1.27" layer="1" rot="R90"/>
-<smd name="6" x="1.27" y="-0.508" dx="2.54" dy="1.27" layer="16" rot="R90"/>
-<smd name="7" x="3.81" y="-0.508" dx="2.54" dy="1.27" layer="1" rot="R90"/>
-<smd name="8" x="3.81" y="-0.508" dx="2.54" dy="1.27" layer="16" rot="R90"/>
-<wire x1="5.08" y1="0.762" x2="5.08" y2="-1.905" width="0.1524" layer="22"/>
-<wire x1="5.08" y1="-1.905" x2="4.445" y2="-2.54" width="0.1524" layer="22"/>
-<wire x1="4.445" y1="-2.54" x2="3.175" y2="-2.54" width="0.1524" layer="22"/>
-<wire x1="3.175" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="22"/>
-<wire x1="2.54" y1="-1.905" x2="1.905" y2="-2.54" width="0.1524" layer="22"/>
-<wire x1="1.905" y1="-2.54" x2="0.635" y2="-2.54" width="0.1524" layer="22"/>
-<wire x1="0.635" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="22"/>
-<wire x1="0" y1="-1.905" x2="-0.635" y2="-2.54" width="0.1524" layer="22"/>
-<wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="22"/>
-<wire x1="-1.905" y1="-2.54" x2="-2.54" y2="-1.905" width="0.1524" layer="22"/>
-<wire x1="-2.54" y1="-1.905" x2="-3.175" y2="-2.54" width="0.1524" layer="22"/>
-<wire x1="-3.175" y1="-2.54" x2="-4.445" y2="-2.54" width="0.1524" layer="22"/>
-<wire x1="-4.445" y1="-2.54" x2="-5.08" y2="-1.905" width="0.1524" layer="22"/>
-<wire x1="-5.08" y1="-1.905" x2="-5.08" y2="0.762" width="0.1524" layer="22"/>
+<text x="-5.08" y="-4.191" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="1" x="-3.81" y="-0.508" dx="2.54" dy="1.27" layer="1" rot="R90" cream="no"/>
+<smd name="2" x="-3.81" y="-0.508" dx="2.54" dy="1.27" layer="16" rot="R90" cream="no"/>
+<smd name="3" x="-1.27" y="-0.508" dx="2.54" dy="1.27" layer="1" rot="R90" cream="no"/>
+<smd name="4" x="-1.27" y="-0.508" dx="2.54" dy="1.27" layer="16" rot="R90" cream="no"/>
+<smd name="5" x="1.27" y="-0.508" dx="2.54" dy="1.27" layer="1" rot="R90" cream="no"/>
+<smd name="6" x="1.27" y="-0.508" dx="2.54" dy="1.27" layer="16" rot="R90" cream="no"/>
+<smd name="7" x="3.81" y="-0.508" dx="2.54" dy="1.27" layer="1" rot="R90" cream="no"/>
+<smd name="8" x="3.81" y="-0.508" dx="2.54" dy="1.27" layer="16" rot="R90" cream="no"/>
+<wire x1="5.08" y1="0.762" x2="5.08" y2="-2.286" width="0.1524" layer="22"/>
+<wire x1="5.08" y1="-2.286" x2="-5.08" y2="-2.286" width="0.1524" layer="22"/>
+<wire x1="-5.08" y1="-2.286" x2="-5.08" y2="0.762" width="0.1524" layer="22"/>
+<wire x1="5.08" y1="-2.286" x2="-4.445" y2="-2.286" width="0.1524" layer="21"/>
 </package>
 </packages>
 </library>
@@ -1171,6 +1149,7 @@ by exp-lbrs.ulp</description>
 <wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.1" layer="21"/>
 <wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.1" layer="21"/>
 <wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.1" layer="21"/>
+<circle x="-2.4" y="-1" radius="0.1" width="0.2" layer="21"/>
 </package>
 </packages>
 </library>
@@ -3238,10 +3217,11 @@ design rules under a new name.</description>
 <via x="23.4" y="45.9" extent="1-16" drill="0.3"/>
 <wire x1="23.4" y1="45.9" x2="24.6" y2="45.9" width="0.2" layer="16"/>
 <via x="24.6" y="45.9" extent="1-16" drill="0.3"/>
-<wire x1="24.6" y1="45.9" x2="25.1" y2="46.4" width="0.2" layer="1"/>
-<wire x1="25.1" y1="46.4" x2="27.1" y2="46.4" width="0.2" layer="1"/>
-<wire x1="27.1" y1="46.4" x2="28.11" y2="47.4" width="0.2" layer="1"/>
-<wire x1="28.11" y1="47.4" x2="28.11" y2="48.492" width="0.2" layer="1"/>
+<wire x1="25.3" y1="46.9" x2="27.1" y2="46.9" width="0.2" layer="1"/>
+<wire x1="25.3" y1="46.9" x2="24.6" y2="46.2" width="0.2" layer="1"/>
+<wire x1="24.6" y1="46.2" x2="24.6" y2="45.9" width="0.2" layer="1"/>
+<wire x1="27.1" y1="46.9" x2="28.11" y2="47.91" width="0.2" layer="1"/>
+<wire x1="28.11" y1="47.91" x2="28.11" y2="48.492" width="0.2" layer="1"/>
 </signal>
 <signal name="I2C_SCL">
 <contactref element="R8" pad="P$1"/>
@@ -5131,13 +5111,13 @@ design rules under a new name.</description>
 <approved hash="8,1,dde070abf9494409"/>
 <approved hash="8,1,84c03ec0b48e63ee"/>
 <approved hash="8,1,8213e193de49bd33"/>
-<approved hash="8,1,66265e473e0938f5"/>
 <approved hash="8,1,c3fbcc2a3effe0b8"/>
 <approved hash="8,1,2b8c8136e8406c05"/>
 <approved hash="8,1,6242d7c2874d258a"/>
 <approved hash="8,1,39fb02107f555637"/>
 <approved hash="8,1,e4c63ac5f4b51fe1"/>
 <approved hash="8,1,45eba055ee77bcf4"/>
+<approved hash="8,1,66265e473e0938f5"/>
 <approved hash="8,1,b82d3babf08e5c05"/>
 <approved hash="8,1,03fbf8c92adf18b9"/>
 <approved hash="8,1,09ec9f5ec7a43a55"/>
@@ -5205,8 +5185,8 @@ design rules under a new name.</description>
 <approved hash="4,16,768e2404a613f8bb"/>
 <approved hash="4,16,ff2bf00f7016bd33"/>
 <approved hash="4,16,f314503ed0273d03"/>
-<approved hash="19,16,48bf6d178744711a"/>
 <approved hash="19,16,d4f00a77f3b8fec9"/>
+<approved hash="19,16,48bf6d178744711a"/>
 </errors>
 </board>
 </drawing>

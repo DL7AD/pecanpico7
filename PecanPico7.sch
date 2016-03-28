@@ -2874,44 +2874,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="3.556" y1="-1.524" x2="4.064" y2="-1.016" layer="51"/>
 </package>
 <package name="2X4_2">
-<wire x1="-5.08" y1="-1.905" x2="-4.445" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="-2.54" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-1.905" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="0" y1="-1.905" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="-2.54" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-1.905" x2="-5.08" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="0.762" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-2.54" x2="4.445" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-2.54" x2="1.905" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-2.54" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="-2.54" x2="-3.175" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-1.651" x2="-5.08" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0.762" x2="5.08" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-1.651" x2="-4.445" y2="-2.286" width="0.1524" layer="21"/>
 <text x="-5.08" y="1.397" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
-<smd name="1" x="-3.81" y="-0.508" dx="2.54" dy="1.27" layer="1" rot="R90"/>
-<smd name="2" x="-3.81" y="-0.508" dx="2.54" dy="1.27" layer="16" rot="R90"/>
-<smd name="3" x="-1.27" y="-0.508" dx="2.54" dy="1.27" layer="1" rot="R90"/>
-<smd name="4" x="-1.27" y="-0.508" dx="2.54" dy="1.27" layer="16" rot="R90"/>
-<smd name="5" x="1.27" y="-0.508" dx="2.54" dy="1.27" layer="1" rot="R90"/>
-<smd name="6" x="1.27" y="-0.508" dx="2.54" dy="1.27" layer="16" rot="R90"/>
-<smd name="7" x="3.81" y="-0.508" dx="2.54" dy="1.27" layer="1" rot="R90"/>
-<smd name="8" x="3.81" y="-0.508" dx="2.54" dy="1.27" layer="16" rot="R90"/>
-<wire x1="5.08" y1="0.762" x2="5.08" y2="-1.905" width="0.1524" layer="22"/>
-<wire x1="5.08" y1="-1.905" x2="4.445" y2="-2.54" width="0.1524" layer="22"/>
-<wire x1="4.445" y1="-2.54" x2="3.175" y2="-2.54" width="0.1524" layer="22"/>
-<wire x1="3.175" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="22"/>
-<wire x1="2.54" y1="-1.905" x2="1.905" y2="-2.54" width="0.1524" layer="22"/>
-<wire x1="1.905" y1="-2.54" x2="0.635" y2="-2.54" width="0.1524" layer="22"/>
-<wire x1="0.635" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="22"/>
-<wire x1="0" y1="-1.905" x2="-0.635" y2="-2.54" width="0.1524" layer="22"/>
-<wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="22"/>
-<wire x1="-1.905" y1="-2.54" x2="-2.54" y2="-1.905" width="0.1524" layer="22"/>
-<wire x1="-2.54" y1="-1.905" x2="-3.175" y2="-2.54" width="0.1524" layer="22"/>
-<wire x1="-3.175" y1="-2.54" x2="-4.445" y2="-2.54" width="0.1524" layer="22"/>
-<wire x1="-4.445" y1="-2.54" x2="-5.08" y2="-1.905" width="0.1524" layer="22"/>
-<wire x1="-5.08" y1="-1.905" x2="-5.08" y2="0.762" width="0.1524" layer="22"/>
+<text x="-5.08" y="-4.191" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="1" x="-3.81" y="-0.508" dx="2.54" dy="1.27" layer="1" rot="R90" cream="no"/>
+<smd name="2" x="-3.81" y="-0.508" dx="2.54" dy="1.27" layer="16" rot="R90" cream="no"/>
+<smd name="3" x="-1.27" y="-0.508" dx="2.54" dy="1.27" layer="1" rot="R90" cream="no"/>
+<smd name="4" x="-1.27" y="-0.508" dx="2.54" dy="1.27" layer="16" rot="R90" cream="no"/>
+<smd name="5" x="1.27" y="-0.508" dx="2.54" dy="1.27" layer="1" rot="R90" cream="no"/>
+<smd name="6" x="1.27" y="-0.508" dx="2.54" dy="1.27" layer="16" rot="R90" cream="no"/>
+<smd name="7" x="3.81" y="-0.508" dx="2.54" dy="1.27" layer="1" rot="R90" cream="no"/>
+<smd name="8" x="3.81" y="-0.508" dx="2.54" dy="1.27" layer="16" rot="R90" cream="no"/>
+<wire x1="5.08" y1="0.762" x2="5.08" y2="-2.286" width="0.1524" layer="22"/>
+<wire x1="5.08" y1="-2.286" x2="-5.08" y2="-2.286" width="0.1524" layer="22"/>
+<wire x1="-5.08" y1="-2.286" x2="-5.08" y2="0.762" width="0.1524" layer="22"/>
+<wire x1="5.08" y1="-2.286" x2="-4.445" y2="-2.286" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -3369,6 +3348,7 @@ by exp-lbrs.ulp</description>
 <wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.1" layer="21"/>
 <wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.1" layer="21"/>
 <wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.1" layer="21"/>
+<circle x="-2.4" y="-1" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="TCXO_2.0X1.6">
 <wire x1="-1" y1="0.8" x2="1" y2="0.8" width="0.1" layer="21"/>
