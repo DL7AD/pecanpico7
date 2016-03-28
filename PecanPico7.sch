@@ -2879,14 +2879,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-5.08" y1="-1.651" x2="-4.445" y2="-2.286" width="0.1524" layer="21"/>
 <text x="-5.08" y="1.397" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-4.191" size="1.27" layer="27">&gt;VALUE</text>
-<smd name="1" x="-3.81" y="-0.508" dx="2.54" dy="1.27" layer="1" rot="R90" cream="no"/>
-<smd name="2" x="-3.81" y="-0.508" dx="2.54" dy="1.27" layer="16" rot="R90" cream="no"/>
-<smd name="3" x="-1.27" y="-0.508" dx="2.54" dy="1.27" layer="1" rot="R90" cream="no"/>
-<smd name="4" x="-1.27" y="-0.508" dx="2.54" dy="1.27" layer="16" rot="R90" cream="no"/>
-<smd name="5" x="1.27" y="-0.508" dx="2.54" dy="1.27" layer="1" rot="R90" cream="no"/>
-<smd name="6" x="1.27" y="-0.508" dx="2.54" dy="1.27" layer="16" rot="R90" cream="no"/>
-<smd name="7" x="3.81" y="-0.508" dx="2.54" dy="1.27" layer="1" rot="R90" cream="no"/>
-<smd name="8" x="3.81" y="-0.508" dx="2.54" dy="1.27" layer="16" rot="R90" cream="no"/>
+<smd name="1" x="-3.81" y="-0.508" dx="2.54" dy="1.524" layer="1" rot="R90" cream="no"/>
+<smd name="2" x="-3.81" y="-0.508" dx="2.54" dy="1.524" layer="16" rot="R90" cream="no"/>
+<smd name="3" x="-1.27" y="-0.508" dx="2.54" dy="1.524" layer="1" rot="R90" cream="no"/>
+<smd name="4" x="-1.27" y="-0.508" dx="2.54" dy="1.524" layer="16" rot="R90" cream="no"/>
+<smd name="5" x="1.27" y="-0.508" dx="2.54" dy="1.524" layer="1" rot="R90" cream="no"/>
+<smd name="6" x="1.27" y="-0.508" dx="2.54" dy="1.524" layer="16" rot="R90" cream="no"/>
+<smd name="7" x="3.81" y="-0.508" dx="2.54" dy="1.524" layer="1" rot="R90" cream="no"/>
+<smd name="8" x="3.81" y="-0.508" dx="2.54" dy="1.524" layer="16" rot="R90" cream="no"/>
 <wire x1="5.08" y1="0.762" x2="5.08" y2="-2.286" width="0.1524" layer="22"/>
 <wire x1="5.08" y1="-2.286" x2="-5.08" y2="-2.286" width="0.1524" layer="22"/>
 <wire x1="-5.08" y1="-2.286" x2="-5.08" y2="0.762" width="0.1524" layer="22"/>
